@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Princeton Food Alert
+Everyone has favorite foods. Food can get people up in the morning, brighten up a long day, and remind people of home. But with Princeton serving hundreds of food items in over five different dining halls every day, wouldn’t it be great if students could know exactly where and when their favorite foods will be served on campus? Additionally, all upperclassmen get two free swipes per week to use in the dining halls, but with all the different eating options it can be difficult to decide when to use them. Wouldn’t it be great if upperclassmen students could maximize their two weekly meal swipes by knowing exactly where and when the best food of the week will be? Enter Princeton Food Alert, a web-based application that allows students to sign up for alerts when their favorite foods are on the menu and get notifications when the best foods are being served.
 
-You can use the [editor on GitHub](https://github.com/AGPapa/PrincetonFoodAlert/edit/master/docs/README.md) to maintain and preview the content for your website in Markdown files.
+For more information about this project, check out our [design document.](https://docs.google.com/a/princeton.edu/document/d/1FFMR6pEkamutO0nOa34wE3rtOTm_xqfbzCitnCA0piM/edit?usp=sharing)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Meet the team
+- Thomas Clark (_thclark_) (fearless leader)
+- Antonio Papa (_agpapa_)
+- Melana Hammel (_mhammel_)
+- Ramon Ayala (_ra4_)
+- Ghassen Jerfel (_gjerfel_) (project advisor)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AGPapa/PrincetonFoodAlert/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Timeline
+**Week 1:** Build working website allowing users to type in their food preferences  
+**Week 2:** Build backend database for storing user food preferences  
+**Week 3:** Build scraper for dining services and get menus. Email users whose food preferences are on a menu ← can declare success after this  
+**Week 4:** Create options for users to select as an alternative to free typing  
+**Week 5:** Create option for users to receive a text message instead of an email  
+**Week 6:** Let users select food items only from a specific dining hall (i.e. Whitman chicken pot-pie instead of Forbes chicken pot-pie)  
+**If time allows:** Create an updating top 10 list of most desired foods  
+**If time allows:** Give users nutritional information for each menu item  
+**If time allows:** Recommend food based on what the user already likes  
