@@ -1,4 +1,5 @@
 from lxml import html
+from unidecode import unidecode
 import requests
 import codecs
 import sys
@@ -23,16 +24,16 @@ def scrape(dhall_code, month, day):
 	return (breakfast, lunch, dinner)
 	
 
-UTF8Writer = codecs.getwriter('utf8')
-sys.stdout = UTF8Writer(sys.stdout)
+#UTF8Writer = codecs.getwriter('utf8')
+#sys.stdout = UTF8Writer(sys.stdout)
 
 dhalls = {'butler_wilson' : "02", 'cjl' : "05", 'forbes' : "03", 'grad' : "04", 'rocky_mathey' : "01", 'whitman' : "08"}
-for day in range (3, 9):
+for day in range (4, 11):
 	for key in dhalls:
 		(b, l, d) = scrape(dhalls.get(key), "4", str(day).zfill(2))
 		for food in b:
-			print(key + "\t" + "04-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + food)
+			print(key + "\t" + "04-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + unidecode(food))
 		for food in l:
-			print(key + "\t" + "04-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + food)
+			print(key + "\t" + "04-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + unidecode(food))
 		for food in d:
-			print(key + "\t" + "04-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + food)
+			print(key + "\t" + "04-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + unidecode(food))
