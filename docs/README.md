@@ -21,3 +21,10 @@ For more information about this project, check out our [design document.](https:
 **If time allows:** Create an updating top 10 list of most desired foods  
 **If time allows:** Give users nutritional information for each menu item  
 **If time allows:** Recommend food based on what the user already likes  
+
+
+### Week 1 Progress
+Created website [here.](http://ptonfoodalert.herokuapp.com/)
+Created working scraper that gets all dining hall food menus for upcoming week, organized by dining hall, date, and meal.  
+These food names are also stripped of all unicode characters and turned into their closest ASCII equivalents. (So accent marks are removed)
+Started keeping a list of foods that have appeared in the dining halls, to use for 'autocomplete' functions later.
