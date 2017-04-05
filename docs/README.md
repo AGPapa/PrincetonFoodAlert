@@ -24,7 +24,7 @@ For more information about this project, check out our [design document.](https:
 
 
 ### Week 1 Progress
-Created website [here.](http://ptonfoodalert.herokuapp.com/)
+Created website [here.](http://ptonfoodalert.herokuapp.com/). There is a text box to type in a food.
 Created working scraper that gets all dining hall food menus for upcoming week, organized by dining hall, date, and meal.  
 These food names are also stripped of all unicode characters and turned into their closest ASCII equivalents. (So accent marks are removed)
 Started keeping a list of foods that have appeared in the dining halls, to use for 'autocomplete' functions later.
