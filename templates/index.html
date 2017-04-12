@@ -1,0 +1,63 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}PrincetonFoodAlert{% endblock %}
+
+{% block html_attribs %} class="full" {% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('static', filename='full.css')}}">
+{% endblock %}
+
+{% block navbar %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">PrincetonFoodAlert</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Add Food</a></li>
+			<li><a href="#">View Preferences</a></li> <!-- Fix link if we decide to add 'View Prefs' -->
+			<li><a href="#">Popular Foods</a></li> <!-- Fix link if we decide to add 'Popular Foods' -->
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> <!-- Fix link -->
+		</ul>
+	</div>
+</nav>
+{% endblock %}
+
+{% block body %}
+{{super()}}
+<div class="container">
+	<div class="row row-centered">
+    	<div class="col-xs-8 col-xs-offset-2">
+        	<div class="cover panel panel-default">
+            	<h1 align="center"><strong>PrincetonFoodAlert</strong></h1>
+            	<p align="center"><strong>Add a food to be notified next time it is offered in any dining hall</strong></p>
+            	<form class="add-entry" method="POST" action="{{ url_for('add_entry') }}" autocomplete="on">  
+                	<div class="form-group">
+                    	<div class="input-group">
+                        	<input type="text" class="cover-form-input form-control typeahead" placeholder="Enchiladas, Chicken Parmesan, Breakfast Burrito..." value=""/>
+                        	<span class="input-group-btn">
+                            	<button class="btn btn-default" type="submit button">Add</button>
+                        	</span>
+                    	</div>
+                	</div>
+            	</form>
+        	</div>
+    	</div>
+	</div>
+</div>
+<div class="container"
+	<div class="entries"
+		<div class="list-group">
+			{% for entry in entries %}
+				<a href="#" class="list-group-item text-center col-xs-8 col-xs-offset-2">{{entry.title}}</a>
+			{% else %}
+				<a href="#" class="list-group-item text-center col-xs-8 col-xs-offset-2">No food preferences have been submitted</a>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+{% endblock %}
