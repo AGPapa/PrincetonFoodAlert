@@ -28,7 +28,7 @@ def scrape(dhall_code, month, day):
 #sys.stdout = UTF8Writer(sys.stdout)
 
 dhalls = {'butler_wilson' : "02", 'cjl' : "05", 'forbes' : "03", 'grad' : "04", 'rocky_mathey' : "01", 'whitman' : "08"}
-for day in range (11, 19):
+for day in range (15, 22):
 	for key in dhalls:
 		(b, l, d) = scrape(dhalls.get(key), "4", str(day).zfill(2))
 		for food in b:
