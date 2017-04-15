@@ -1,3 +1,5 @@
+# scrapes the dining hall website, outputting the food options for each dining hall for each day and meal
+
 from lxml import html
 from unidecode import unidecode
 import requests
