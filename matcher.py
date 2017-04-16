@@ -1,12 +1,10 @@
 # reads in dhall options and matches with users
 import sys
+import pymongo
+import json
 
-food = 'red peppers'
-
-while True:
-	s = sys.stdin.readline();
-	if not s: break
-	tokens = s.split('\t')
+def match(food, dhall_line):
+	tokens = dhall_line.split('\t')
 	wordsDhall = tokens[3].lower().strip().split(' ')
 	wordsFood = food.split(' ')
 	match = 0
@@ -17,5 +15,22 @@ while True:
 			if wordFood == wordDhall:
 				match = match + 1
 				break
-	if match == count:
-		print(s)
+				
+	return (match == count)
+
+
+uri = 'mongodb://foodpref:hungry67@ds153730.mlab.com:53730/heroku_b3r535zh'
+client = pymongo.MongoClient(uri)
+db = client.get_default_database()
+users = db.get_collection("Users")
+all = users.find()
+
+
+while True:
+	s = sys.stdin.readline()
+	if not s: break
+	for user in all:
+		for food in user['foodpref']:
+			if match(food, s):
+				sys.stdout.write(user['netid'] + "\t" + s)
+	all.rewind()
