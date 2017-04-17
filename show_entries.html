@@ -11,17 +11,29 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="#">PrincetonFoodAlert</a>
-      </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Add Food</a></li>
-      <li><a href="#">View Preferences</a></li> <!-- Fix link if we decide to add 'View Prefs' -->
-      <li><a href="#">Popular Foods</a></li> <!-- Fix link if we decide to add 'Popular Foods' -->
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Add Food</a></li>
+        <li><a href="#">View Preferences</a></li> <!-- Fix link if we decide to add 'View Prefs' -->
+        <li><a href="#">Popular Foods</a></li> <!-- Fix link if we decide to add 'Popular Foods' -->
       </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="{{ url_for('cas.logout') }}"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li> <!-- Fix link -->
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ url_for('cas.logout') }}">
+            <span class="glyphicon glyphicon-log-in">
+            </span> Logout
+          </a>
+        </li>
       </ul>
     </div>
+  </div>
 </nav>
 {% endblock %}
 
@@ -31,7 +43,7 @@
   <div class="row row-centered">
     <div class="col-xs-8 col-xs-offset-2">
       <div class="cover panel panel-default">
-        <h1 align="center"><strong>PrincetonFoodAlert</strong></h1>
+        <h1 align="center"><strong>Princeton Food Alert</strong></h1>
         <p align="center"><strong>Add a food to be notified next time it is offered in any dining hall</strong></p>
         <form class="add-entry" method="post" action="{{ url_for('add_entry') }}" autocomplete="on">  
           <div class="form-group">
@@ -58,4 +70,6 @@
 	    </div>
 	  </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="static/bootstrap.min.js"></script>
 {% endblock %}
