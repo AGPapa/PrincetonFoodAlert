@@ -5,6 +5,7 @@ from unidecode import unidecode
 import requests
 import codecs
 import sys
+import datetime
 
 butler_wilson = "02"
 cjl = "05"
@@ -26,11 +27,11 @@ def scrape(dhall_code, month, day):
 	return (breakfast, lunch, dinner)
 	
 
-#UTF8Writer = codecs.getwriter('utf8')
-#sys.stdout = UTF8Writer(sys.stdout)
+
+now = datetime.datetime.now();	
 
 dhalls = {'butler_wilson' : "02", 'cjl' : "05", 'forbes' : "03", 'grad' : "04", 'rocky_mathey' : "01", 'whitman' : "08"}
-for day in range (15, 22):
+for day in range (now.day, now.day+8):
 	for key in dhalls:
 		(b, l, d) = scrape(dhalls.get(key), "4", str(day).zfill(2))
 		for food in b:
