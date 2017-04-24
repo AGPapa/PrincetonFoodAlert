@@ -31,6 +31,6 @@ while True:
 	if not s: break
 	for user in all:
 		for food in user['foodpref']:
-			if match(food, s):
-				sys.stdout.write(user['netid'] + "\t" + s)
+			if match(food.lower(), s):
+				sys.stdout.write(user['netid'] +  "\t" + food + "\t" + s)
 	all.rewind()

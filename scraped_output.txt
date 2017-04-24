@@ -1,0 +1,987 @@
+rocky_mathey	04-23	lunch	Mushroom Barley Soup
+rocky_mathey	04-23	lunch	Roma House Beef Vegetable Soup
+rocky_mathey	04-23	lunch	Buttermilk Pancakes
+rocky_mathey	04-23	lunch	Omelet Bar with Pork Options
+rocky_mathey	04-23	lunch	Pancake Toppings
+rocky_mathey	04-23	lunch	Stuffed Rigatoni
+rocky_mathey	04-23	lunch	Glazed Baked Ham
+rocky_mathey	04-23	lunch	Scrambled Tofu
+rocky_mathey	04-23	lunch	Honey Roasted Brussels Sprouts
+rocky_mathey	04-23	lunch	Steamed Vegetables
+rocky_mathey	04-23	dinner	Mushroom Barley Soup
+rocky_mathey	04-23	dinner	Roma House Beef Vegetable Soup
+rocky_mathey	04-23	dinner	Stuffed Rigatoni
+rocky_mathey	04-23	dinner	Chicken Cacciatore
+rocky_mathey	04-23	dinner	Farro and Roasted Vegetables
+rocky_mathey	04-23	dinner	Spicy Swiss Chard with Ginger
+whitman	04-23	lunch	Beef Noodle Soup
+whitman	04-23	lunch	Potato Cheese Soup
+whitman	04-23	lunch	Breakfast Potatoes
+whitman	04-23	lunch	Frittata De Jour
+whitman	04-23	lunch	Peach Cobbler
+whitman	04-23	lunch	Pork Sausage Links
+whitman	04-23	lunch	Garlic Bread & Green Bean Salad
+whitman	04-23	lunch	Spinach Salad, Orange, Potato, Cauliflower & Capers
+whitman	04-23	lunch	Tabouli Salad
+whitman	04-23	lunch	Meatballs in Tomato Sauce
+whitman	04-23	lunch	Swedish Meatballs
+whitman	04-23	lunch	Black Beans & Corn
+whitman	04-23	lunch	Chef's Choice Pasta of the Day
+whitman	04-23	lunch	Vegetable of the Day
+whitman	04-23	dinner	Beef Noodle Soup
+whitman	04-23	dinner	Potato Cheese Soup
+whitman	04-23	dinner	Deli Bar
+whitman	04-23	dinner	Garlic Bread & Green Bean Salad
+whitman	04-23	dinner	Spinach Salad, Orange, Potato, Cauliflower & Capers
+whitman	04-23	dinner	Tabouli Salad
+whitman	04-23	dinner	Beef Taco
+whitman	04-23	dinner	Chicken Tacos
+whitman	04-23	dinner	Vegetarian Taco Filling
+whitman	04-23	dinner	Black Beans & Corn
+whitman	04-23	dinner	Chef's Choice Pasta of the Day
+whitman	04-23	dinner	Spanish Rice
+whitman	04-23	dinner	Taco Bar Fillings with Pork Options
+cjl	04-23	lunch	Home Fried Potatoes
+cjl	04-23	lunch	Fresh Fruit Salad
+cjl	04-23	lunch	Cheddar Cheese Quiche
+cjl	04-23	lunch	French Toast
+cjl	04-23	lunch	Omelet Bar
+cjl	04-23	lunch	Swiss Cheese & Mushroom Quiche
+cjl	04-23	lunch	Lox & Bagel Bar
+cjl	04-23	lunch	Potato Latkes
+cjl	04-23	lunch	Blintz Bar
+cjl	04-23	dinner	Moroccan Lentil Soup
+cjl	04-23	dinner	Broiled Pollack
+cjl	04-23	dinner	Quinoa with Black Beans
+cjl	04-23	dinner	Julienne Vegetable Medley
+cjl	04-23	dinner	Moroccan Roasted Potatoes
+cjl	04-23	dinner	Spinach & Garbonzo Beans
+cjl	04-23	dinner	Spaghetti Marinara
+cjl	04-23	dinner	Assorted Pies
+cjl	04-23	dinner	Dessert Bar
+butler_wilson	04-23	lunch	O'Brien Potatoes
+butler_wilson	04-23	lunch	Grapefruit Half
+butler_wilson	04-23	lunch	Sliced Melons
+butler_wilson	04-23	lunch	Bacon
+butler_wilson	04-23	lunch	French Toast
+butler_wilson	04-23	lunch	Omelet Bar with Pork Options
+butler_wilson	04-23	lunch	Pork Sausage Links
+butler_wilson	04-23	lunch	Scrambled Eggs
+butler_wilson	04-23	lunch	Turkey Sausage
+butler_wilson	04-23	lunch	Lox & Bagel Bar
+butler_wilson	04-23	lunch	Hot Dog Bar
+butler_wilson	04-23	lunch	Tofu Provencal
+butler_wilson	04-23	lunch	Fried Chicken & Waffles with Sausage
+butler_wilson	04-23	dinner	Carrot Ginger Soup
+butler_wilson	04-23	dinner	Hot Dog Bar
+butler_wilson	04-23	dinner	Roast Pork Loin
+butler_wilson	04-23	dinner	Braised Swiss Chard
+butler_wilson	04-23	dinner	Sweet Potato Au Gratin
+forbes	04-23	lunch	Bacon
+forbes	04-23	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-23	lunch	Lemon Ricotta Pancakes
+forbes	04-23	lunch	Scrambled Eggs
+forbes	04-23	lunch	Turkey Sausage
+forbes	04-23	lunch	Chocolate Fountain
+forbes	04-23	lunch	Forbes Sunday Brunch Bar
+forbes	04-23	lunch	Pancake Toppings
+forbes	04-23	lunch	Sliced Lox Display
+forbes	04-23	lunch	Grilled Breakfast Potato
+forbes	04-23	lunch	Sunday Brunch Roast Vegetable Platter
+forbes	04-23	dinner	Buffalo Chicken Drumsticks
+forbes	04-23	dinner	Halal Roast Beef
+forbes	04-23	dinner	Three Bean Creole Corn & Peppers
+forbes	04-23	dinner	Buttered Egg Noodles
+forbes	04-23	dinner	Rustic Green Beans
+forbes	04-23	dinner	Whole Baby Carrots
+rocky_mathey	04-24	breakfast	Hash Browns
+rocky_mathey	04-24	breakfast	Egg & Cheese on a English Muffin
+rocky_mathey	04-24	breakfast	Pork Roll, Egg & Cheese on English Muffin
+rocky_mathey	04-24	breakfast	Buttermilk Pancakes
+rocky_mathey	04-24	breakfast	Eggs Made to Order
+rocky_mathey	04-24	breakfast	Omelet Bar with Pork Options
+rocky_mathey	04-24	breakfast	Scrambled Eggs
+rocky_mathey	04-24	breakfast	Miso Soup & Organic Tofu
+rocky_mathey	04-24	breakfast	Scrambled Tofu
+rocky_mathey	04-24	breakfast	Steamed White Rice
+rocky_mathey	04-24	breakfast	Fresh Baked Muffin
+rocky_mathey	04-24	lunch	Cream of Chicken Soup
+rocky_mathey	04-24	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-24	lunch	Caesar Salad
+rocky_mathey	04-24	lunch	Rigatoni La Nonna
+rocky_mathey	04-24	lunch	Ancient Grain & Bean Burger
+rocky_mathey	04-24	lunch	North African Braised Beef Ragu
+rocky_mathey	04-24	lunch	Mushroom Farro Risotto
+rocky_mathey	04-24	lunch	Smokey Cauliflower
+rocky_mathey	04-24	lunch	Fresh Mozzerella Bar
+rocky_mathey	04-24	dinner	Cream of Chicken Soup
+rocky_mathey	04-24	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-24	dinner	Caesar Salad
+rocky_mathey	04-24	dinner	Rigatoni La Nonna
+rocky_mathey	04-24	dinner	Ancient Grain & Bean Burger
+rocky_mathey	04-24	dinner	Pan Asian Shrimp & Noodles
+rocky_mathey	04-24	dinner	Tofu & Bean Stir fry
+rocky_mathey	04-24	dinner	Bok Choy with Shiitake Mushrooms
+rocky_mathey	04-24	dinner	Hummus Display
+whitman	04-24	breakfast	Fresh Sliced Fruit
+whitman	04-24	breakfast	Assorted Hot Breakfast Cereal
+whitman	04-24	breakfast	Oatmeal Bar
+whitman	04-24	breakfast	Scrambled Eggs
+whitman	04-24	breakfast	Turkey Sausage
+whitman	04-24	lunch	Chicken & White Bean Soup
+whitman	04-24	lunch	Chipotle Black Bean Soup
+whitman	04-24	lunch	Greek Salad
+whitman	04-24	lunch	Orange, Onion & Rosemary Salad
+whitman	04-24	lunch	Pasta Salad with Mozzarella & Pesto
+whitman	04-24	lunch	Indian Curry Lamb
+whitman	04-24	lunch	Bean & Vegetable Tostada
+whitman	04-24	lunch	Indian Lentil Stew
+whitman	04-24	lunch	Brown Rice
+whitman	04-24	lunch	Chef's Choice Pasta of the Day
+whitman	04-24	lunch	Vegetable of the Day
+whitman	04-24	dinner	Chicken & White Bean Soup
+whitman	04-24	dinner	Chipotle Black Bean Soup
+whitman	04-24	dinner	Deli Bar
+whitman	04-24	dinner	Greek Salad
+whitman	04-24	dinner	Orange, Onion & Rosemary Salad
+whitman	04-24	dinner	Pasta Salad with Mozzarella & Pesto
+whitman	04-24	dinner	Honey Brined Lemon Sage Turkey
+whitman	04-24	dinner	Seitan Stroganoff
+whitman	04-24	dinner	Chef's Choice Pasta of the Day
+whitman	04-24	dinner	Roasted Red Pepper Mashed Red Bliss Potatoes
+whitman	04-24	dinner	Vegetable of the Day
+whitman	04-24	dinner	Hummus & Grain Bar with Coconut Curry
+cjl	04-24	breakfast	Eggo Waffles
+cjl	04-24	breakfast	Grits
+cjl	04-24	breakfast	Oatmeal
+cjl	04-24	breakfast	Pancakes
+cjl	04-24	breakfast	Scrambled Eggs
+cjl	04-24	breakfast	Home Fried Potatoes
+cjl	04-24	breakfast	Sliced Bagels
+cjl	04-24	breakfast	Yogurt Bar
+cjl	04-24	breakfast	Assorted Danish
+cjl	04-24	breakfast	Assorted Muffins
+cjl	04-24	lunch	Winter Lentil Vegetable Soup
+cjl	04-24	lunch	Corn, Black Bean & Tomato Salad
+cjl	04-24	lunch	Fresh Fruit Salad
+cjl	04-24	lunch	Kale Salad with Tomatoes & Quinoa
+cjl	04-24	lunch	Philly Chicken Steak Sandwich
+cjl	04-24	lunch	Grilled Ginger Tofu & Baby Bok Choy
+cjl	04-24	lunch	Vegan Burgers
+cjl	04-24	lunch	Broccoli & Carrots
+cjl	04-24	lunch	Sweet Potato Fries
+cjl	04-24	dinner	Citrus Grilled Chicken
+cjl	04-24	dinner	Roast Brazilian Tofu
+cjl	04-24	dinner	Fried Plantains
+cjl	04-24	dinner	Quinoa with Latin Flavors
+cjl	04-24	dinner	Thai Grilled Zucchini
+cjl	04-24	dinner	Lo Mein Bar
+cjl	04-24	dinner	Budin - Puerto Rican Bread Pudding
+cjl	04-24	dinner	Chocolate Chip Cookies
+butler_wilson	04-24	breakfast	O'Brien Potatoes
+butler_wilson	04-24	breakfast	Breakfast Sausage Patties
+butler_wilson	04-24	breakfast	Eggs Made to Order
+butler_wilson	04-24	breakfast	European Breakfast
+butler_wilson	04-24	breakfast	French Texas Toast
+butler_wilson	04-24	breakfast	Oatmeal Bar
+butler_wilson	04-24	breakfast	Omelet Bar with Pork Options
+butler_wilson	04-24	breakfast	Scrambled Eggs
+butler_wilson	04-24	lunch	Chicken Noodle Soup
+butler_wilson	04-24	lunch	White Bean & Escarole Soup
+butler_wilson	04-24	lunch	Pub Burger
+butler_wilson	04-24	lunch	Memphis BBQ Beef Brisket
+butler_wilson	04-24	lunch	Corn Bread
+butler_wilson	04-24	lunch	Green Beans & Butternut Squash
+butler_wilson	04-24	lunch	Mashed Red Bliss Potatoes
+butler_wilson	04-24	lunch	Bean & Green Station with Dark Greens & Seeds
+butler_wilson	04-24	lunch	Szechuan Dan Dan Noodle
+butler_wilson	04-24	dinner	Chicken Noodle Soup
+butler_wilson	04-24	dinner	White Bean & Escarole Soup
+butler_wilson	04-24	dinner	Pub Burger
+butler_wilson	04-24	dinner	Baked Chicken
+butler_wilson	04-24	dinner	Mango Salsa
+butler_wilson	04-24	dinner	Baby Lima Beans
+butler_wilson	04-24	dinner	Rice Pilaf
+butler_wilson	04-24	dinner	Enchilada Bowl
+forbes	04-24	breakfast	Eggs any Style & Omelets Made to Order
+forbes	04-24	breakfast	French Texas Toast
+forbes	04-24	breakfast	Grilled Breakfast Potato
+forbes	04-24	lunch	French Onion Soup with Croutons
+forbes	04-24	lunch	Potato & Kale Soup
+forbes	04-24	lunch	Salad Bar Mixed Salads
+forbes	04-24	lunch	Tuna Salad
+forbes	04-24	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-24	lunch	Yogurt & Fruit Bar
+forbes	04-24	lunch	Marinara Sauce
+forbes	04-24	lunch	Pasta Selection of the Day
+forbes	04-24	lunch	Ham & Jarlsberg with Apples on Brioche
+forbes	04-24	lunch	Taco Salad with Grilled  Steak
+forbes	04-24	lunch	Vegetarian Caesar Salad
+forbes	04-24	lunch	Israeli Couscous with Spring Vegetables
+forbes	04-24	lunch	Fresh Hand Cut Idaho French Fries
+forbes	04-24	lunch	Fresh Steamed Broccoli
+forbes	04-24	lunch	Forbes Deli
+forbes	04-24	dinner	Salad Bar Mixed Salads
+forbes	04-24	dinner	Halal Beef and Vegetable  Stir Fry
+forbes	04-24	dinner	Mediterranean Chicken
+forbes	04-24	dinner	BBQ Organic Tofu
+forbes	04-24	dinner	Aztec Rice & Grain Blend
+forbes	04-24	dinner	Biscuits with Honey Butter
+forbes	04-24	dinner	Fresh Steamed Broccoli
+forbes	04-24	dinner	Sauteed Fresh Yellow Squash
+grad	04-24	dinner	Beef Barley Soup
+grad	04-24	dinner	Split Pea Soup
+grad	04-24	dinner	BBQ Catfish
+grad	04-24	dinner	Duck Confit over Sweet Potato Pancake & Cranberry Chutney
+grad	04-24	dinner	Sauteed Tofu With Marsala Wine Sauce
+grad	04-24	dinner	Mustard Seed Green Beans
+grad	04-24	dinner	Roasted Cauliflower
+rocky_mathey	04-25	breakfast	O'Brien Potatoes
+rocky_mathey	04-25	breakfast	Egg & Cheese on a English Muffin
+rocky_mathey	04-25	breakfast	Pork Roll, Egg & Cheese on English Muffin
+rocky_mathey	04-25	breakfast	Eggs Made to Order
+rocky_mathey	04-25	breakfast	Omelet Bar with Pork Options
+rocky_mathey	04-25	breakfast	Raisin French Toast
+rocky_mathey	04-25	breakfast	Scrambled Eggs
+rocky_mathey	04-25	breakfast	Congee Bar
+rocky_mathey	04-25	breakfast	Scrambled Tofu
+rocky_mathey	04-25	breakfast	Vegan Fruit Smoothies
+rocky_mathey	04-25	breakfast	Fresh Baked Muffin
+rocky_mathey	04-25	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-25	lunch	Mushroom Bisque
+rocky_mathey	04-25	lunch	Mediterranean Spinach Salad
+rocky_mathey	04-25	lunch	Vodka Rigatoni with Peas & Mushrooms
+rocky_mathey	04-25	lunch	Ancient Grain & Bean Burger
+rocky_mathey	04-25	lunch	Fresh Fish Taco
+rocky_mathey	04-25	lunch	Spanish Rice
+rocky_mathey	04-25	lunch	Taco Bar Fixins
+rocky_mathey	04-25	lunch	VegetarianTaco Filling
+rocky_mathey	04-25	lunch	Fresh Mozzerella Bar
+rocky_mathey	04-25	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-25	dinner	Potato Cheese Soup
+rocky_mathey	04-25	dinner	Apple Autumn Tossed Salad
+rocky_mathey	04-25	dinner	Pasta Primavera
+rocky_mathey	04-25	dinner	Ancient Grain & Bean Burger
+rocky_mathey	04-25	dinner	Sauteed Chicken Marsala
+rocky_mathey	04-25	dinner	Sauteed Seitan Marsala
+rocky_mathey	04-25	dinner	Roasted Green Beans
+rocky_mathey	04-25	dinner	Spaghetti Squash Pasta Marinara
+rocky_mathey	04-25	dinner	Asian Noodles Pappardelle
+rocky_mathey	04-25	dinner	Roast Duck Pappardelle
+whitman	04-25	breakfast	Fresh Sliced Fruit
+whitman	04-25	breakfast	Assorted Hot Breakfast Cereal
+whitman	04-25	breakfast	Oatmeal Bar
+whitman	04-25	breakfast	Pork Sausage Links
+whitman	04-25	breakfast	Scrambled Eggs
+whitman	04-25	lunch	Hot & Sour Soup
+whitman	04-25	lunch	Minestrone Soup
+whitman	04-25	lunch	Red & Green Tomato Salad with Corn
+whitman	04-25	lunch	Spinach Salad with Strawberries
+whitman	04-25	lunch	Wheat Berry & Rice Salad with Cranberry
+whitman	04-25	lunch	Halal Chicken Parmesan
+whitman	04-25	lunch	Wheatberries with Beans & Mushrooms
+whitman	04-25	lunch	Chef's Choice Pasta of the Day
+whitman	04-25	lunch	Vegetable of the Day
+whitman	04-25	dinner	Chicken Long Rice Soup
+whitman	04-25	dinner	Deli Bar
+whitman	04-25	dinner	Lomi lomi salmon
+whitman	04-25	dinner	Huli huli Chicken
+whitman	04-25	dinner	Kalua Pork
+whitman	04-25	dinner	Spam Musubi
+whitman	04-25	dinner	Baked Sweet Potato
+whitman	04-25	dinner	Japanese Short Grain Rice
+cjl	04-25	breakfast	Eggo Waffles
+cjl	04-25	breakfast	Grits
+cjl	04-25	breakfast	Oatmeal
+cjl	04-25	breakfast	Pancakes
+cjl	04-25	breakfast	Scrambled Eggs
+cjl	04-25	breakfast	Home Fried Potatoes
+cjl	04-25	breakfast	Sliced Bagels
+cjl	04-25	breakfast	Yogurt Bar
+cjl	04-25	breakfast	Assorted Danish
+cjl	04-25	breakfast	Assorted Muffins
+cjl	04-25	lunch	Curried Cauliflower Soup
+cjl	04-25	lunch	Beet Salad with Oranges
+cjl	04-25	lunch	Fresh Fruit Salad
+cjl	04-25	lunch	Pizza Station
+cjl	04-25	lunch	Vegan Burgers
+cjl	04-25	lunch	Veggie Quesadilla
+cjl	04-25	lunch	Zucchini & Corn Saute
+cjl	04-25	lunch	Vegan Bar
+cjl	04-25	dinner	Panko Crusted Lake Perch
+cjl	04-25	dinner	Tandoori Tofu
+cjl	04-25	dinner	Broccoli Flowerettes
+cjl	04-25	dinner	Fresh Glazed Baby Carrots
+cjl	04-25	dinner	Israeli Couscous
+cjl	04-25	dinner	Vegetarian Nacho & Chili Bar
+cjl	04-25	dinner	Assorted Pies
+cjl	04-25	dinner	Cheesecake
+cjl	04-25	dinner	Yogurt Bar
+butler_wilson	04-25	breakfast	O'Brien Potatoes
+butler_wilson	04-25	breakfast	Buttermilk Pancakes
+butler_wilson	04-25	breakfast	Eggs Made to Order
+butler_wilson	04-25	breakfast	European Breakfast
+butler_wilson	04-25	breakfast	Oatmeal Bar
+butler_wilson	04-25	breakfast	Omelet Bar with Pork Options
+butler_wilson	04-25	breakfast	Scrambled Eggs
+butler_wilson	04-25	breakfast	Sliced Pork Roll
+butler_wilson	04-25	lunch	Beef Barley Soup
+butler_wilson	04-25	lunch	Butternut Squash Soup
+butler_wilson	04-25	lunch	Hot Dog Bar
+butler_wilson	04-25	lunch	Chicken Tikka Masala
+butler_wilson	04-25	lunch	Spiced Basmati Rice
+butler_wilson	04-25	lunch	Vegetable Curry with Coconut Milk
+butler_wilson	04-25	lunch	Bean & Green Station with Dark Greens & Seeds
+butler_wilson	04-25	lunch	Szechuan Dan Dan Noodle
+butler_wilson	04-25	dinner	Beef Barley Soup
+butler_wilson	04-25	dinner	Butternut Squash Soup
+butler_wilson	04-25	dinner	Hot Dog Bar
+butler_wilson	04-25	dinner	Baked Macaroni & Cheese
+butler_wilson	04-25	dinner	Breaded Pork Chop
+butler_wilson	04-25	dinner	Rustic Green Beans
+butler_wilson	04-25	dinner	Enchilada Bowl
+forbes	04-25	breakfast	Buttermilk Pancakes
+forbes	04-25	breakfast	Eggs any Style & Omelets Made to Order
+forbes	04-25	breakfast	Spiced Roasted Butternut Squash & Sweet Potatoes
+forbes	04-25	lunch	Chicken Vegetable Soup
+forbes	04-25	lunch	Lentil Soup with Swiss Chard
+forbes	04-25	lunch	Egg Salad
+forbes	04-25	lunch	Salad Bar Mixed Salads
+forbes	04-25	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-25	lunch	Yogurt & Fruit Bar
+forbes	04-25	lunch	Florentine White Wine Sauce
+forbes	04-25	lunch	Marinara Sauce
+forbes	04-25	lunch	Pasta Selection of the Day
+forbes	04-25	lunch	Kale Caesar Salad
+forbes	04-25	lunch	Pico De Gallo Shrimp Salad
+forbes	04-25	lunch	Beef Taco Filling
+forbes	04-25	lunch	Taco Bar
+forbes	04-25	lunch	Three Bean Chili
+forbes	04-25	lunch	Basmati Rice
+forbes	04-25	lunch	Whole Baby Carrots
+forbes	04-25	lunch	Forbes Deli
+forbes	04-25	dinner	Salad Bar Mixed Salads
+forbes	04-25	dinner	Beef Paprikash
+forbes	04-25	dinner	Pork Scallopini
+forbes	04-25	dinner	Sweet Potato Chili
+forbes	04-25	dinner	Fresh Asparagus Spears
+forbes	04-25	dinner	Honey Orange Glazed Carrots
+forbes	04-25	dinner	Kamut Grain & Rice Blend
+grad	04-25	dinner	Chicken Noodle Soup
+grad	04-25	dinner	Dominican Black Bean Soup
+grad	04-25	dinner	Kamut & Local Honey & Lavender Roasted Chicken Breast
+grad	04-25	dinner	Meatloaf & Gravy
+grad	04-25	dinner	Ratatouille with Tofu
+grad	04-25	dinner	Butternut Squash with Maple & Cinnamon
+grad	04-25	dinner	Garlic Mashed Potatoes
+grad	04-25	dinner	Roasted Corn on the Cob
+rocky_mathey	04-26	breakfast	Home Fries
+rocky_mathey	04-26	breakfast	Bacon, Egg & Cheese on English Muffin
+rocky_mathey	04-26	breakfast	Egg & Cheese on a English Muffin
+rocky_mathey	04-26	breakfast	Buttermilk Pancakes
+rocky_mathey	04-26	breakfast	Eggs Made to Order
+rocky_mathey	04-26	breakfast	Omelet Bar with Pork Options
+rocky_mathey	04-26	breakfast	Scrambled Eggs
+rocky_mathey	04-26	breakfast	Miso Soup & Organic Tofu
+rocky_mathey	04-26	breakfast	Scrambled Tofu
+rocky_mathey	04-26	breakfast	Steamed White Rice
+rocky_mathey	04-26	breakfast	Fresh Baked Muffin
+rocky_mathey	04-26	lunch	Asparagus Soup Puree
+rocky_mathey	04-26	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-26	lunch	Kale Salad
+rocky_mathey	04-26	lunch	Penne & Wild Mushrooms
+rocky_mathey	04-26	lunch	Ancient Grain & Bean Burger
+rocky_mathey	04-26	lunch	French Dip Sandwich
+rocky_mathey	04-26	lunch	Roasted Balsamic Vegetables
+rocky_mathey	04-26	lunch	Sweet Potato Fries
+rocky_mathey	04-26	lunch	Fresh Mozzerella Bar
+rocky_mathey	04-26	dinner	Asparagus Soup Puree
+rocky_mathey	04-26	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-26	dinner	Kale Salad
+rocky_mathey	04-26	dinner	Penne & Wild Mushrooms
+rocky_mathey	04-26	dinner	Ancient Grain & Bean Burger
+rocky_mathey	04-26	dinner	Broiled Steelhead Trout with Lemon Butter
+rocky_mathey	04-26	dinner	Artichoke Freekeh Risotto
+rocky_mathey	04-26	dinner	Sauteed Green Kale
+rocky_mathey	04-26	dinner	Dim Sum Bar
+whitman	04-26	breakfast	Fresh Sliced Fruit
+whitman	04-26	breakfast	Assorted Hot Breakfast Cereal
+whitman	04-26	breakfast	Bacon Slices
+whitman	04-26	breakfast	Oatmeal Bar
+whitman	04-26	breakfast	Scrambled Eggs
+whitman	04-26	lunch	Cheddar Beer Soup
+whitman	04-26	lunch	Moroccan Chicken & Lentil Soup
+whitman	04-26	lunch	Marinated Cucumber Salad
+whitman	04-26	lunch	Roasted Eggplant Caesar Salad
+whitman	04-26	lunch	Sweet Potato & Quinoa Salad
+whitman	04-26	lunch	Chicken Pot Pie
+whitman	04-26	lunch	Vegetable Pot Pie
+whitman	04-26	lunch	Chef's Choice Pasta of the Day
+whitman	04-26	lunch	Vegetable of the Day
+whitman	04-26	dinner	Cheddar Beer Soup
+whitman	04-26	dinner	Moroccan Chicken & Lentil Soup
+whitman	04-26	dinner	Deli Bar
+whitman	04-26	dinner	Marinated Cucumber Salad
+whitman	04-26	dinner	Roasted Eggplant Caesar Salad
+whitman	04-26	dinner	Sweet Potato & Quinoa Salad
+whitman	04-26	dinner	Mediterranean Chicken
+whitman	04-26	dinner	Barley & Wheatberry Pilaf
+whitman	04-26	dinner	Chef's Choice Pasta of the Day
+whitman	04-26	dinner	Vegetable of the Day
+whitman	04-26	dinner	Whole Grain Five Rice Blend
+whitman	04-26	dinner	Hummus & Grain Bar with Coconut Curry
+cjl	04-26	breakfast	Eggo Waffles
+cjl	04-26	breakfast	Grits
+cjl	04-26	breakfast	Oatmeal
+cjl	04-26	breakfast	Pancakes
+cjl	04-26	breakfast	Scrambled Eggs
+cjl	04-26	breakfast	Home Fried Potatoes
+cjl	04-26	breakfast	Sliced Bagels
+cjl	04-26	breakfast	Yogurt Bar
+cjl	04-26	breakfast	Assorted Danish
+cjl	04-26	breakfast	Assorted Muffins
+cjl	04-26	lunch	Tomato, Lentil & Barley Soup
+cjl	04-26	lunch	Fresh Fruit Salad
+cjl	04-26	lunch	Nicoise Salad
+cjl	04-26	lunch	Roast Beef & Horseradish Sandwich
+cjl	04-26	lunch	Eggplant Steak with Chickpeas & Cheese & Olives
+cjl	04-26	lunch	Broccoli Flowerettes
+cjl	04-26	lunch	Sweet Potato Fries
+cjl	04-26	lunch	Asian Chicken & Noodle Station
+cjl	04-26	dinner	Chicken Tenders
+cjl	04-26	dinner	Vegan Nuggets
+cjl	04-26	dinner	Vegan Sweet & Sour Meatballs
+cjl	04-26	dinner	Roasted Carrots & Cauliflower
+cjl	04-26	dinner	Spicy Whole Grain Pilaf
+cjl	04-26	dinner	Dessert Bar
+butler_wilson	04-26	breakfast	O'Brien Potatoes
+butler_wilson	04-26	breakfast	Breakfast Sausage Patties
+butler_wilson	04-26	breakfast	Eggs Made to Order
+butler_wilson	04-26	breakfast	European Breakfast
+butler_wilson	04-26	breakfast	French Texas Toast
+butler_wilson	04-26	breakfast	Oatmeal Bar
+butler_wilson	04-26	breakfast	Omelet Bar with Pork Options
+butler_wilson	04-26	breakfast	Scrambled Eggs
+butler_wilson	04-26	lunch	Italian Wedding Soup
+butler_wilson	04-26	lunch	Split Pea Soup
+butler_wilson	04-26	lunch	Grill Cheese Bar with Bacon
+butler_wilson	04-26	lunch	Kielbasa & Kraut
+butler_wilson	04-26	lunch	Potato & Cheese Pierogi
+butler_wilson	04-26	lunch	Roasted Cauliflower
+butler_wilson	04-26	lunch	Bean & Green Station with Dark Greens & Seeds
+butler_wilson	04-26	lunch	Szechuan Dan Dan Noodle
+butler_wilson	04-26	dinner	Italian Wedding Soup
+butler_wilson	04-26	dinner	Split Pea Soup
+butler_wilson	04-26	dinner	Grill Cheese Bar with Bacon
+butler_wilson	04-26	dinner	Chicken Parmesan
+butler_wilson	04-26	dinner	Penne with Boursin & Tomato
+butler_wilson	04-26	dinner	Broccoli Rabe & Tomatoes
+butler_wilson	04-26	dinner	Enchilada Bowl
+forbes	04-26	breakfast	Congee Bar
+forbes	04-26	breakfast	Eggs any Style & Omelets Made to Order
+forbes	04-26	breakfast	French Texas Toast
+forbes	04-26	breakfast	Grilled Breakfast Potato
+forbes	04-26	lunch	Italian Bean Soup
+forbes	04-26	lunch	Vegetable Barley Soup
+forbes	04-26	lunch	Salad Bar Mixed Salads
+forbes	04-26	lunch	Turkey Salad
+forbes	04-26	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-26	lunch	Yogurt & Fruit Bar
+forbes	04-26	lunch	Marinara Sauce
+forbes	04-26	lunch	Pasta Selection of the Day
+forbes	04-26	lunch	Primavera Sauce
+forbes	04-26	lunch	Portobello Panini
+forbes	04-26	lunch	Cubano Salad
+forbes	04-26	lunch	Mixed Greens with Berries & Dried Fruit
+forbes	04-26	lunch	Fried Chicken Tenders
+forbes	04-26	lunch	Cris Cut Fries
+forbes	04-26	lunch	Fresh Steamed Broccoli
+forbes	04-26	lunch	Forbes Deli
+forbes	04-26	dinner	Salad Bar Mixed Salads
+forbes	04-26	dinner	Chicken Tarragon
+forbes	04-26	dinner	Lamb Khorma
+forbes	04-26	dinner	Tofu & Mushroom & Eggplant Tower
+forbes	04-26	dinner	Fresh Steamed Broccoli
+forbes	04-26	dinner	Lemon Mint Rice
+forbes	04-26	dinner	Sauteed Fresh Yellow Squash
+grad	04-26	dinner	Minestrone Soup
+grad	04-26	dinner	Potato & Kale Soup
+grad	04-26	dinner	Boneless Pork Chop & Apple Chutney
+grad	04-26	dinner	Caribbean Style Curried Chicken
+grad	04-26	dinner	Tofu Curry
+grad	04-26	dinner	Broccoli Flowerettes
+grad	04-26	dinner	Pigeon Peas & Rice
+grad	04-26	dinner	Roasted Zucchini & Mushrooms
+rocky_mathey	04-27	breakfast	O'Brien Potatoes
+rocky_mathey	04-27	breakfast	Bacon, Egg & Cheese on English Muffin
+rocky_mathey	04-27	breakfast	Egg & Cheese on a English Muffin
+rocky_mathey	04-27	breakfast	Eggs Made to Order
+rocky_mathey	04-27	breakfast	French Texas Toast
+rocky_mathey	04-27	breakfast	Omelet Bar with Pork Options
+rocky_mathey	04-27	breakfast	Scrambled Eggs
+rocky_mathey	04-27	breakfast	Congee Bar
+rocky_mathey	04-27	breakfast	Scrambled Tofu
+rocky_mathey	04-27	breakfast	Vegan Fruit Smoothies
+rocky_mathey	04-27	breakfast	Fresh Baked Muffin
+rocky_mathey	04-27	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-27	lunch	Potato Cheese Soup
+rocky_mathey	04-27	lunch	Apple Autumn Tossed Salad
+rocky_mathey	04-27	lunch	Pasta Primavera
+rocky_mathey	04-27	lunch	Ancient Grain & Bean Burger
+rocky_mathey	04-27	lunch	Cheese Steak Spring Roll
+rocky_mathey	04-27	lunch	Udon Noodles
+rocky_mathey	04-27	lunch	Vegetable Stir Fry
+rocky_mathey	04-27	lunch	Fresh Mozzerella Bar
+rocky_mathey	04-27	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-27	dinner	Mushroom Bisque
+rocky_mathey	04-27	dinner	Mediterranean Spinach Salad
+rocky_mathey	04-27	dinner	Vodka Rigatoni with Peas & Mushrooms
+rocky_mathey	04-27	dinner	Ancient Grain & Bean Burger
+rocky_mathey	04-27	dinner	Macaroni & Cheese
+rocky_mathey	04-27	dinner	Southern Fried Chicken
+rocky_mathey	04-27	dinner	Collard Greens
+rocky_mathey	04-27	dinner	Kielbasa & Kraut
+rocky_mathey	04-27	dinner	Potato & Cheese Pierogi Bar
+whitman	04-27	breakfast	Fresh Sliced Fruit
+whitman	04-27	breakfast	Assorted Hot Breakfast Cereal
+whitman	04-27	breakfast	Oatmeal Bar
+whitman	04-27	breakfast	Scrambled Eggs
+whitman	04-27	breakfast	Turkey Bacon
+whitman	04-27	lunch	Italian Wedding Soup
+whitman	04-27	lunch	Tomato Basil Bisque
+whitman	04-27	lunch	Mandarin Orange & Spinach Salad
+whitman	04-27	lunch	North African Couscous & Chickpea Salad
+whitman	04-27	lunch	Spinach & Vegetable Salad with Olive Tapenade
+whitman	04-27	lunch	Paella Valenciana with Chicken, Pork, & Shrimp
+whitman	04-27	lunch	Mushroom Grits
+whitman	04-27	lunch	Farro Paella
+whitman	04-27	lunch	Chef's Choice Pasta of the Day
+whitman	04-27	lunch	Vegetable of the Day
+whitman	04-27	dinner	Italian Wedding Soup
+whitman	04-27	dinner	Tomato Basil Bisque
+whitman	04-27	dinner	Deli Bar
+whitman	04-27	dinner	Mandarin Orange & Spinach Salad
+whitman	04-27	dinner	North African Couscous & Chickpea Salad
+whitman	04-27	dinner	Spinach & Vegetable Salad with Olive Tapenade
+whitman	04-27	dinner	BBQ Chesapeake Catfish
+whitman	04-27	dinner	Memphis Style Pork BBQ
+whitman	04-27	dinner	BBQ Baked Beans
+whitman	04-27	dinner	Chef's Choice Pasta of the Day
+whitman	04-27	dinner	Roasted Yukon Gold Potatoes
+whitman	04-27	dinner	Vegetable of the Day
+whitman	04-27	dinner	Hummus & Grain Bar with Coconut Curry
+cjl	04-27	breakfast	Eggo Waffles
+cjl	04-27	breakfast	Grits
+cjl	04-27	breakfast	Oatmeal
+cjl	04-27	breakfast	Pancakes
+cjl	04-27	breakfast	Scrambled Eggs
+cjl	04-27	breakfast	Home Fried Potatoes
+cjl	04-27	breakfast	Sliced Bagels
+cjl	04-27	breakfast	Yogurt Bar
+cjl	04-27	breakfast	Assorted Danish
+cjl	04-27	breakfast	Assorted Muffins
+cjl	04-27	lunch	Split Pea Soup
+cjl	04-27	lunch	Fresh Fruit Salad
+cjl	04-27	lunch	Philly Style Vegan Sandwich
+cjl	04-27	lunch	Vegetable Pot Pie
+cjl	04-27	lunch	Portobello Panini
+cjl	04-27	lunch	Sauteed Fresh Zucchini
+cjl	04-27	lunch	Spicy French Fries
+cjl	04-27	lunch	Fish & Vegetable Taco Station
+cjl	04-27	lunch	Vegan Bar
+cjl	04-27	lunch	Yogurt Bar
+cjl	04-27	dinner	Pizza Station
+cjl	04-27	dinner	Red Beans & Butternut Squash
+cjl	04-27	dinner	Spinach Lasagna
+cjl	04-27	dinner	Broccoli & Carrots
+cjl	04-27	dinner	Sauteed Green Beans
+cjl	04-27	dinner	Sweet Potato Fries
+cjl	04-27	dinner	Mac & Cheese Bar
+cjl	04-27	dinner	Crumb Cake
+cjl	04-27	dinner	Dessert Bar
+cjl	04-27	dinner	Yogurt Bar
+butler_wilson	04-27	breakfast	O'Brien Potatoes
+butler_wilson	04-27	breakfast	Buttermilk Pancakes
+butler_wilson	04-27	breakfast	Eggs Made to Order
+butler_wilson	04-27	breakfast	European Breakfast
+butler_wilson	04-27	breakfast	Oatmeal Bar
+butler_wilson	04-27	breakfast	Omelet Bar with Pork Options
+butler_wilson	04-27	breakfast	Scrambled Eggs
+butler_wilson	04-27	breakfast	Sliced Pork Roll
+butler_wilson	04-27	lunch	New England Clam Chowder
+butler_wilson	04-27	lunch	Tuscan White Bean & Tomato Soup
+butler_wilson	04-27	lunch	Pub Burger
+butler_wilson	04-27	lunch	Southern Fried Chicken
+butler_wilson	04-27	lunch	Home Style Vegetables Saute
+butler_wilson	04-27	lunch	Macaroni & Cheese with Tasso Ham & Shrimp
+butler_wilson	04-27	lunch	Bean & Green Station with Dark Greens & Seeds
+butler_wilson	04-27	lunch	Szechuan Dan Dan Noodle
+butler_wilson	04-27	dinner	New England Clam Chowder
+butler_wilson	04-27	dinner	Tuscan White Bean & Tomato Soup
+butler_wilson	04-27	dinner	Pub Burger
+butler_wilson	04-27	dinner	Old Fashioned Beef Stew
+butler_wilson	04-27	dinner	Sauteed Fresh Zucchini
+butler_wilson	04-27	dinner	White Rice
+butler_wilson	04-27	dinner	Enchilada Bowl
+forbes	04-27	breakfast	Buttermilk Pancakes
+forbes	04-27	breakfast	Eggs any Style & Omelets Made to Order
+forbes	04-27	breakfast	Kale & Beet Hash
+forbes	04-27	lunch	Chicken Soup
+forbes	04-27	lunch	Cream of Tomato Soup
+forbes	04-27	lunch	Egg Salad
+forbes	04-27	lunch	Salad Bar Mixed Salads
+forbes	04-27	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-27	lunch	Yogurt & Fruit Bar
+forbes	04-27	lunch	Marinara Sauce
+forbes	04-27	lunch	Pasta Selection of the Day
+forbes	04-27	lunch	Pesto Cream Sauce
+forbes	04-27	lunch	Turkey Salad Wrap
+forbes	04-27	lunch	Avocado & Strawberry Salad with Oranges
+forbes	04-27	lunch	Buffalo Chicken Drumsticks
+forbes	04-27	lunch	Baked  Ziti
+forbes	04-27	lunch	Sauteed Fresh Yellow Squash
+forbes	04-27	lunch	Twister Fries
+forbes	04-27	lunch	Forbes Deli
+forbes	04-27	dinner	Salad Bar Mixed Salads
+forbes	04-27	dinner	Soy Glazed Chicken Thighs with Asparagus
+forbes	04-27	dinner	Veracruz Style Redfish
+forbes	04-27	dinner	Udon Noodles with Five Spice Broth
+forbes	04-27	dinner	Black Pearl  Grain & Rice Blend
+forbes	04-27	dinner	Fresh Cauliflower & Carrots
+forbes	04-27	dinner	Fresh Steamed Broccoli
+grad	04-27	dinner	Lentil Soup
+grad	04-27	dinner	Mushroom Barley Soup
+grad	04-27	dinner	Chicken Cacciatore
+grad	04-27	dinner	Pappardelle with Pork Bolognese
+grad	04-27	dinner	Tofu Scampi & Broccoli with White Wine
+grad	04-27	dinner	Roasted Carrots
+grad	04-27	dinner	Stewed Green Beans
+grad	04-27	dinner	White & Wild Rice
+rocky_mathey	04-28	breakfast	Hash Brown Patty
+rocky_mathey	04-28	breakfast	Bacon, Egg & Cheese on English Muffin
+rocky_mathey	04-28	breakfast	Egg & Cheese on a English Muffin
+rocky_mathey	04-28	breakfast	Eggs Made to Order
+rocky_mathey	04-28	breakfast	French Texas Toast
+rocky_mathey	04-28	breakfast	Omelet Bar with Pork Options
+rocky_mathey	04-28	breakfast	Scrambled Eggs
+rocky_mathey	04-28	breakfast	Miso Soup & Organic Tofu
+rocky_mathey	04-28	breakfast	Scrambled Tofu
+rocky_mathey	04-28	breakfast	Steamed White Rice
+rocky_mathey	04-28	breakfast	Fresh Baked Muffin
+rocky_mathey	04-28	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-28	lunch	White Bean & Potato Soup
+rocky_mathey	04-28	lunch	Tossed House Salad
+rocky_mathey	04-28	lunch	Rigatoni Alfredo
+rocky_mathey	04-28	lunch	Ancient Grain & Bean Burger
+rocky_mathey	04-28	lunch	Grilled Vegetable Lasagna
+rocky_mathey	04-28	lunch	Roasted Green Beans
+rocky_mathey	04-28	lunch	Tri-Color Salad & Balsamic Vinaigrette
+rocky_mathey	04-28	lunch	Fresh Mozzerella Bar
+rocky_mathey	04-28	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-28	dinner	White Bean & Potato Soup
+rocky_mathey	04-28	dinner	Tossed House Salad
+rocky_mathey	04-28	dinner	Rigatoni Alfredo
+rocky_mathey	04-28	dinner	Ancient Grain & Bean Burger
+rocky_mathey	04-28	dinner	Braised Beef Short Ribs
+rocky_mathey	04-28	dinner	Pork Picadillo
+rocky_mathey	04-28	dinner	Quinoa & Black Beans
+rocky_mathey	04-28	dinner	Seitan Picadillo
+rocky_mathey	04-28	dinner	Taco Bar Fixins
+whitman	04-28	breakfast	Fresh Sliced Fruit
+whitman	04-28	breakfast	Assorted Hot Breakfast Cereal
+whitman	04-28	breakfast	Oatmeal Bar
+whitman	04-28	breakfast	Pork Sausage Links
+whitman	04-28	breakfast	Scrambled Eggs
+whitman	04-28	lunch	Chicken Udon Noodle Soup
+whitman	04-28	lunch	Egg Drop Soup
+whitman	04-28	lunch	Beet & Egg Salad
+whitman	04-28	lunch	Curried Cauliflower & Chickpea Salad
+whitman	04-28	lunch	Pear & Arugula Salad with Parmesan
+whitman	04-28	lunch	Tortilla-Crusted Chicken
+whitman	04-28	lunch	Cheese Ravioli
+whitman	04-28	lunch	Southwest Beans & Rice
+whitman	04-28	lunch	Chef's Choice Pasta of the Day
+whitman	04-28	lunch	Vegetable of the Day
+whitman	04-28	dinner	Chicken Udon Noodle Soup
+whitman	04-28	dinner	Egg Drop Soup
+whitman	04-28	dinner	Deli Bar
+whitman	04-28	dinner	Beet & Egg Salad
+whitman	04-28	dinner	Curried Cauliflower & Chickpea Salad
+whitman	04-28	dinner	Pear & Arugula Salad with Parmesan
+whitman	04-28	dinner	Fresh Fish Catch of The Day
+whitman	04-28	dinner	Pastitsio - Greek Lasagna
+whitman	04-28	dinner	Basmati & Bulgar Pilaf
+whitman	04-28	dinner	Chef's Choice Pasta of the Day
+whitman	04-28	dinner	Lemon Thyme Orzo
+whitman	04-28	dinner	Vegetable of the Day
+whitman	04-28	dinner	Hummus & Grain Bar with Coconut Curry
+cjl	04-28	breakfast	Eggo Waffles
+cjl	04-28	breakfast	Grits
+cjl	04-28	breakfast	Oatmeal
+cjl	04-28	breakfast	Pancakes
+cjl	04-28	breakfast	Scrambled Eggs
+cjl	04-28	breakfast	Home Fried Potatoes
+cjl	04-28	breakfast	Sliced Bagels
+cjl	04-28	breakfast	Yogurt Bar
+cjl	04-28	breakfast	Assorted Danish
+cjl	04-28	breakfast	Assorted Muffins
+cjl	04-28	lunch	Moroccan Lentil Soup
+cjl	04-28	lunch	Fresh Fruit Salad
+cjl	04-28	lunch	Southwest Barley Salad
+cjl	04-28	lunch	Grilled Chicken Sandwich
+cjl	04-28	lunch	Grilled Ginger Tofu & Baby Bok Choy
+cjl	04-28	lunch	Vegan Burgers
+cjl	04-28	lunch	Broccoli & Carrots
+cjl	04-28	lunch	Brown Rice
+cjl	04-28	lunch	Sweet Potato Fries
+cjl	04-28	lunch	Hot Dog Bar
+cjl	04-28	dinner	Vegetable Matzoh Ball Soup
+cjl	04-28	dinner	Country Braised Beef Short Rib
+cjl	04-28	dinner	Roast Chicken Creole
+cjl	04-28	dinner	Asian Stuffed Pepper with Beef
+cjl	04-28	dinner	Teriyaki Tofu with Pineapple
+cjl	04-28	dinner	Quinoa Fried Rice
+cjl	04-28	dinner	Roasted Vegetable Medley
+cjl	04-28	dinner	Sweet & Sour Butternut Squash
+cjl	04-28	dinner	Challah Bread
+cjl	04-28	dinner	Dessert Bar
+butler_wilson	04-28	lunch	Chicken Tortilla Soup
+butler_wilson	04-28	lunch	Cream of Potato Soup
+butler_wilson	04-28	lunch	Cheese Steak Bar
+butler_wilson	04-28	lunch	Roast Beef with Red Wine Demi-Glace
+butler_wilson	04-28	lunch	Roasted Yukon Gold Potatoes
+butler_wilson	04-28	lunch	Stewed Green Beans
+butler_wilson	04-28	lunch	Bean & Green Station with Dark Greens & Seeds
+butler_wilson	04-28	lunch	Szechuan Dan Dan Noodle
+butler_wilson	04-28	dinner	Chicken Tortilla Soup
+butler_wilson	04-28	dinner	Cream of Potato Soup
+butler_wilson	04-28	dinner	Cheese Steak Bar
+butler_wilson	04-28	dinner	Roast Cod with Veg & Couscous
+butler_wilson	04-28	dinner	Oven Roasted Potatoes
+butler_wilson	04-28	dinner	Sauteed Green Kale
+butler_wilson	04-28	dinner	Enchilada Bowl
+forbes	04-28	breakfast	Eggs any Style & Omelets Made to Order
+forbes	04-28	breakfast	French Texas Toast
+forbes	04-28	breakfast	Grilled Breakfast Potato
+forbes	04-28	lunch	Chipotle Black Bean & Corn Soup
+forbes	04-28	lunch	Manhattan Clam Chowder with Bacon
+forbes	04-28	lunch	Egg Salad
+forbes	04-28	lunch	Salad Bar Mixed Salads
+forbes	04-28	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-28	lunch	Yogurt & Fruit Bar
+forbes	04-28	lunch	Marinara Sauce
+forbes	04-28	lunch	Radiatori Pasta
+forbes	04-28	lunch	Spinach Salad with Raspberry Orange Vinaigrette
+forbes	04-28	lunch	Teriyaki Chicken & Veg Salad
+forbes	04-28	lunch	Batter Fried Fish
+forbes	04-28	lunch	Black Bean & Rice Casserole
+forbes	04-28	lunch	Fresh Hand Cut Idaho French Fries
+forbes	04-28	lunch	Onion Rings
+forbes	04-28	lunch	Sauteed Fresh Zucchini
+forbes	04-28	lunch	Forbes Deli
+forbes	04-28	dinner	Citrus Green Salad with Roasted Corn & Jicama
+forbes	04-28	dinner	Tropical Fruit Salad
+forbes	04-28	dinner	Beef Taco Filling
+forbes	04-28	dinner	Fish Taco
+forbes	04-28	dinner	Soft Chicken Taco
+forbes	04-28	dinner	Taco Bar
+forbes	04-28	dinner	Three Bean Taco
+forbes	04-28	dinner	Black Bean Salsa
+forbes	04-28	dinner	Mango Salsa
+forbes	04-28	dinner	Nachos Bar
+forbes	04-28	dinner	Olive & Pepper Salsa
+grad	04-28	dinner	Seafood Bisque
+grad	04-28	dinner	Vegetable Barley Soup
+grad	04-28	dinner	Country Style Pork Ribs
+grad	04-28	dinner	Panko Crusted Cod
+grad	04-28	dinner	Wild Mushroom Risotto & Seitan
+grad	04-28	dinner	Pommery Roasted Potatoes
+grad	04-28	dinner	Sauteed Fresh Zucchini
+grad	04-28	dinner	Sauteed Mixed Vegetables
+rocky_mathey	04-29	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-29	lunch	Minestrone Soup
+rocky_mathey	04-29	lunch	Omelet Bar with Pork Options
+rocky_mathey	04-29	lunch	Pancake Toppings
+rocky_mathey	04-29	lunch	Waffle Bar
+rocky_mathey	04-29	lunch	Rigatoni La Nonna
+rocky_mathey	04-29	lunch	Chili Bar
+rocky_mathey	04-29	lunch	Scrambled Tofu
+rocky_mathey	04-29	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-29	dinner	Minestrone Soup
+rocky_mathey	04-29	dinner	Rigatoni La Nonna
+rocky_mathey	04-29	dinner	Spicy Coconut Curry Pollack
+rocky_mathey	04-29	dinner	Spicy Coconut Curry Tofu
+rocky_mathey	04-29	dinner	Naan
+rocky_mathey	04-29	dinner	Saffron & Cardamom Basmati Rice
+rocky_mathey	04-29	dinner	Sauteed Spinach
+whitman	04-29	lunch	Bacon & Corn Chowder
+whitman	04-29	lunch	Tomato Orzo Soup
+whitman	04-29	lunch	Bacon
+whitman	04-29	lunch	Breakfast Burrito Bar with Chorizo
+whitman	04-29	lunch	Breakfast Potatoes
+whitman	04-29	lunch	Japanese Noodle & Sesame Salad
+whitman	04-29	lunch	Romaine, Apple & Cheddar Salad
+whitman	04-29	lunch	Sweet Potato & Apple Salad
+whitman	04-29	lunch	Chicken Wing Bar
+whitman	04-29	lunch	Quinoa & Black Beans
+whitman	04-29	lunch	Chef's Choice Pasta of the Day
+whitman	04-29	lunch	Vegetable of the Day
+whitman	04-29	dinner	Bacon & Corn Chowder
+whitman	04-29	dinner	Tomato Orzo Soup
+whitman	04-29	dinner	Deli Bar
+whitman	04-29	dinner	Japanese Noodle & Sesame Salad
+whitman	04-29	dinner	Romaine, Apple & Cheddar Salad
+whitman	04-29	dinner	Sweet Potato & Apple Salad
+whitman	04-29	dinner	Jerk Chicken
+whitman	04-29	dinner	Spicy Chickpeas
+whitman	04-29	dinner	Chef's Choice Pasta of the Day
+whitman	04-29	dinner	Rice & Pigeon Peas
+whitman	04-29	dinner	Vegetable of the Day
+cjl	04-29	lunch	Cholent with Beef & Barley
+cjl	04-29	lunch	Roasted French Cut Chicken
+cjl	04-29	lunch	Eggplant Tomato Tart
+cjl	04-29	lunch	Hearty Vegetable Cholent
+cjl	04-29	lunch	Roasted Carrots & Cauliflower
+cjl	04-29	lunch	Sweet Pineapple Kugel
+cjl	04-29	lunch	Rissole Potatoes
+cjl	04-29	dinner	Corn, Black Bean & Tomato Salad
+cjl	04-29	dinner	Fresh Fruit Salad
+cjl	04-29	dinner	Israeli Salad
+cjl	04-29	dinner	Kale Salad with Tomatoes & Quinoa
+cjl	04-29	dinner	Tossed Salad & Dressings
+cjl	04-29	dinner	Chicken & Romaine Wrap
+cjl	04-29	dinner	Tofu Vegetable Wrap
+cjl	04-29	dinner	Hummus & Pitas
+cjl	04-29	dinner	Veggie & Deli Sandwich Station
+butler_wilson	04-29	lunch	O'Brien Potatoes
+butler_wilson	04-29	lunch	Grapefruit Half
+butler_wilson	04-29	lunch	Sliced Melons
+butler_wilson	04-29	lunch	Bacon
+butler_wilson	04-29	lunch	Egg Whites to Order
+butler_wilson	04-29	lunch	French Texas Toast
+butler_wilson	04-29	lunch	Omelet Bar with Pork Options
+butler_wilson	04-29	lunch	Pork Sausage Links
+butler_wilson	04-29	lunch	Scrambled Eggs
+butler_wilson	04-29	lunch	Turkey Sausage
+butler_wilson	04-29	lunch	Lox & Bagel Bar
+butler_wilson	04-29	lunch	Bowties & Asparagus
+butler_wilson	04-29	lunch	Buffalo Chicken Wings
+butler_wilson	04-29	dinner	Gourmet Sausage Links
+butler_wilson	04-29	dinner	Meatballs in Tomato Sauce
+butler_wilson	04-29	dinner	Baked Cheese Ziti
+butler_wilson	04-29	dinner	Corn
+butler_wilson	04-29	dinner	Enchilada Bowl
+forbes	04-29	lunch	Salad Bar Mixed Salads
+forbes	04-29	lunch	Tuna Salad
+forbes	04-29	lunch	Buttermilk Pancakes
+forbes	04-29	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-29	lunch	Pork Sausage Links
+forbes	04-29	lunch	Scrambled Eggs
+forbes	04-29	lunch	Assorted Pastries
+forbes	04-29	lunch	Pancake Toppings
+forbes	04-29	lunch	Marinara Sauce
+forbes	04-29	lunch	Penne Pasta
+forbes	04-29	lunch	Vegetarian Caesar Salad
+forbes	04-29	lunch	Grilled Breakfast Potato
+forbes	04-29	lunch	Buffalo Chicken Wings
+forbes	04-29	lunch	Forbes Deli
+forbes	04-29	dinner	Salad Bar Mixed Salads
+forbes	04-29	dinner	Roasted Turkey Breast
+forbes	04-29	dinner	Texas Beef Chili
+forbes	04-29	dinner	Three Bean Creole Corn & Peppers
+forbes	04-29	dinner	Baked Sweet Potato
+forbes	04-29	dinner	Cranberry Sauce
+forbes	04-29	dinner	Fresh Cauliflower
+rocky_mathey	04-30	lunch	Halal Manhattan Clam Chowder
+rocky_mathey	04-30	lunch	Italian Wedding Soup
+rocky_mathey	04-30	lunch	Buttermilk Pancakes
+rocky_mathey	04-30	lunch	Omelet Bar with Pork Options
+rocky_mathey	04-30	lunch	Pancake Toppings
+rocky_mathey	04-30	lunch	Cheese Lasagna
+rocky_mathey	04-30	lunch	Roast Beef
+rocky_mathey	04-30	lunch	Scrambled Tofu
+rocky_mathey	04-30	lunch	Fresh Broccoli
+rocky_mathey	04-30	dinner	Halal Manhattan Clam Chowder
+rocky_mathey	04-30	dinner	Italian Wedding Soup
+rocky_mathey	04-30	dinner	Cheese Lasagna
+rocky_mathey	04-30	dinner	Chicken Murphy with Sausage
+rocky_mathey	04-30	dinner	Sauteed Mixed Vegetables
+rocky_mathey	04-30	dinner	White & Wild Rice
+whitman	04-30	lunch	Carrot Ginger Soup
+whitman	04-30	lunch	Thai Chicken Coconut Soup
+whitman	04-30	lunch	Apple Cinnamon Crisp
+whitman	04-30	lunch	Breakfast Potatoes
+whitman	04-30	lunch	Eggs Benedict with Canadian Bacon
+whitman	04-30	lunch	Pork Sausage Links
+whitman	04-30	lunch	Red Bliss Potato Salad
+whitman	04-30	lunch	Romaine, Apple & Cheddar Salad
+whitman	04-30	lunch	White Bean & Spinach Salad
+whitman	04-30	lunch	Grilled Pork Chop
+whitman	04-30	lunch	Cannellini Beans with Spinach
+whitman	04-30	lunch	Potato du Jour
+whitman	04-30	lunch	Vegetable of the Day
+whitman	04-30	dinner	Carrot Ginger Soup
+whitman	04-30	dinner	Thai Chicken Coconut Soup
+whitman	04-30	dinner	Deli Bar
+whitman	04-30	dinner	Red Bliss Potato Salad
+whitman	04-30	dinner	Romaine, Apple & Cheddar Salad
+whitman	04-30	dinner	White Bean & Spinach Salad
+whitman	04-30	dinner	Chicken Principessa
+whitman	04-30	dinner	Wheat Berries  with Zucchini & Peppers
+whitman	04-30	dinner	Barley Pilaf
+whitman	04-30	dinner	Vegetable of the Day
+cjl	04-30	lunch	Home Fried Potatoes
+cjl	04-30	lunch	Grapefruit Half
+cjl	04-30	lunch	Sliced Melons
+cjl	04-30	lunch	French Toast
+cjl	04-30	lunch	Omelet Bar
+cjl	04-30	lunch	Pancakes
+cjl	04-30	lunch	Scrambled Eggs
+cjl	04-30	lunch	Top Your Own Waffles
+cjl	04-30	lunch	Lox & Bagel Bar
+cjl	04-30	dinner	Minestrone Soup
+cjl	04-30	dinner	Grilled Salmon with Mango Salsa
+cjl	04-30	dinner	Eggplant Steak with Chickpeas & Cheese & Olives
+cjl	04-30	dinner	Sauteed Organic Tofu & Garden Veggies
+cjl	04-30	dinner	Autumn Roasted Vegetables
+cjl	04-30	dinner	Vegan Brown Rice Pilaf
+cjl	04-30	dinner	Alfredo Sauce
+cjl	04-30	dinner	Spaghetti Marinara
+cjl	04-30	dinner	Dessert Bar
+cjl	04-30	dinner	Make Your Own Sundae Bar
+butler_wilson	04-30	lunch	O'Brien Potatoes
+butler_wilson	04-30	lunch	Grapefruit Half
+butler_wilson	04-30	lunch	Sliced Melons
+butler_wilson	04-30	lunch	Bacon
+butler_wilson	04-30	lunch	Buttermilk Pancakes
+butler_wilson	04-30	lunch	Omelet Bar with Pork Options
+butler_wilson	04-30	lunch	Pork Sausage Links
+butler_wilson	04-30	lunch	Scrambled Eggs
+butler_wilson	04-30	lunch	Turkey Sausage
+butler_wilson	04-30	lunch	Lox & Bagel Bar
+butler_wilson	04-30	lunch	Hot Dog Bar
+butler_wilson	04-30	lunch	Steakhouse Fries
+butler_wilson	04-30	lunch	Roast Tofu Tuscano
+butler_wilson	04-30	lunch	Fried Chicken & Waffles with Sausage
+butler_wilson	04-30	dinner	Tomato Soup
+butler_wilson	04-30	dinner	Hot Dog Bar
+butler_wilson	04-30	dinner	Ragout de Veal Marsala
+butler_wilson	04-30	dinner	Garlic Mashed Potatoes
+butler_wilson	04-30	dinner	Sauteed Green Kale
+forbes	04-30	lunch	Bacon
+forbes	04-30	lunch	Eggs any Style & Omelets Made to Order
+forbes	04-30	lunch	French Texas Toast
+forbes	04-30	lunch	Pork Sausage Links
+forbes	04-30	lunch	Scrambled Eggs
+forbes	04-30	lunch	Chocolate Fountain
+forbes	04-30	lunch	Forbes Sunday Brunch Bar
+forbes	04-30	lunch	Pancake Toppings
+forbes	04-30	lunch	Sliced Lox Display
+forbes	04-30	lunch	Grilled Breakfast Potato
+forbes	04-30	lunch	Sunday Brunch Roast Vegetable Platter
+forbes	04-30	dinner	Chicken Alfredo with White Wine Pancetta
+forbes	04-30	dinner	London Broil
+forbes	04-30	dinner	Corn & Roasted Tomato Stuffed Mushroom
+forbes	04-30	dinner	Cauliflower Coconut Curry
+forbes	04-30	dinner	Fresh Green Beans
+forbes	04-30	dinner	Ruby Rice & Sprouts Blend

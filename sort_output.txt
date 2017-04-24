@@ -1,0 +1,164 @@
+arburton	Chicken	butler_wilson	04-23	lunch	Fried Chicken & Waffles with Sausage
+arburton	Chicken	butler_wilson	04-24	dinner	Baked Chicken
+arburton	Chicken	butler_wilson	04-24	dinner	Chicken Noodle Soup
+arburton	Chicken	butler_wilson	04-24	lunch	Chicken Noodle Soup
+arburton	Chicken	butler_wilson	04-25	lunch	Chicken Tikka Masala
+arburton	Chicken	butler_wilson	04-26	dinner	Chicken Parmesan
+arburton	Chicken	butler_wilson	04-27	lunch	Southern Fried Chicken
+arburton	Chicken	butler_wilson	04-28	dinner	Chicken Tortilla Soup
+arburton	Chicken	butler_wilson	04-28	lunch	Chicken Tortilla Soup
+arburton	Chicken	butler_wilson	04-29	lunch	Buffalo Chicken Wings
+arburton	Chicken	butler_wilson	04-30	lunch	Fried Chicken & Waffles with Sausage
+arburton	Chicken	cjl	04-24	dinner	Citrus Grilled Chicken
+arburton	Chicken	cjl	04-24	lunch	Philly Chicken Steak Sandwich
+arburton	Chicken	cjl	04-26	dinner	Chicken Tenders
+arburton	Chicken	cjl	04-26	lunch	Asian Chicken & Noodle Station
+arburton	Chicken	cjl	04-28	dinner	Roast Chicken Creole
+arburton	Chicken	cjl	04-28	lunch	Grilled Chicken Sandwich
+arburton	Chicken	cjl	04-29	dinner	Chicken & Romaine Wrap
+arburton	Chicken	cjl	04-29	lunch	Roasted French Cut Chicken
+arburton	Chicken	forbes	04-23	dinner	Buffalo Chicken Drumsticks
+arburton	Chicken	forbes	04-24	dinner	Mediterranean Chicken
+arburton	Chicken	forbes	04-25	lunch	Chicken Vegetable Soup
+arburton	Chicken	forbes	04-26	dinner	Chicken Tarragon
+arburton	Chicken	forbes	04-26	lunch	Fried Chicken Tenders
+arburton	Chicken	forbes	04-27	dinner	Soy Glazed Chicken Thighs with Asparagus
+arburton	Chicken	forbes	04-27	lunch	Buffalo Chicken Drumsticks
+arburton	Chicken	forbes	04-27	lunch	Chicken Soup
+arburton	Chicken	forbes	04-28	dinner	Soft Chicken Taco
+arburton	Chicken	forbes	04-28	lunch	Teriyaki Chicken & Veg Salad
+arburton	Chicken	forbes	04-29	lunch	Buffalo Chicken Wings
+arburton	Chicken	forbes	04-30	dinner	Chicken Alfredo with White Wine Pancetta
+arburton	Chicken	grad	04-25	dinner	Chicken Noodle Soup
+arburton	Chicken	grad	04-25	dinner	Kamut & Local Honey & Lavender Roasted Chicken Breast
+arburton	Chicken	grad	04-26	dinner	Caribbean Style Curried Chicken
+arburton	Chicken	grad	04-27	dinner	Chicken Cacciatore
+arburton	Chicken	rocky_mathey	04-23	dinner	Chicken Cacciatore
+arburton	Chicken	rocky_mathey	04-24	dinner	Cream of Chicken Soup
+arburton	Chicken	rocky_mathey	04-24	lunch	Cream of Chicken Soup
+arburton	Chicken	rocky_mathey	04-25	dinner	Sauteed Chicken Marsala
+arburton	Chicken	rocky_mathey	04-27	dinner	Southern Fried Chicken
+arburton	Chicken	rocky_mathey	04-30	dinner	Chicken Murphy with Sausage
+arburton	Chicken	whitman	04-23	dinner	Chicken Tacos
+arburton	Chicken	whitman	04-24	dinner	Chicken & White Bean Soup
+arburton	Chicken	whitman	04-24	lunch	Chicken & White Bean Soup
+arburton	Chicken	whitman	04-25	dinner	Chicken Long Rice Soup
+arburton	Chicken	whitman	04-25	dinner	Huli huli Chicken
+arburton	Chicken	whitman	04-25	lunch	Halal Chicken Parmesan
+arburton	Chicken	whitman	04-26	dinner	Mediterranean Chicken
+arburton	Chicken	whitman	04-26	dinner	Moroccan Chicken & Lentil Soup
+arburton	Chicken	whitman	04-26	lunch	Chicken Pot Pie
+arburton	Chicken	whitman	04-26	lunch	Moroccan Chicken & Lentil Soup
+arburton	Chicken	whitman	04-28	dinner	Chicken Udon Noodle Soup
+arburton	Chicken	whitman	04-28	lunch	Chicken Udon Noodle Soup
+arburton	Chicken	whitman	04-28	lunch	Tortilla-Crusted Chicken
+arburton	Chicken	whitman	04-29	dinner	Jerk Chicken
+arburton	Chicken	whitman	04-29	lunch	Chicken Wing Bar
+arburton	Chicken	whitman	04-30	dinner	Chicken Principessa
+arburton	Chicken	whitman	04-30	dinner	Thai Chicken Coconut Soup
+arburton	Chicken	whitman	04-30	lunch	Thai Chicken Coconut Soup
+ax2	dim sum	rocky_mathey	04-26	dinner	Dim Sum Bar
+gjerfel	Chicken	butler_wilson	04-23	lunch	Fried Chicken & Waffles with Sausage
+gjerfel	Chicken	butler_wilson	04-24	dinner	Baked Chicken
+gjerfel	Chicken	butler_wilson	04-24	dinner	Chicken Noodle Soup
+gjerfel	Chicken	butler_wilson	04-24	lunch	Chicken Noodle Soup
+gjerfel	Chicken	butler_wilson	04-25	lunch	Chicken Tikka Masala
+gjerfel	Chicken	butler_wilson	04-26	dinner	Chicken Parmesan
+gjerfel	Chicken	butler_wilson	04-27	lunch	Southern Fried Chicken
+gjerfel	Chicken	butler_wilson	04-28	dinner	Chicken Tortilla Soup
+gjerfel	Chicken	butler_wilson	04-28	lunch	Chicken Tortilla Soup
+gjerfel	Chicken	butler_wilson	04-29	lunch	Buffalo Chicken Wings
+gjerfel	Chicken	butler_wilson	04-30	lunch	Fried Chicken & Waffles with Sausage
+gjerfel	Chicken	cjl	04-24	dinner	Citrus Grilled Chicken
+gjerfel	Chicken	cjl	04-24	lunch	Philly Chicken Steak Sandwich
+gjerfel	Chicken	cjl	04-26	dinner	Chicken Tenders
+gjerfel	Chicken	cjl	04-26	lunch	Asian Chicken & Noodle Station
+gjerfel	Chicken	cjl	04-28	dinner	Roast Chicken Creole
+gjerfel	Chicken	cjl	04-28	lunch	Grilled Chicken Sandwich
+gjerfel	Chicken	cjl	04-29	dinner	Chicken & Romaine Wrap
+gjerfel	Chicken	cjl	04-29	lunch	Roasted French Cut Chicken
+gjerfel	Chicken	forbes	04-23	dinner	Buffalo Chicken Drumsticks
+gjerfel	Chicken	forbes	04-24	dinner	Mediterranean Chicken
+gjerfel	Chicken	forbes	04-25	lunch	Chicken Vegetable Soup
+gjerfel	Chicken	forbes	04-26	dinner	Chicken Tarragon
+gjerfel	Chicken	forbes	04-26	lunch	Fried Chicken Tenders
+gjerfel	Chicken	forbes	04-27	dinner	Soy Glazed Chicken Thighs with Asparagus
+gjerfel	Chicken	forbes	04-27	lunch	Buffalo Chicken Drumsticks
+gjerfel	Chicken	forbes	04-27	lunch	Chicken Soup
+gjerfel	Chicken	forbes	04-28	dinner	Soft Chicken Taco
+gjerfel	Chicken	forbes	04-28	lunch	Teriyaki Chicken & Veg Salad
+gjerfel	Chicken	forbes	04-29	lunch	Buffalo Chicken Wings
+gjerfel	Chicken	forbes	04-30	dinner	Chicken Alfredo with White Wine Pancetta
+gjerfel	Chicken	grad	04-25	dinner	Chicken Noodle Soup
+gjerfel	Chicken	grad	04-25	dinner	Kamut & Local Honey & Lavender Roasted Chicken Breast
+gjerfel	Chicken	grad	04-26	dinner	Caribbean Style Curried Chicken
+gjerfel	Chicken	grad	04-27	dinner	Chicken Cacciatore
+gjerfel	Chicken	rocky_mathey	04-23	dinner	Chicken Cacciatore
+gjerfel	Chicken	rocky_mathey	04-24	dinner	Cream of Chicken Soup
+gjerfel	Chicken	rocky_mathey	04-24	lunch	Cream of Chicken Soup
+gjerfel	Chicken	rocky_mathey	04-25	dinner	Sauteed Chicken Marsala
+gjerfel	Chicken	rocky_mathey	04-27	dinner	Southern Fried Chicken
+gjerfel	Chicken	rocky_mathey	04-30	dinner	Chicken Murphy with Sausage
+gjerfel	Chicken	whitman	04-23	dinner	Chicken Tacos
+gjerfel	Chicken	whitman	04-24	dinner	Chicken & White Bean Soup
+gjerfel	Chicken	whitman	04-24	lunch	Chicken & White Bean Soup
+gjerfel	Chicken	whitman	04-25	dinner	Chicken Long Rice Soup
+gjerfel	Chicken	whitman	04-25	dinner	Huli huli Chicken
+gjerfel	Chicken	whitman	04-25	lunch	Halal Chicken Parmesan
+gjerfel	Chicken	whitman	04-26	dinner	Mediterranean Chicken
+gjerfel	Chicken	whitman	04-26	dinner	Moroccan Chicken & Lentil Soup
+gjerfel	Chicken	whitman	04-26	lunch	Chicken Pot Pie
+gjerfel	Chicken	whitman	04-26	lunch	Moroccan Chicken & Lentil Soup
+gjerfel	Chicken	whitman	04-28	dinner	Chicken Udon Noodle Soup
+gjerfel	Chicken	whitman	04-28	lunch	Chicken Udon Noodle Soup
+gjerfel	Chicken	whitman	04-28	lunch	Tortilla-Crusted Chicken
+gjerfel	Chicken	whitman	04-29	dinner	Jerk Chicken
+gjerfel	Chicken	whitman	04-29	lunch	Chicken Wing Bar
+gjerfel	Chicken	whitman	04-30	dinner	Chicken Principessa
+gjerfel	Chicken	whitman	04-30	dinner	Thai Chicken Coconut Soup
+gjerfel	Chicken	whitman	04-30	lunch	Thai Chicken Coconut Soup
+kfarmer	bread	butler_wilson	04-24	lunch	Corn Bread
+kfarmer	bread	cjl	04-24	dinner	Budin - Puerto Rican Bread Pudding
+kfarmer	bread	cjl	04-28	dinner	Challah Bread
+kfarmer	bread	whitman	04-23	dinner	Garlic Bread & Green Bean Salad
+kfarmer	bread	whitman	04-23	lunch	Garlic Bread & Green Bean Salad
+kfarmer	pizza	cjl	04-25	lunch	Pizza Station
+kfarmer	pizza	cjl	04-27	dinner	Pizza Station
+kfarmer	tenders	cjl	04-26	dinner	Chicken Tenders
+kfarmer	tenders	forbes	04-26	lunch	Fried Chicken Tenders
+kfarmer	Waffles	butler_wilson	04-23	lunch	Fried Chicken & Waffles with Sausage
+kfarmer	Waffles	butler_wilson	04-30	lunch	Fried Chicken & Waffles with Sausage
+kfarmer	Waffles	cjl	04-24	breakfast	Eggo Waffles
+kfarmer	Waffles	cjl	04-25	breakfast	Eggo Waffles
+kfarmer	Waffles	cjl	04-26	breakfast	Eggo Waffles
+kfarmer	Waffles	cjl	04-27	breakfast	Eggo Waffles
+kfarmer	Waffles	cjl	04-28	breakfast	Eggo Waffles
+kfarmer	Waffles	cjl	04-30	lunch	Top Your Own Waffles
+kkabaria	breakfast burrito	whitman	04-29	lunch	Breakfast Burrito Bar with Chorizo
+kkabaria	chicken parmesan	butler_wilson	04-26	dinner	Chicken Parmesan
+kkabaria	chicken parmesan	whitman	04-25	lunch	Halal Chicken Parmesan
+mhammel	sweet potatoes	forbes	04-25	breakfast	Spiced Roasted Butternut Squash & Sweet Potatoes
+thclark	beef taco	forbes	04-25	lunch	Beef Taco Filling
+thclark	beef taco	forbes	04-28	dinner	Beef Taco Filling
+thclark	beef taco	whitman	04-23	dinner	Beef Taco
+thclark	lemon	forbes	04-23	lunch	Lemon Ricotta Pancakes
+thclark	lemon	forbes	04-26	dinner	Lemon Mint Rice
+thclark	lemon	rocky_mathey	04-26	dinner	Broiled Steelhead Trout with Lemon Butter
+thclark	lemon	whitman	04-24	dinner	Honey Brined Lemon Sage Turkey
+thclark	lemon	whitman	04-28	dinner	Lemon Thyme Orzo
+tmurtha	Swedish Meatballs	whitman	04-23	lunch	Swedish Meatballs
+wabeck	Kielbasa	butler_wilson	04-26	lunch	Kielbasa & Kraut
+wabeck	Kielbasa	rocky_mathey	04-27	dinner	Kielbasa & Kraut
+wabeck	Roast beef	butler_wilson	04-28	lunch	Roast Beef with Red Wine Demi-Glace
+wabeck	Roast beef	cjl	04-26	lunch	Roast Beef & Horseradish Sandwich
+wabeck	Roast beef	forbes	04-23	dinner	Halal Roast Beef
+wabeck	Roast beef	rocky_mathey	04-30	lunch	Roast Beef
+wabeck	Tacos	whitman	04-23	dinner	Chicken Tacos
+wdap	Chicken parmesan	butler_wilson	04-26	dinner	Chicken Parmesan
+wdap	Chicken parmesan	whitman	04-25	lunch	Halal Chicken Parmesan
+wdap	chicken pot pie	whitman	04-26	lunch	Chicken Pot Pie
+wdap	Chicken tenders	cjl	04-26	dinner	Chicken Tenders
+wdap	Chicken tenders	forbes	04-26	lunch	Fried Chicken Tenders
+wnolan	french fries	cjl	04-27	lunch	Spicy French Fries
+wnolan	french fries	forbes	04-24	lunch	Fresh Hand Cut Idaho French Fries
+wnolan	french fries	forbes	04-28	lunch	Fresh Hand Cut Idaho French Fries
