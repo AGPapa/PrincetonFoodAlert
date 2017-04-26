@@ -1,177 +1,195 @@
 <arburton>
 Hello arburton, you have 45 food(s) in the dining halls in the next week.
-There will be Sauteed Chicken Marsala in Rocky/Mathey for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Noodle Soup in the Graduate College for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Kamut & Local Honey & Lavender Roasted Chicken Breast in the Graduate College for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Long Rice Soup in Whitman for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Huli huli Chicken in Whitman for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tikka Masala in Butler/Wilson for lunch on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Vegetable Soup in Forbes for lunch on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Halal Chicken Parmesan in Whitman for lunch on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Parmesan in Butler/Wilson for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tarragon in Forbes for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Caribbean Style Curried Chicken in the Graduate College for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Mediterranean Chicken in Whitman for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Moroccan Chicken & Lentil Soup in Whitman for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken Tenders in Forbes for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Wing Bar in the Center For Jewish Life for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Pot Pie in Whitman for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Moroccan Chicken & Lentil Soup in Whitman for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Soy Glazed Chicken Thighs with Asparagus in Forbes for dinner on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Southern Fried Chicken in Rocky/Mathey for dinner on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Cacciatore in the Graduate College for dinner on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Southern Fried Chicken in Butler/Wilson for lunch on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Drumsticks in Forbes for lunch on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Soup in Forbes for lunch on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tortilla Soup in Butler/Wilson for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Soft Chicken Taco in Forbes for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Roast Chicken Creole in the Center For Jewish Life for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Udon Noodle Soup in Whitman for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tortilla Soup in Butler/Wilson for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Teriyaki Chicken & Veg Salad in Forbes for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Grilled Chicken Sandwich in the Center For Jewish Life for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Udon Noodle Soup in Whitman for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Tortilla-Crusted Chicken in Whitman for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken & Romaine Wrap in the Center For Jewish Life for dinner on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Jerk Chicken in Whitman for dinner on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Wings in Butler/Wilson for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Wings in Forbes for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Roasted French Cut Chicken in the Center For Jewish Life for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Wing Bar in Whitman for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Alfredo with White Wine Pancetta in Forbes for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Murphy with Sausage in Rocky/Mathey for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Principessa in Whitman for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Thai Chicken Coconut Soup in Whitman for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Thai Chicken Coconut Soup in Whitman for lunch on 04-30. You received this notification because you wanted emails for "Chicken".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Sauteed Chicken Marsala in Rocky/Mathey for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Noodle Soup in the Graduate College for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Kamut & Local Honey & Lavender Roasted Chicken Breast in the Graduate College for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Long Rice Soup in Whitman for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Huli huli Chicken in Whitman for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tikka Masala in Butler/Wilson for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Vegetable Soup in Forbes for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Halal Chicken Parmesan in Whitman for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Parmesan in Butler/Wilson for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tarragon in Forbes for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Caribbean Style Curried Chicken in the Graduate College for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Mediterranean Chicken in Whitman for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Moroccan Chicken & Lentil Soup in Whitman for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Fried Chicken Tenders in Forbes for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Wing Bar in the Center For Jewish Life for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Pot Pie in Whitman for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Moroccan Chicken & Lentil Soup in Whitman for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Soy Glazed Chicken Thighs with Asparagus in Forbes for dinner on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Southern Fried Chicken in Rocky/Mathey for dinner on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Cacciatore in the Graduate College for dinner on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Southern Fried Chicken in Butler/Wilson for lunch on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Buffalo Chicken Drumsticks in Forbes for lunch on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Soup in Forbes for lunch on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tortilla Soup in Butler/Wilson for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Soft Chicken Taco in Forbes for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Roast Chicken Creole in the Center For Jewish Life for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Udon Noodle Soup in Whitman for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tortilla Soup in Butler/Wilson for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Teriyaki Chicken & Veg Salad in Forbes for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Grilled Chicken Sandwich in the Center For Jewish Life for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Udon Noodle Soup in Whitman for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Tortilla-Crusted Chicken in Whitman for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken & Romaine Wrap in the Center For Jewish Life for dinner on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Jerk Chicken in Whitman for dinner on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Buffalo Chicken Wings in Butler/Wilson for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Buffalo Chicken Wings in Forbes for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Roasted French Cut Chicken in the Center For Jewish Life for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Wing Bar in Whitman for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Alfredo with White Wine Pancetta in Forbes for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Murphy with Sausage in Rocky/Mathey for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Principessa in Whitman for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Thai Chicken Coconut Soup in Whitman for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Thai Chicken Coconut Soup in Whitman for lunch on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <ax2>
 Hello ax2, you have 1 food(s) in the dining halls in the next week.
-There will be Dim Sum Bar in Rocky/Mathey for dinner on 04-26. You received this notification because you wanted emails for "dim sum".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Dim Sum Bar in Rocky/Mathey for dinner on Wednesday, May 26. You received this notification because you wanted emails for "dim sum".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <gjerfel>
 Hello gjerfel, you have 45 food(s) in the dining halls in the next week.
-There will be Sauteed Chicken Marsala in Rocky/Mathey for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Noodle Soup in the Graduate College for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Kamut & Local Honey & Lavender Roasted Chicken Breast in the Graduate College for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Long Rice Soup in Whitman for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Huli huli Chicken in Whitman for dinner on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tikka Masala in Butler/Wilson for lunch on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Vegetable Soup in Forbes for lunch on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Halal Chicken Parmesan in Whitman for lunch on 04-25. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Parmesan in Butler/Wilson for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tarragon in Forbes for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Caribbean Style Curried Chicken in the Graduate College for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Mediterranean Chicken in Whitman for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Moroccan Chicken & Lentil Soup in Whitman for dinner on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken Tenders in Forbes for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Wing Bar in the Center For Jewish Life for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Pot Pie in Whitman for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Moroccan Chicken & Lentil Soup in Whitman for lunch on 04-26. You received this notification because you wanted emails for "Chicken".
-There will be Soy Glazed Chicken Thighs with Asparagus in Forbes for dinner on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Southern Fried Chicken in Rocky/Mathey for dinner on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Cacciatore in the Graduate College for dinner on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Southern Fried Chicken in Butler/Wilson for lunch on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Drumsticks in Forbes for lunch on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Soup in Forbes for lunch on 04-27. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tortilla Soup in Butler/Wilson for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Soft Chicken Taco in Forbes for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Roast Chicken Creole in the Center For Jewish Life for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Udon Noodle Soup in Whitman for dinner on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tortilla Soup in Butler/Wilson for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Teriyaki Chicken & Veg Salad in Forbes for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Grilled Chicken Sandwich in the Center For Jewish Life for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Udon Noodle Soup in Whitman for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Tortilla-Crusted Chicken in Whitman for lunch on 04-28. You received this notification because you wanted emails for "Chicken".
-There will be Chicken & Romaine Wrap in the Center For Jewish Life for dinner on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Jerk Chicken in Whitman for dinner on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Wings in Butler/Wilson for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Wings in Forbes for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Roasted French Cut Chicken in the Center For Jewish Life for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Wing Bar in Whitman for lunch on 04-29. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Alfredo with White Wine Pancetta in Forbes for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Murphy with Sausage in Rocky/Mathey for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Principessa in Whitman for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Thai Chicken Coconut Soup in Whitman for dinner on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on 04-30. You received this notification because you wanted emails for "Chicken".
-There will be Thai Chicken Coconut Soup in Whitman for lunch on 04-30. You received this notification because you wanted emails for "Chicken".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Sauteed Chicken Marsala in Rocky/Mathey for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Noodle Soup in the Graduate College for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Kamut & Local Honey & Lavender Roasted Chicken Breast in the Graduate College for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Long Rice Soup in Whitman for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Huli huli Chicken in Whitman for dinner on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tikka Masala in Butler/Wilson for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Vegetable Soup in Forbes for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Halal Chicken Parmesan in Whitman for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Parmesan in Butler/Wilson for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tarragon in Forbes for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Caribbean Style Curried Chicken in the Graduate College for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Mediterranean Chicken in Whitman for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Moroccan Chicken & Lentil Soup in Whitman for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Fried Chicken Tenders in Forbes for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Wing Bar in the Center For Jewish Life for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Pot Pie in Whitman for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Moroccan Chicken & Lentil Soup in Whitman for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken".
+There will be Soy Glazed Chicken Thighs with Asparagus in Forbes for dinner on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Southern Fried Chicken in Rocky/Mathey for dinner on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Cacciatore in the Graduate College for dinner on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Southern Fried Chicken in Butler/Wilson for lunch on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Buffalo Chicken Drumsticks in Forbes for lunch on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Soup in Forbes for lunch on Thursday, May 27. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tortilla Soup in Butler/Wilson for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Soft Chicken Taco in Forbes for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Roast Chicken Creole in the Center For Jewish Life for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Udon Noodle Soup in Whitman for dinner on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tortilla Soup in Butler/Wilson for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Teriyaki Chicken & Veg Salad in Forbes for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Grilled Chicken Sandwich in the Center For Jewish Life for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Udon Noodle Soup in Whitman for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Tortilla-Crusted Chicken in Whitman for lunch on Friday, May 28. You received this notification because you wanted emails for "Chicken".
+There will be Chicken & Romaine Wrap in the Center For Jewish Life for dinner on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Jerk Chicken in Whitman for dinner on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Buffalo Chicken Wings in Butler/Wilson for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Buffalo Chicken Wings in Forbes for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Roasted French Cut Chicken in the Center For Jewish Life for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Wing Bar in Whitman for lunch on Saturday, May 29. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Alfredo with White Wine Pancetta in Forbes for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Murphy with Sausage in Rocky/Mathey for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Principessa in Whitman for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Thai Chicken Coconut Soup in Whitman for dinner on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+There will be Thai Chicken Coconut Soup in Whitman for lunch on Sunday, May 30. You received this notification because you wanted emails for "Chicken".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <kfarmer>
 Hello kfarmer, you have 11 food(s) in the dining halls in the next week.
-There will be Challah Bread in the Center For Jewish Life for dinner on 04-28. You received this notification because you wanted emails for "bread".
-There will be Pizza Station in the Center For Jewish Life for lunch on 04-25. You received this notification because you wanted emails for "pizza".
-There will be Pizza Station in the Center For Jewish Life for dinner on 04-27. You received this notification because you wanted emails for "pizza".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on 04-26. You received this notification because you wanted emails for "tenders".
-There will be Fried Chicken Tenders in Forbes for lunch on 04-26. You received this notification because you wanted emails for "tenders".
-There will be Eggo Waffles in the Center For Jewish Life for breakfast on 04-25. You received this notification because you wanted emails for "Waffles".
-There will be Eggo Waffles in the Center For Jewish Life for breakfast on 04-26. You received this notification because you wanted emails for "Waffles".
-There will be Eggo Waffles in the Center For Jewish Life for breakfast on 04-27. You received this notification because you wanted emails for "Waffles".
-There will be Eggo Waffles in the Center For Jewish Life for breakfast on 04-28. You received this notification because you wanted emails for "Waffles".
-There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on 04-30. You received this notification because you wanted emails for "Waffles".
-There will be Top Your Own Waffles in the Center For Jewish Life for lunch on 04-30. You received this notification because you wanted emails for "Waffles".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Challah Bread in the Center For Jewish Life for dinner on Friday, May 28. You received this notification because you wanted emails for "bread".
+There will be Pizza Station in the Center For Jewish Life for lunch on Tuesday, May 25. You received this notification because you wanted emails for "pizza".
+There will be Pizza Station in the Center For Jewish Life for dinner on Thursday, May 27. You received this notification because you wanted emails for "pizza".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Wednesday, May 26. You received this notification because you wanted emails for "tenders".
+There will be Fried Chicken Tenders in Forbes for lunch on Wednesday, May 26. You received this notification because you wanted emails for "tenders".
+There will be Eggo Waffles in the Center For Jewish Life for breakfast on Tuesday, May 25. You received this notification because you wanted emails for "Waffles".
+There will be Eggo Waffles in the Center For Jewish Life for breakfast on Wednesday, May 26. You received this notification because you wanted emails for "Waffles".
+There will be Eggo Waffles in the Center For Jewish Life for breakfast on Thursday, May 27. You received this notification because you wanted emails for "Waffles".
+There will be Eggo Waffles in the Center For Jewish Life for breakfast on Friday, May 28. You received this notification because you wanted emails for "Waffles".
+There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on Sunday, May 30. You received this notification because you wanted emails for "Waffles".
+There will be Top Your Own Waffles in the Center For Jewish Life for lunch on Sunday, May 30. You received this notification because you wanted emails for "Waffles".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <kkabaria>
 Hello kkabaria, you have 3 food(s) in the dining halls in the next week.
-There will be Breakfast Burrito Bar with Chorizo in Whitman for lunch on 04-29. You received this notification because you wanted emails for "breakfast burrito".
-There will be Halal Chicken Parmesan in Whitman for lunch on 04-25. You received this notification because you wanted emails for "chicken parmesan".
-There will be Chicken Parmesan in Butler/Wilson for dinner on 04-26. You received this notification because you wanted emails for "chicken parmesan".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Breakfast Burrito Bar with Chorizo in Whitman for lunch on Saturday, May 29. You received this notification because you wanted emails for "breakfast burrito".
+There will be Halal Chicken Parmesan in Whitman for lunch on Tuesday, May 25. You received this notification because you wanted emails for "chicken parmesan".
+There will be Chicken Parmesan in Butler/Wilson for dinner on Wednesday, May 26. You received this notification because you wanted emails for "chicken parmesan".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <mhammel>
 Hello mhammel, you have 1 food(s) in the dining halls in the next week.
-There will be Spiced Roasted Butternut Squash & Sweet Potatoes in Forbes for breakfast on 04-25. You received this notification because you wanted emails for "sweet potatoes".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Spiced Roasted Butternut Squash & Sweet Potatoes in Forbes for breakfast on Tuesday, May 25. You received this notification because you wanted emails for "sweet potatoes".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <thclark>
 Hello thclark, you have 16 food(s) in the dining halls in the next week.
-There will be Lemon Mint Rice in Forbes for dinner on 04-26. You received this notification because you wanted emails for "lemon".
-There will be Broiled Steelhead Trout with Lemon Butter in Rocky/Mathey for dinner on 04-26. You received this notification because you wanted emails for "lemon".
-There will be Lemon Thyme Orzo in Whitman for dinner on 04-28. You received this notification because you wanted emails for "lemon".
-There will be Mediterranean Spinach Salad in Rocky/Mathey for lunch on 04-25. You received this notification because you wanted emails for "spinach".
-There will be Spinach Salad with Strawberries in Whitman for lunch on 04-25. You received this notification because you wanted emails for "spinach".
-There will be Mediterranean Spinach Salad in Rocky/Mathey for dinner on 04-27. You received this notification because you wanted emails for "spinach".
-There will be Spinach Lasagna in the Center For Jewish Life for dinner on 04-27. You received this notification because you wanted emails for "spinach".
-There will be Mandarin Orange & Spinach Salad in Whitman for dinner on 04-27. You received this notification because you wanted emails for "spinach".
-There will be Spinach & Vegetable Salad with Olive Tapenade in Whitman for dinner on 04-27. You received this notification because you wanted emails for "spinach".
-There will be Mandarin Orange & Spinach Salad in Whitman for lunch on 04-27. You received this notification because you wanted emails for "spinach".
-There will be Spinach & Vegetable Salad with Olive Tapenade in Whitman for lunch on 04-27. You received this notification because you wanted emails for "spinach".
-There will be Spinach Salad with Raspberry Orange Vinaigrette in Forbes for lunch on 04-28. You received this notification because you wanted emails for "spinach".
-There will be Sauteed Spinach in Rocky/Mathey for dinner on 04-29. You received this notification because you wanted emails for "spinach".
-There will be White Bean & Spinach Salad in Whitman for dinner on 04-30. You received this notification because you wanted emails for "spinach".
-There will be Cannellini Beans with Spinach in Whitman for lunch on 04-30. You received this notification because you wanted emails for "spinach".
-There will be White Bean & Spinach Salad in Whitman for lunch on 04-30. You received this notification because you wanted emails for "spinach".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Lemon Mint Rice in Forbes for dinner on Wednesday, May 26. You received this notification because you wanted emails for "lemon".
+There will be Broiled Steelhead Trout with Lemon Butter in Rocky/Mathey for dinner on Wednesday, May 26. You received this notification because you wanted emails for "lemon".
+There will be Lemon Thyme Orzo in Whitman for dinner on Friday, May 28. You received this notification because you wanted emails for "lemon".
+There will be Mediterranean Spinach Salad in Rocky/Mathey for lunch on Tuesday, May 25. You received this notification because you wanted emails for "spinach".
+There will be Spinach Salad with Strawberries in Whitman for lunch on Tuesday, May 25. You received this notification because you wanted emails for "spinach".
+There will be Mediterranean Spinach Salad in Rocky/Mathey for dinner on Thursday, May 27. You received this notification because you wanted emails for "spinach".
+There will be Spinach Lasagna in the Center For Jewish Life for dinner on Thursday, May 27. You received this notification because you wanted emails for "spinach".
+There will be Mandarin Orange & Spinach Salad in Whitman for dinner on Thursday, May 27. You received this notification because you wanted emails for "spinach".
+There will be Spinach & Vegetable Salad with Olive Tapenade in Whitman for dinner on Thursday, May 27. You received this notification because you wanted emails for "spinach".
+There will be Mandarin Orange & Spinach Salad in Whitman for lunch on Thursday, May 27. You received this notification because you wanted emails for "spinach".
+There will be Spinach & Vegetable Salad with Olive Tapenade in Whitman for lunch on Thursday, May 27. You received this notification because you wanted emails for "spinach".
+There will be Spinach Salad with Raspberry Orange Vinaigrette in Forbes for lunch on Friday, May 28. You received this notification because you wanted emails for "spinach".
+There will be Sauteed Spinach in Rocky/Mathey for dinner on Saturday, May 29. You received this notification because you wanted emails for "spinach".
+There will be White Bean & Spinach Salad in Whitman for dinner on Sunday, May 30. You received this notification because you wanted emails for "spinach".
+There will be Cannellini Beans with Spinach in Whitman for lunch on Sunday, May 30. You received this notification because you wanted emails for "spinach".
+There will be White Bean & Spinach Salad in Whitman for lunch on Sunday, May 30. You received this notification because you wanted emails for "spinach".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <wabeck>
 Hello wabeck, you have 5 food(s) in the dining halls in the next week.
-There will be Kielbasa & Kraut in Butler/Wilson for lunch on 04-26. You received this notification because you wanted emails for "Kielbasa".
-There will be Kielbasa & Kraut in Rocky/Mathey for dinner on 04-27. You received this notification because you wanted emails for "Kielbasa".
-There will be Roast Beef & Horseradish Sandwich in the Center For Jewish Life for lunch on 04-26. You received this notification because you wanted emails for "Roast beef".
-There will be Roast Beef with Red Wine Demi-Glace in Butler/Wilson for lunch on 04-28. You received this notification because you wanted emails for "Roast beef".
-There will be Roast Beef in Rocky/Mathey for lunch on 04-30. You received this notification because you wanted emails for "Roast beef".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Kielbasa & Kraut in Butler/Wilson for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Kielbasa".
+There will be Kielbasa & Kraut in Rocky/Mathey for dinner on Thursday, May 27. You received this notification because you wanted emails for "Kielbasa".
+There will be Roast Beef & Horseradish Sandwich in the Center For Jewish Life for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Roast beef".
+There will be Roast Beef with Red Wine Demi-Glace in Butler/Wilson for lunch on Friday, May 28. You received this notification because you wanted emails for "Roast beef".
+There will be Roast Beef in Rocky/Mathey for lunch on Sunday, May 30. You received this notification because you wanted emails for "Roast beef".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
 <wdap>
 Hello wdap, you have 5 food(s) in the dining halls in the next week.
-There will be Halal Chicken Parmesan in Whitman for lunch on 04-25. You received this notification because you wanted emails for "Chicken parmesan".
-There will be Chicken Parmesan in Butler/Wilson for dinner on 04-26. You received this notification because you wanted emails for "Chicken parmesan".
-There will be Chicken Pot Pie in Whitman for lunch on 04-26. You received this notification because you wanted emails for "chicken pot pie".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on 04-26. You received this notification because you wanted emails for "Chicken tenders".
-There will be Fried Chicken Tenders in Forbes for lunch on 04-26. You received this notification because you wanted emails for "Chicken tenders".
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-<end of email>
 
+There will be Halal Chicken Parmesan in Whitman for lunch on Tuesday, May 25. You received this notification because you wanted emails for "Chicken parmesan".
+There will be Chicken Parmesan in Butler/Wilson for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken parmesan".
+There will be Chicken Pot Pie in Whitman for lunch on Wednesday, May 26. You received this notification because you wanted emails for "chicken pot pie".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Wednesday, May 26. You received this notification because you wanted emails for "Chicken tenders".
+There will be Fried Chicken Tenders in Forbes for lunch on Wednesday, May 26. You received this notification because you wanted emails for "Chicken tenders".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>

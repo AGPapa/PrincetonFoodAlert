@@ -15,8 +15,8 @@ def get_likers(food_item):
 def get_today_menu():
 	return ["Enchiladas", "Rigatoni la Nonna"]
 
-fromaddr = "email@address.com"
-pwd = "password"
+fromaddr = "ptonfoodalert@gmail.com"
+pwd = "Enchilada333"
 
 for food_name in get_today_menu():
 	recipients = get_likers(food_name)
