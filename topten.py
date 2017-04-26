@@ -50,7 +50,7 @@ date = full_date.strftime("%Y-%m-%d")
 # print date
 
 # Adds new entry in Top_Ten for that date and the current top ten
-topten.update_one({'date':date}, {'$push' : {'topten':recent}}, upsert=True)
+topten.update_one({'date':date}, {'$set' : {'topten':recent}}, upsert=True)
 
 
 
