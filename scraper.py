@@ -30,13 +30,13 @@ def scrape(dhall_code, month, day):
 
 now = datetime.datetime.now();	
 
-dhalls = {'butler_wilson' : "02", 'cjl' : "05", 'forbes' : "03", 'grad' : "04", 'rocky_mathey' : "01", 'whitman' : "08"}
+dhalls = {'Butler/Wilson' : "02", 'the Center For Jewish Life' : "05", 'Forbes' : "03", 'the Graduate College' : "04", 'Rocky/Mathey' : "01", 'Whitman' : "08"}
 for day in range (now.day, now.day+8):
 	for key in dhalls:
-		(b, l, d) = scrape(dhalls.get(key), "4", str(day).zfill(2))
+		(b, l, d) = scrape(dhalls.get(key), str(now.month), str(day).zfill(2))
 		for food in b:
-			print(key + "\t" + str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + unidecode(food))
+			print(str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + key + "\t" + unidecode(food))
 		for food in l:
-			print(key + "\t" + str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + unidecode(food))
+			print(str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + key + "\t" + unidecode(food))
 		for food in d:
-			print(key + "\t" + str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + unidecode(food))
+			print(str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + key + "\t" + unidecode(food))

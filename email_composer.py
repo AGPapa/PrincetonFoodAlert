@@ -22,9 +22,9 @@ first_line = sys.stdin.readline()
 tokens = first_line.split("\t")
 netid = tokens[0];
 foodprefs.append(tokens[1])
-dhalls.append(tokens[2])
-dates.append(tokens[3])
-meals.append(tokens[4])
+dates.append(tokens[2])
+meals.append(tokens[3])
+dhalls.append(tokens[4])
 foods.append(tokens[5])
 while True:
 	s = sys.stdin.readline()
@@ -33,9 +33,9 @@ while True:
 	tokens = s.split("\t")
 	if (netid == tokens[0]):
 		foodprefs.append(tokens[1])
-		dhalls.append(tokens[2])
-		dates.append(tokens[3])
-		meals.append(tokens[4])
+		dates.append(tokens[2])
+		meals.append(tokens[3])
+		dhalls.append(tokens[4])
 		foods.append(tokens[5])
 	else:
 		write_email(netid, foodprefs, dhalls, dates, meals, foods)
@@ -50,7 +50,7 @@ while True:
 		#enter new data
 		netid = tokens[0];
 		foodprefs.append(tokens[1])
-		dhalls.append(tokens[2])
-		dates.append(tokens[3])
-		meals.append(tokens[4])
+		dates.append(tokens[2])
+		meals.append(tokens[3])
+		dhalls.append(tokens[4])
 		foods.append(tokens[5])
