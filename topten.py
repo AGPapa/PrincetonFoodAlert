@@ -30,10 +30,10 @@ prefs = {}
 all = users.find()
 for usr in all:
 	for food in usr["foodpref"]:
-		if food in prefs:
-			prefs[food] += 1
+		if food.lower() in prefs:
+			prefs[food.lower()] += 1
 		else:
-			prefs[food] = 1
+			prefs[food.lower()] = 1
 
 # Sorts keys and obtains top ten most popular foods
 recent = sorted(prefs, key=prefs.get, reverse=True)[:10]
