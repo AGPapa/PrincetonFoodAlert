@@ -2,9 +2,20 @@
 import sys
 import pymongo
 import json
+import datetime
+
+def check_date(dhall_line):
+	tokens = dhall_line.split('\t')
+	
+	now = datetime.datetime.now();
+	dateText = tokens[0]
+	date = datetime.datetime(now.year, int(dateText[:2]), int(dateText[3:]), now.hour, now.minute, now.second+1)
+	delta = date - now;
+	return (delta.days == 0 or delta.days == 6)
 
 def match(food, dhall_line):
 	tokens = dhall_line.split('\t')
+	
 	wordsDhall = tokens[3].lower().strip().split(' ')
 	wordsFood = food.split(' ')
 	match = 0
@@ -25,12 +36,12 @@ db = client.get_default_database()
 users = db.get_collection("Users")
 all = users.find()
 
-
 while True:
 	s = sys.stdin.readline()
 	if not s: break
 	for user in all:
-		for food in user['foodpref']:
-			if match(food.lower(), s):
-				sys.stdout.write(user['netid'] +  "\t" + food + "\t" + s)
+		if (check_date(s)):
+			for food in user['foodpref']:
+				if match(food.lower(), s):
+					sys.stdout.write(user['netid'] +  "\t" + food + "\t" + s)
 	all.rewind()

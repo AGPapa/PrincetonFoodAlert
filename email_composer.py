@@ -15,7 +15,7 @@ def write_email(netid, foodprefs, dhalls, dates, meals, foods):
 		month = int(dates[i][:2])
 		day = int(dates[i][3:])
 		day_of_week = DayL[datetime.date(2017,month,day).weekday()]
-		sys.stdout.write("There will be " + foods[i][:-2] + " in " + dhalls[i] + " for " + meals[i] + " on " + day_of_week + ", " + MonthL[month] + " " + str(day) + ". You received this notification because you wanted emails for \"" + foodprefs[i] + "\".\n")
+		sys.stdout.write("There will be " + foods[i][:-1] + " in " + dhalls[i] + " for " + meals[i] + " on " + day_of_week + ", " + MonthL[month] + " " + str(day) + ". You received this notification because you wanted emails for \"" + foodprefs[i] + "\".\n")
 	sys.stdout.write("\nThank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.\n\n")
 	sys.stdout.write("<end of email>\n")
 
