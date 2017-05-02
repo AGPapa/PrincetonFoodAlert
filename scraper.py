@@ -33,13 +33,14 @@ dhalls = {'Butler/Wilson' : "02", 'the Center For Jewish Life' : "05", 'Forbes' 
 now = datetime.datetime.now();	
 for i in range (0, 8):
 	day = now.day
+	month = now.month
 	now += (datetime.timedelta(days=1))
 	
 	for key in dhalls:
-		(b, l, d) = scrape(dhalls.get(key), str(now.month), str(day).zfill(2))
+		(b, l, d) = scrape(dhalls.get(key), str(month), str(day).zfill(2))
 		for food in b:
-			print(str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + key + "\t" + unidecode(food))
+			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + key + "\t" + unidecode(food))
 		for food in l:
-			print(str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + key + "\t" + unidecode(food))
+			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + key + "\t" + unidecode(food))
 		for food in d:
-			print(str(now.month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + key + "\t" + unidecode(food))
+			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + key + "\t" + unidecode(food))
