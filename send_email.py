@@ -33,7 +33,7 @@ while True:
 	
 	if (get_netid):
 	#	netid = s[1:-1];
-		netid = "mhammel"
+		netid = "agpapa"
 		get_netid = False
 	elif (s == "<end of email>\n"):
 		body = "".join(lines)

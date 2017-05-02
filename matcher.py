@@ -9,9 +9,9 @@ def check_date(dhall_line):
 	
 	now = datetime.datetime.now();
 	dateText = tokens[0]
-	date = datetime.datetime(now.year, int(dateText[:2]), int(dateText[3:]), now.hour, now.minute, now.second+1)
+	date = datetime.datetime(now.year, int(dateText[:2]), int(dateText[3:]), now.hour, now.minute, 0)
 	delta = date - now;
-	return (delta.days == 0 or delta.days == 6)
+	return (delta.days == -1 or delta.days == 5) #off by one, idk
 
 def match(food, dhall_line):
 	tokens = dhall_line.split('\t')

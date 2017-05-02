@@ -1,142 +1,3 @@
-05-01	breakfast	Whitman	Fresh Sliced Fruit
-05-01	breakfast	Whitman	Assorted Hot Breakfast Cereal
-05-01	breakfast	Whitman	Oatmeal Bar
-05-01	breakfast	Whitman	Scrambled Eggs
-05-01	breakfast	Whitman	Turkey Bacon
-05-01	lunch	Whitman	Black Eye Pea Soup with Ham
-05-01	lunch	Whitman	Cream of Broccoli Soup
-05-01	lunch	Whitman	Arugula, Grapefruit & Feta Salad
-05-01	lunch	Whitman	Fresh Three Bean Salad
-05-01	lunch	Whitman	Melon, Cucumber & Radish Salad
-05-01	lunch	Whitman	Roasted Cauliflower Harissa Chickpea Curry
-05-01	lunch	Whitman	Eggplant Rollatini
-05-01	lunch	Whitman	Quinoa with Black Beans
-05-01	lunch	Whitman	Basmati Rice
-05-01	lunch	Whitman	Chef's Choice Pasta of the Day
-05-01	lunch	Whitman	Vegetable of the Day
-05-01	dinner	Whitman	Black Eye Pea Soup with Ham
-05-01	dinner	Whitman	Cream of Broccoli Soup
-05-01	dinner	Whitman	Deli Bar
-05-01	dinner	Whitman	Arugula, Grapefruit & Feta Salad
-05-01	dinner	Whitman	Fresh Three Bean Salad
-05-01	dinner	Whitman	Melon, Cucumber & Radish Salad
-05-01	dinner	Whitman	Herb Roasted Chicken
-05-01	dinner	Whitman	Kamut Blend Rice with Beans
-05-01	dinner	Whitman	Macaroni & Cheese
-05-01	dinner	Whitman	Vegetable of the Day
-05-01	dinner	the Graduate College	Chicken Tortilla Soup
-05-01	dinner	the Graduate College	Mexican Organic Tofu & Bean Soup
-05-01	dinner	the Graduate College	Beef Taco Filling
-05-01	dinner	the Graduate College	Smokey Slow Roasted Tex Mex Shredded Chicken
-05-01	dinner	the Graduate College	Taco Salad  Bar
-05-01	dinner	the Graduate College	Mexican Style Quinoa Salad
-05-01	dinner	the Graduate College	Poblano & Mushroom Taco Filling
-05-01	dinner	the Graduate College	Roasted Cauliflower
-05-01	breakfast	Butler/Wilson	O'Brien Potatoes
-05-01	breakfast	Butler/Wilson	Breakfast Sausage Patties
-05-01	breakfast	Butler/Wilson	Eggs Made to Order
-05-01	breakfast	Butler/Wilson	European Breakfast
-05-01	breakfast	Butler/Wilson	French Texas Toast
-05-01	breakfast	Butler/Wilson	Oatmeal Bar
-05-01	breakfast	Butler/Wilson	Omelet Bar with Pork Options
-05-01	breakfast	Butler/Wilson	Scrambled Eggs
-05-01	lunch	Butler/Wilson	Chicken Gumbo Soup
-05-01	lunch	Butler/Wilson	Mushroom Barley Soup
-05-01	lunch	Butler/Wilson	Pub Burger
-05-01	lunch	Butler/Wilson	Jerk Chicken
-05-01	lunch	Butler/Wilson	Mango Salsa
-05-01	lunch	Butler/Wilson	Coconut Basmati Rice
-05-01	lunch	Butler/Wilson	Fried Plantains
-05-01	lunch	Butler/Wilson	Bean & Green Station with Lettuces
-05-01	lunch	Butler/Wilson	Enchilada Bowl
-05-01	dinner	Butler/Wilson	Chicken Gumbo Soup
-05-01	dinner	Butler/Wilson	Mushroom Barley Soup
-05-01	dinner	Butler/Wilson	Pub Burger
-05-01	dinner	Butler/Wilson	Roast Pork Loin
-05-01	dinner	Butler/Wilson	Broccoli with Toasted Garlic & Lemon
-05-01	dinner	Butler/Wilson	Kale & Brown Rice Stuffed Peppers
-05-01	dinner	Butler/Wilson	Bulgogi Bowl
-05-01	breakfast	Forbes	Eggs any Style & Omelets Made to Order
-05-01	breakfast	Forbes	French Texas Toast
-05-01	breakfast	Forbes	Grilled Breakfast Potato
-05-01	lunch	Forbes	Minestrone Soup
-05-01	lunch	Forbes	Thai Coconut Soup
-05-01	lunch	Forbes	Salad Bar Mixed Salads
-05-01	lunch	Forbes	Tuna Salad
-05-01	lunch	Forbes	Eggs any Style & Omelets Made to Order
-05-01	lunch	Forbes	Yogurt & Fruit Bar
-05-01	lunch	Forbes	Marinara Sauce
-05-01	lunch	Forbes	Pasta Selection of the Day
-05-01	lunch	Forbes	Black Bean & Corn Quesadilla
-05-01	lunch	Forbes	Ranch Chicken Salad with Bacon
-05-01	lunch	Forbes	Vegetarian Caesar Salad
-05-01	lunch	Forbes	Beef  Fried Rice
-05-01	lunch	Forbes	Fresh Cauliflower
-05-01	lunch	Forbes	Fresh Hand Cut Idaho French Fries
-05-01	lunch	Forbes	Forbes Deli
-05-01	dinner	Forbes	Salad Bar Mixed Salads
-05-01	dinner	Forbes	Fried Chicken Tenders
-05-01	dinner	Forbes	Halal Beef Road House Chili
-05-01	dinner	Forbes	Polenta Mediterranean
-05-01	dinner	Forbes	Fresh Cauliflower & Carrots
-05-01	dinner	Forbes	Whole Grain Five Rice Blend
-05-01	dinner	Forbes	Zucchini Provencal
-05-01	breakfast	the Center For Jewish Life	Eggo Waffles
-05-01	breakfast	the Center For Jewish Life	Grits
-05-01	breakfast	the Center For Jewish Life	Oatmeal
-05-01	breakfast	the Center For Jewish Life	Pancakes
-05-01	breakfast	the Center For Jewish Life	Scrambled Eggs
-05-01	breakfast	the Center For Jewish Life	Home Fried Potatoes
-05-01	breakfast	the Center For Jewish Life	Sliced Bagels
-05-01	breakfast	the Center For Jewish Life	Yogurt Bar
-05-01	breakfast	the Center For Jewish Life	Assorted Danish
-05-01	breakfast	the Center For Jewish Life	Assorted Muffins
-05-01	lunch	the Center For Jewish Life	Butternut Squash Soup
-05-01	lunch	the Center For Jewish Life	Farmers Market Vegetable Pasta Salad
-05-01	lunch	the Center For Jewish Life	Fresh Fruit Salad
-05-01	lunch	the Center For Jewish Life	Lentil & Kale Salad
-05-01	lunch	the Center For Jewish Life	Grilled Chicken Sandwich
-05-01	lunch	the Center For Jewish Life	Vegan Burgers
-05-01	lunch	the Center For Jewish Life	Vegetable Pot Pie
-05-01	lunch	the Center For Jewish Life	Sweet Potato Fries
-05-01	lunch	the Center For Jewish Life	Vegetable Saute
-05-01	dinner	the Center For Jewish Life	Chicken Tenders
-05-01	dinner	the Center For Jewish Life	Gyro Meatloaf with Spinach Tzatziki
-05-01	dinner	the Center For Jewish Life	Grilled Ginger Tofu & Baby Bok Choy
-05-01	dinner	the Center For Jewish Life	Vegan Nuggets
-05-01	dinner	the Center For Jewish Life	Broccoli Spears
-05-01	dinner	the Center For Jewish Life	Sweet Potato Fries
-05-01	dinner	the Center For Jewish Life	Dessert Bar
-05-01	breakfast	Rocky/Mathey	Hash Browns
-05-01	breakfast	Rocky/Mathey	Egg & Cheese on a English Muffin
-05-01	breakfast	Rocky/Mathey	Pork Roll, Egg & Cheese on English Muffin
-05-01	breakfast	Rocky/Mathey	Buttermilk Pancakes
-05-01	breakfast	Rocky/Mathey	Eggs Made to Order
-05-01	breakfast	Rocky/Mathey	Omelet Bar with Pork Options
-05-01	breakfast	Rocky/Mathey	Scrambled Eggs
-05-01	breakfast	Rocky/Mathey	Miso Soup & Organic Tofu
-05-01	breakfast	Rocky/Mathey	Scrambled Tofu
-05-01	breakfast	Rocky/Mathey	Steamed White Rice
-05-01	breakfast	Rocky/Mathey	Fresh Baked Muffin
-05-01	lunch	Rocky/Mathey	Cream of Ginger Carrot Soup
-05-01	lunch	Rocky/Mathey	Roma Halal House Chicken Soup
-05-01	lunch	Rocky/Mathey	Caesar Salad
-05-01	lunch	Rocky/Mathey	Penne with Pesto & Plum Tomatoes
-05-01	lunch	Rocky/Mathey	Grilled Cheese Trio
-05-01	lunch	Rocky/Mathey	Hot Artichoke & Spinach Dip with Pita Chips
-05-01	lunch	Rocky/Mathey	Jersey Fresh Beet & Apple Salad
-05-01	lunch	Rocky/Mathey	Buffalo Chicken Drumsticks
-05-01	lunch	Rocky/Mathey	Julienne Vegetable Medley
-05-01	lunch	Rocky/Mathey	Spanish Rice
-05-01	dinner	Rocky/Mathey	Cream of Ginger Carrot Soup
-05-01	dinner	Rocky/Mathey	Roma Halal House Chicken Soup
-05-01	dinner	Rocky/Mathey	Caesar Salad
-05-01	dinner	Rocky/Mathey	Penne with Pesto & Plum Tomatoes
-05-01	dinner	Rocky/Mathey	Grilled Cheese Trio
-05-01	dinner	Rocky/Mathey	Greek Seafood with Tomato & Feta Cheese
-05-01	dinner	Rocky/Mathey	Greek Style Quinoa
-05-01	dinner	Rocky/Mathey	Fresh Asparagus Spears
-05-01	dinner	Rocky/Mathey	Dim Sum Bar
 05-02	breakfast	Whitman	Fresh Sliced Fruit
 05-02	breakfast	Whitman	Assorted Hot Breakfast Cereal
 05-02	breakfast	Whitman	Bacon Slices
@@ -1040,3 +901,146 @@
 05-08	dinner	Rocky/Mathey	Japanese Blend Vegetables
 05-08	dinner	Rocky/Mathey	Vegetable Fried Rice with Egg
 05-08	dinner	Rocky/Mathey	Tomato Bruschetta
+05-09	breakfast	Whitman	Fresh Sliced Fruit
+05-09	breakfast	Whitman	Assorted Hot Breakfast Cereal
+05-09	breakfast	Whitman	Oatmeal Bar
+05-09	breakfast	Whitman	Scrambled Eggs
+05-09	breakfast	Whitman	Turkey Bacon
+05-09	lunch	Whitman	Vegetable Barley Soup
+05-09	lunch	Whitman	White Bean & Sausage Soup
+05-09	lunch	Whitman	Bulgur Wheat & Spinach Salad
+05-09	lunch	Whitman	Pear & Arugula Salad with Parmesan
+05-09	lunch	Whitman	Roasted Beet Salad with Orange & Feta
+05-09	lunch	Whitman	Sesame Chicken
+05-09	lunch	Whitman	Vegetable Fried Farro
+05-09	lunch	Whitman	Chef's Choice Pasta of the Day
+05-09	lunch	Whitman	Vegetable of the Day
+05-09	dinner	Whitman	Vegetable Barley Soup
+05-09	dinner	Whitman	White Bean & Sausage Soup
+05-09	dinner	Whitman	Deli Bar
+05-09	dinner	Whitman	Bulgur Wheat & Spinach Salad
+05-09	dinner	Whitman	Pear & Arugula Salad with Parmesan
+05-09	dinner	Whitman	Roasted Beet Salad with Orange & Feta
+05-09	dinner	Whitman	Parmesan Crusted Chicken
+05-09	dinner	Whitman	Vegan Wild Mushroom Cassoulet
+05-09	dinner	Whitman	Buttered Parsley Potatoes
+05-09	dinner	Whitman	Chef's Choice Pasta of the Day
+05-09	dinner	Whitman	Vegetable of the Day
+05-09	dinner	Whitman	Hummus & Grain Bar with Assorted Bean Salads
+05-09	dinner	the Graduate College	Black Bean Soup
+05-09	dinner	the Graduate College	Seafood Gumbo
+05-09	dinner	the Graduate College	Roast Chicken Creole
+05-09	dinner	the Graduate College	Shrimp & Sausage Jambalaya
+05-09	dinner	the Graduate College	Tofu Creole Etouffee & Creole Rice
+05-09	dinner	the Graduate College	Cheesy Grits
+05-09	dinner	the Graduate College	Collard Greens
+05-09	dinner	the Graduate College	Grilled Vegetables
+05-09	breakfast	Butler/Wilson	O'Brien Potatoes
+05-09	breakfast	Butler/Wilson	Buttermilk Pancakes
+05-09	breakfast	Butler/Wilson	Eggs Made to Order
+05-09	breakfast	Butler/Wilson	European Breakfast
+05-09	breakfast	Butler/Wilson	Oatmeal Bar
+05-09	breakfast	Butler/Wilson	Omelet Bar with Pork Options
+05-09	breakfast	Butler/Wilson	Scrambled Eggs
+05-09	breakfast	Butler/Wilson	Sliced Pork Roll
+05-09	lunch	Butler/Wilson	Cream of Roasted Tomato Soup
+05-09	lunch	Butler/Wilson	Turkey Noodle Soup
+05-09	lunch	Butler/Wilson	Hot Dog Bar
+05-09	lunch	Butler/Wilson	Meat Lasagna
+05-09	lunch	Butler/Wilson	Vegetable Lasagna
+05-09	lunch	Butler/Wilson	Stewed Green Beans
+05-09	lunch	Butler/Wilson	Bean & Green Station with Kale, Spinach & Escarole
+05-09	lunch	Butler/Wilson	Bulgogi Bowl
+05-09	dinner	Butler/Wilson	Cream of Roasted Tomato Soup
+05-09	dinner	Butler/Wilson	Turkey Noodle Soup
+05-09	dinner	Butler/Wilson	Hot Dog Bar
+05-09	dinner	Butler/Wilson	General Tso Chicken
+05-09	dinner	Butler/Wilson	Sugar Snap Peas
+05-09	dinner	Butler/Wilson	Vegetable Fried Rice
+05-09	dinner	Butler/Wilson	Taco Station
+05-09	breakfast	Forbes	Buttermilk Pancakes
+05-09	breakfast	Forbes	Eggs any Style & Omelets Made to Order
+05-09	breakfast	Forbes	Spiced Roasted Butternut Squash & Sweet Potatoes
+05-09	lunch	Forbes	Corn Bisque Soup
+05-09	lunch	Forbes	Lemon Thyme Chicken Soup
+05-09	lunch	Forbes	Egg Salad
+05-09	lunch	Forbes	Salad Bar Mixed Salads
+05-09	lunch	Forbes	Eggs any Style & Omelets Made to Order
+05-09	lunch	Forbes	Yogurt & Fruit Bar
+05-09	lunch	Forbes	Florentine White Wine Sauce
+05-09	lunch	Forbes	Marinara Sauce
+05-09	lunch	Forbes	Pasta Selection of the Day
+05-09	lunch	Forbes	Chicken Salad Wrap with Ranch Dressing
+05-09	lunch	Forbes	Portobello Salad
+05-09	lunch	Forbes	Farfalle with Seasonal Greens
+05-09	lunch	Forbes	Jasmine Rice & Orange Seitan
+05-09	lunch	Forbes	Fresh Hand Cut Idaho French Fries
+05-09	lunch	Forbes	Fresh Steamed Broccoli
+05-09	lunch	Forbes	Forbes Deli
+05-09	dinner	Forbes	Seasonal Greens in a Honey & Herb Vinaigrette
+05-09	dinner	Forbes	Asiago Chicken
+05-09	dinner	Forbes	Oven Broiled Salmpn with Lemon and Herbs
+05-09	dinner	Forbes	Roast Prime Rib Au Jus
+05-09	dinner	Forbes	Farro with Spring Vegetables
+05-09	dinner	Forbes	Penne W/ Leeks,Brussels Sprouts,Lemon,Garlic
+05-09	dinner	Forbes	Fresh Green Beans
+05-09	breakfast	the Center For Jewish Life	Eggo Waffles
+05-09	breakfast	the Center For Jewish Life	Grits
+05-09	breakfast	the Center For Jewish Life	Oatmeal
+05-09	breakfast	the Center For Jewish Life	Pancakes
+05-09	breakfast	the Center For Jewish Life	Scrambled Eggs
+05-09	breakfast	the Center For Jewish Life	Home Fried Potatoes
+05-09	breakfast	the Center For Jewish Life	Sliced Bagels
+05-09	breakfast	the Center For Jewish Life	Yogurt Bar
+05-09	breakfast	the Center For Jewish Life	Assorted Danish
+05-09	breakfast	the Center For Jewish Life	Assorted Muffins
+05-09	lunch	the Center For Jewish Life	Curried Cauliflower Soup
+05-09	lunch	the Center For Jewish Life	Beet Salad with Oranges
+05-09	lunch	the Center For Jewish Life	Fresh Fruit Salad
+05-09	lunch	the Center For Jewish Life	Pizza Station
+05-09	lunch	the Center For Jewish Life	Grilled Vegetable Sandwich
+05-09	lunch	the Center For Jewish Life	Roasted Vegetables
+05-09	lunch	the Center For Jewish Life	Pasta Bar
+05-09	lunch	the Center For Jewish Life	Vegan Bar
+05-09	dinner	the Center For Jewish Life	Baked Pollack
+05-09	dinner	the Center For Jewish Life	Eggplant Moussaka
+05-09	dinner	the Center For Jewish Life	Broccoli Flowerettes
+05-09	dinner	the Center For Jewish Life	Fresh Roasted Vegetables with Dried Basil
+05-09	dinner	the Center For Jewish Life	Roasted Sweet Potato
+05-09	dinner	the Center For Jewish Life	Chili Bar Toppings
+05-09	dinner	the Center For Jewish Life	Assorted Pies
+05-09	dinner	the Center For Jewish Life	Cheesecake
+05-09	dinner	the Center For Jewish Life	Yogurt Bar
+05-09	breakfast	Rocky/Mathey	O'Brien Potatoes
+05-09	breakfast	Rocky/Mathey	Bacon, Egg & Cheese on English Muffin
+05-09	breakfast	Rocky/Mathey	Egg & Cheese on a English Muffin
+05-09	breakfast	Rocky/Mathey	Eggs Made to Order
+05-09	breakfast	Rocky/Mathey	Omelet Bar with Pork Options
+05-09	breakfast	Rocky/Mathey	Raisin French Toast
+05-09	breakfast	Rocky/Mathey	Scrambled Eggs
+05-09	breakfast	Rocky/Mathey	Congee Bar
+05-09	breakfast	Rocky/Mathey	Scrambled Tofu
+05-09	breakfast	Rocky/Mathey	Vegan Fruit Smoothies
+05-09	breakfast	Rocky/Mathey	Fresh Baked Muffin
+05-09	lunch	Rocky/Mathey	Minestrone Soup
+05-09	lunch	Rocky/Mathey	New England Clam Chowder
+05-09	lunch	Rocky/Mathey	Apple Autumn Tossed Salad
+05-09	lunch	Rocky/Mathey	Shells with Prosciutto & Peas
+05-09	lunch	Rocky/Mathey	Seafood & Grain Burger
+05-09	lunch	Rocky/Mathey	Winter Beef Stew
+05-09	lunch	Rocky/Mathey	Vegetable Mushroom & Barley Stew
+05-09	lunch	Rocky/Mathey	Buttered Egg Noodles
+05-09	lunch	Rocky/Mathey	Peas & Carrots
+05-09	lunch	Rocky/Mathey	Shrimp Pad Thai
+05-09	lunch	Rocky/Mathey	Vegetable Pad Thai
+05-09	dinner	Rocky/Mathey	Minestrone Soup
+05-09	dinner	Rocky/Mathey	New England Clam Chowder
+05-09	dinner	Rocky/Mathey	Apple Autumn Tossed Salad
+05-09	dinner	Rocky/Mathey	Shells with Prosciutto & Peas
+05-09	dinner	Rocky/Mathey	Seafood & Grain Burger
+05-09	dinner	Rocky/Mathey	Country Style Pork Ribs
+05-09	dinner	Rocky/Mathey	Cole Slaw
+05-09	dinner	Rocky/Mathey	Scallion Mashed Potatoes & Parsnips
+05-09	dinner	Rocky/Mathey	Steamed Vegetables
+05-09	dinner	Rocky/Mathey	Fresh Made Crepes
+05-09	dinner	Rocky/Mathey	Fruit Crepes

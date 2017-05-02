@@ -1,95 +1,102 @@
 <arburton>
-Hello arburton, you have 20 food(s) in the dining halls in the next week.
+Hello arburton, you have 23 food(s) in the dining halls in the next week.
 
-There will be Chicken Gumbo Soup in Butler/Wilson for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken Tenders in Forbes for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tortilla Soup in the Graduate College for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Smokey Slow Roasted Tex Mex Shredded Chicken in the Graduate College for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Herb Roasted Chicken in Whitman for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Gumbo Soup in Butler/Wilson for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Jerk Chicken in Butler/Wilson for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Ranch Chicken Salad with Bacon in Forbes for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Drumsticks in Rocky/Mathey for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Grilled Chicken Sandwich in the Center For Jewish Life for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Fried Steak in Butler/Wilson for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Wings in Forbes for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Bruschetta Chicken in Whitman for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for lunch on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Herb Roasted Chicken in Whitman for lunch on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-
-Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
-
-<end of email>
-<ax2>
-Hello ax2, you have 1 food(s) in the dining halls in the next week.
-
-There will be Dim Sum Bar in Rocky/Mathey for dinner on Monday, June 1. You received this notification because you wanted emails for "dim sum".
+There will be Chicken Barley Soup in Butler/Wilson for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken with Mushrooms and Leeks in Forbes for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Wing Bar in Rocky/Mathey for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Roma Halal House Chicken Soup in Rocky/Mathey for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Sancocho - Chicken & Root Vegetable Soup in Whitman for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Barley Soup in Butler/Wilson for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be General Tso Chicken in Butler/Wilson for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Soup with Ancini di Pepe in Forbes for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Roma Halal House Chicken Soup in Rocky/Mathey for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Sancocho - Chicken & Root Vegetable Soup in Whitman for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Sweet & Sour Chicken in Whitman for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Roasted Boneless Chicken Breast in Butler/Wilson for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Southern Fried Chicken in Forbes for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Cuban Roast Chicken in the Graduate College for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Noodle Soup in Whitman for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Corn Chowder in Butler/Wilson for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Fingers in Butler/Wilson for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Ginger Chicken & Noodles in Rocky/Mathey for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Ginger Glazed Chicken in Rocky/Mathey for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken & Dumplings in Whitman for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Gyro in Whitman for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Noodle Soup in Whitman for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
 
 Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
 
 <end of email>
 <gjerfel>
-Hello gjerfel, you have 20 food(s) in the dining halls in the next week.
+Hello gjerfel, you have 23 food(s) in the dining halls in the next week.
 
-There will be Chicken Gumbo Soup in Butler/Wilson for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken Tenders in Forbes for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Tortilla Soup in the Graduate College for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Smokey Slow Roasted Tex Mex Shredded Chicken in the Graduate College for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Herb Roasted Chicken in Whitman for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Gumbo Soup in Butler/Wilson for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Jerk Chicken in Butler/Wilson for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Ranch Chicken Salad with Bacon in Forbes for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Drumsticks in Rocky/Mathey for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Grilled Chicken Sandwich in the Center For Jewish Life for lunch on Monday, June 1. You received this notification because you wanted emails for "Chicken".
-There will be Chicken Fried Steak in Butler/Wilson for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Buffalo Chicken Wings in Forbes for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Bruschetta Chicken in Whitman for dinner on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Roma Halal House Chicken Soup in Rocky/Mathey for lunch on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
-There will be Herb Roasted Chicken in Whitman for lunch on Sunday, June 7. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Barley Soup in Butler/Wilson for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken with Mushrooms and Leeks in Forbes for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Wing Bar in Rocky/Mathey for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Roma Halal House Chicken Soup in Rocky/Mathey for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Sancocho - Chicken & Root Vegetable Soup in Whitman for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Barley Soup in Butler/Wilson for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be General Tso Chicken in Butler/Wilson for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Soup with Ancini di Pepe in Forbes for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Roma Halal House Chicken Soup in Rocky/Mathey for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Sancocho - Chicken & Root Vegetable Soup in Whitman for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Sweet & Sour Chicken in Whitman for lunch on Tuesday, June 2. You received this notification because you wanted emails for "Chicken".
+There will be Roasted Boneless Chicken Breast in Butler/Wilson for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Southern Fried Chicken in Forbes for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Cuban Roast Chicken in the Graduate College for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Noodle Soup in Whitman for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Corn Chowder in Butler/Wilson for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Fingers in Butler/Wilson for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Ginger Chicken & Noodles in Rocky/Mathey for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Ginger Glazed Chicken in Rocky/Mathey for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken & Dumplings in Whitman for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Gyro in Whitman for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
+There will be Chicken Noodle Soup in Whitman for lunch on Monday, June 8. You received this notification because you wanted emails for "Chicken".
 
 Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
 
 <end of email>
 <kfarmer>
-Hello kfarmer, you have 5 food(s) in the dining halls in the next week.
+Hello kfarmer, you have 4 food(s) in the dining halls in the next week.
 
-There will be Spinach Bread Pudding with Lemon & Feta in the Center For Jewish Life for dinner on Sunday, June 7. You received this notification because you wanted emails for "bread".
-There will be Fried Chicken Tenders in Forbes for dinner on Monday, June 1. You received this notification because you wanted emails for "tenders".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 1. You received this notification because you wanted emails for "tenders".
-There will be Eggo Waffles in the Center For Jewish Life for breakfast on Monday, June 1. You received this notification because you wanted emails for "Waffles".
-There will be Fried Chicken & Waffles with Sausage in Butler/Wilson for lunch on Sunday, June 7. You received this notification because you wanted emails for "Waffles".
+There will be Pizza Station in the Center For Jewish Life for lunch on Tuesday, June 2. You received this notification because you wanted emails for "pizza".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 8. You received this notification because you wanted emails for "tenders".
+There will be Eggo Waffles in the Center For Jewish Life for breakfast on Tuesday, June 2. You received this notification because you wanted emails for "Waffles".
+There will be Eggo Waffles in the Center For Jewish Life for breakfast on Monday, June 8. You received this notification because you wanted emails for "Waffles".
 
 Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
 
 <end of email>
 <thclark>
-Hello thclark, you have 6 food(s) in the dining halls in the next week.
+Hello thclark, you have 9 food(s) in the dining halls in the next week.
 
-There will be Buttermilk Pancakes in Rocky/Mathey for breakfast on Monday, June 1. You received this notification because you wanted emails for "Buttermilk Pancakes".
-There will be Country Corn & Buttermilk Pancakes in Forbes for lunch on Sunday, June 7. You received this notification because you wanted emails for "Buttermilk Pancakes".
-There will be Buttermilk Pancakes in Rocky/Mathey for lunch on Sunday, June 7. You received this notification because you wanted emails for "Buttermilk Pancakes".
-There will be Macaroni & Cheese in Whitman for dinner on Monday, June 1. You received this notification because you wanted emails for "Macaroni & Cheese".
-There will be Oatmeal Bar in Butler/Wilson for breakfast on Monday, June 1. You received this notification because you wanted emails for "Oatmeal Bar".
-There will be Oatmeal Bar in Whitman for breakfast on Monday, June 1. You received this notification because you wanted emails for "Oatmeal Bar".
+There will be Buttermilk Pancakes in Butler/Wilson for breakfast on Tuesday, June 2. You received this notification because you wanted emails for "Buttermilk Pancakes".
+There will be Buttermilk Pancakes in Forbes for breakfast on Tuesday, June 2. You received this notification because you wanted emails for "Buttermilk Pancakes".
+There will be Buttermilk Pancakes in Rocky/Mathey for breakfast on Monday, June 8. You received this notification because you wanted emails for "Buttermilk Pancakes".
+There will be Baked Macaroni & Cheese in Forbes for dinner on Monday, June 8. You received this notification because you wanted emails for "Macaroni & Cheese".
+There will be Macaroni & Cheese with Tasso Ham & Shrimp in Butler/Wilson for lunch on Monday, June 8. You received this notification because you wanted emails for "Macaroni & Cheese".
+There will be Oatmeal Bar in Butler/Wilson for breakfast on Tuesday, June 2. You received this notification because you wanted emails for "Oatmeal Bar".
+There will be Oatmeal Bar in Whitman for breakfast on Tuesday, June 2. You received this notification because you wanted emails for "Oatmeal Bar".
+There will be Oatmeal Bar in Butler/Wilson for breakfast on Monday, June 8. You received this notification because you wanted emails for "Oatmeal Bar".
+There will be Oatmeal Bar in Whitman for breakfast on Monday, June 8. You received this notification because you wanted emails for "Oatmeal Bar".
+
+Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
+
+<end of email>
+<wabeck>
+Hello wabeck, you have 1 food(s) in the dining halls in the next week.
+
+There will be Roast Beef with Red Wine Demi-Glace in Rocky/Mathey for dinner on Tuesday, June 2. You received this notification because you wanted emails for "Roast beef".
 
 Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
 
 <end of email>
 <wdap>
-Hello wdap, you have 2 food(s) in the dining halls in the next week.
+Hello wdap, you have 1 food(s) in the dining halls in the next week.
 
-There will be Fried Chicken Tenders in Forbes for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken tenders".
-There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 1. You received this notification because you wanted emails for "Chicken tenders".
+There will be Chicken Tenders in the Center For Jewish Life for dinner on Monday, June 8. You received this notification because you wanted emails for "Chicken tenders".
 
 Thank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.
 
