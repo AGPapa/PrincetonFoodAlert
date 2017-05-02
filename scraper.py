@@ -28,10 +28,13 @@ def scrape(dhall_code, month, day):
 	
 
 
-now = datetime.datetime.now();	
 
 dhalls = {'Butler/Wilson' : "02", 'the Center For Jewish Life' : "05", 'Forbes' : "03", 'the Graduate College' : "04", 'Rocky/Mathey' : "01", 'Whitman' : "08"}
-for day in range (now.day, now.day+8):
+now = datetime.datetime.now();	
+for i in range (0, 8):
+	day = now.day
+	now += (datetime.timedelta(days=1))
+	
 	for key in dhalls:
 		(b, l, d) = scrape(dhalls.get(key), str(now.month), str(day).zfill(2))
 		for food in b:
