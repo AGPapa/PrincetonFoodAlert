@@ -30,25 +30,34 @@ arburton	Chicken	05-02	dinner	Rocky/Mathey	Chicken Wing Bar
 gjerfel	Chicken	05-02	dinner	Rocky/Mathey	Chicken Wing Bar
 thclark	Oatmeal Bar	05-08	breakfast	Whitman	Oatmeal Bar
 arburton	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
+ra4	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
 gjerfel	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
 arburton	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
+ra4	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
 gjerfel	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
 arburton	Chicken	05-08	lunch	Whitman	Chicken Gyro
+ra4	Chicken	05-08	lunch	Whitman	Chicken Gyro
 gjerfel	Chicken	05-08	lunch	Whitman	Chicken Gyro
 arburton	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
+ra4	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
 gjerfel	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
 arburton	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
+ra4	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
 gjerfel	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
 thclark	Oatmeal Bar	05-08	breakfast	Butler/Wilson	Oatmeal Bar
 arburton	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
+ra4	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
 gjerfel	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
 arburton	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
+ra4	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
 gjerfel	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
 thclark	Macaroni & Cheese	05-08	lunch	Butler/Wilson	Macaroni & Cheese with Tasso Ham & Shrimp
 arburton	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
+ra4	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
 gjerfel	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
 wnolan	french fries	05-08	lunch	Forbes	Fresh Hand Cut Idaho French Fries
 arburton	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
+ra4	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
 gjerfel	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
 thclark	Macaroni & Cheese	05-08	dinner	Forbes	Baked Macaroni & Cheese
 kfarmer	Waffles	05-08	breakfast	the Center For Jewish Life	Eggo Waffles
@@ -56,9 +65,12 @@ wnolan	french fries	05-08	lunch	the Center For Jewish Life	Spicy French Fries
 arburton	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
 wdap	Chicken tenders	05-08	dinner	the Center For Jewish Life	Chicken Tenders
 kfarmer	tenders	05-08	dinner	the Center For Jewish Life	Chicken Tenders
+ra4	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
 gjerfel	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
 thclark	Buttermilk Pancakes	05-08	breakfast	Rocky/Mathey	Buttermilk Pancakes
 arburton	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
+ra4	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
 gjerfel	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
 arburton	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles
+ra4	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles
 gjerfel	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles

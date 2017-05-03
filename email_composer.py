@@ -2,7 +2,7 @@ import sys
 import datetime
 
 DayL = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
-MonthL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+MonthL = [' ', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 def write_email(netid, foodprefs, dhalls, dates, meals, foods):
 	
@@ -11,12 +11,13 @@ def write_email(netid, foodprefs, dhalls, dates, meals, foods):
 	for food in foodprefs:
 		count = count + 1
 	sys.stdout.write("Hello " + netid + ", you have " + str(count) + " food(s) in the dining halls in the next week." + "\n\n")
+	sys.stdout.write("Thank you for your patience as we test our system. Currently all users are getting emails one day in advance and one week in advance. This will become user-adjustable in the next few days.\n\n")
 	for i in range(0, count):
 		month = int(dates[i][:2])
 		day = int(dates[i][3:])
 		day_of_week = DayL[datetime.date(2017,month,day).weekday()]
 		sys.stdout.write("There will be " + foods[i][:-1] + " in " + dhalls[i] + " for " + meals[i] + " on " + day_of_week + ", " + MonthL[month] + " " + str(day) + ". You received this notification because you wanted emails for \"" + foodprefs[i] + "\".\n")
-	sys.stdout.write("\nThank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com to update your preferences.\n\n")
+	sys.stdout.write("\nThank you for using Princeton Food Alert. Please visit www.ptonfoodalert.herokuapp.com if you wish to update your preferences.\n\n")
 	sys.stdout.write("<end of email>\n")
 
 

@@ -48,6 +48,18 @@ kfarmer	pizza	05-02	lunch	the Center For Jewish Life	Pizza Station
 kfarmer	tenders	05-08	dinner	the Center For Jewish Life	Chicken Tenders
 kfarmer	Waffles	05-02	breakfast	the Center For Jewish Life	Eggo Waffles
 kfarmer	Waffles	05-08	breakfast	the Center For Jewish Life	Eggo Waffles
+ra4	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
+ra4	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
+ra4	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
+ra4	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
+ra4	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
+ra4	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
+ra4	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
+ra4	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles
+ra4	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
+ra4	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
+ra4	Chicken	05-08	lunch	Whitman	Chicken Gyro
+ra4	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
 thclark	Buttermilk Pancakes	05-02	breakfast	Butler/Wilson	Buttermilk Pancakes
 thclark	Buttermilk Pancakes	05-02	breakfast	Forbes	Buttermilk Pancakes
 thclark	Buttermilk Pancakes	05-08	breakfast	Rocky/Mathey	Buttermilk Pancakes

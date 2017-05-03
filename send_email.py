@@ -12,7 +12,7 @@ def send(netid, body):
 	msg = MIMEMultipart()
 	msg['From'] = fromaddr
 	msg['To'] = netid + "@princeton.edu"
-	msg['Subject'] = "test"
+	msg['Subject'] = "Your Food Alert"
 
 	msg.attach(MIMEText(body, 'plain'))
 
@@ -32,8 +32,8 @@ while True:
 	if not s: break
 	
 	if (get_netid):
-	#	netid = s[1:-1];
-		netid = "agpapa"
+		netid = s[1:-2];
+	#	netid = "mhammel"
 		get_netid = False
 	elif (s == "<end of email>\n"):
 		body = "".join(lines)
