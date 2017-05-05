@@ -39,8 +39,8 @@ for i in range (0, 8):
 	for key in dhalls:
 		(b, l, d) = scrape(dhalls.get(key), str(month), str(day).zfill(2))
 		for food in b:
-			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "breakfast" + "\t" + key + "\t" + unidecode(food))
+			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "Breakfast" + "\t" + key + "\t" + unidecode(food))
 		for food in l:
-			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "lunch" + "\t" + key + "\t" + unidecode(food))
+			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "Lunch" + "\t" + key + "\t" + unidecode(food))
 		for food in d:
-			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "dinner" + "\t" + key + "\t" + unidecode(food))
+			print(str(month).zfill(2) + "-" + str(day).zfill(2) + "\t" + "Dinner" + "\t" + key + "\t" + unidecode(food))

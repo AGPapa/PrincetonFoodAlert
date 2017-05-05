@@ -1,76 +1,42 @@
-thclark	Oatmeal Bar	05-02	breakfast	Whitman	Oatmeal Bar
-arburton	Chicken	05-02	lunch	Whitman	Sancocho - Chicken & Root Vegetable Soup
-gjerfel	Chicken	05-02	lunch	Whitman	Sancocho - Chicken & Root Vegetable Soup
-arburton	Chicken	05-02	lunch	Whitman	Sweet & Sour Chicken
-gjerfel	Chicken	05-02	lunch	Whitman	Sweet & Sour Chicken
-arburton	Chicken	05-02	dinner	Whitman	Sancocho - Chicken & Root Vegetable Soup
-gjerfel	Chicken	05-02	dinner	Whitman	Sancocho - Chicken & Root Vegetable Soup
-thclark	Buttermilk Pancakes	05-02	breakfast	Butler/Wilson	Buttermilk Pancakes
-thclark	Oatmeal Bar	05-02	breakfast	Butler/Wilson	Oatmeal Bar
-arburton	Chicken	05-02	lunch	Butler/Wilson	Chicken Barley Soup
-gjerfel	Chicken	05-02	lunch	Butler/Wilson	Chicken Barley Soup
-arburton	Chicken	05-02	lunch	Butler/Wilson	General Tso Chicken
-gjerfel	Chicken	05-02	lunch	Butler/Wilson	General Tso Chicken
-arburton	Chicken	05-02	dinner	Butler/Wilson	Chicken Barley Soup
-gjerfel	Chicken	05-02	dinner	Butler/Wilson	Chicken Barley Soup
-thclark	Buttermilk Pancakes	05-02	breakfast	Forbes	Buttermilk Pancakes
-arburton	Chicken	05-02	lunch	Forbes	Chicken Soup with Ancini di Pepe
-gjerfel	Chicken	05-02	lunch	Forbes	Chicken Soup with Ancini di Pepe
-wnolan	french fries	05-02	lunch	Forbes	Fresh Hand Cut Idaho French Fries
-arburton	Chicken	05-02	dinner	Forbes	Chicken with Mushrooms and Leeks
-gjerfel	Chicken	05-02	dinner	Forbes	Chicken with Mushrooms and Leeks
-kfarmer	Waffles	05-02	breakfast	the Center For Jewish Life	Eggo Waffles
-kfarmer	pizza	05-02	lunch	the Center For Jewish Life	Pizza Station
-arburton	Chicken	05-02	lunch	Rocky/Mathey	Roma Halal House Chicken Soup
-gjerfel	Chicken	05-02	lunch	Rocky/Mathey	Roma Halal House Chicken Soup
-arburton	Chicken	05-02	dinner	Rocky/Mathey	Roma Halal House Chicken Soup
-gjerfel	Chicken	05-02	dinner	Rocky/Mathey	Roma Halal House Chicken Soup
-wabeck	Roast beef	05-02	dinner	Rocky/Mathey	Roast Beef with Red Wine Demi-Glace
-arburton	Chicken	05-02	dinner	Rocky/Mathey	Chicken Wing Bar
-gjerfel	Chicken	05-02	dinner	Rocky/Mathey	Chicken Wing Bar
-thclark	Oatmeal Bar	05-08	breakfast	Whitman	Oatmeal Bar
-arburton	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
-ra4	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
-gjerfel	Chicken	05-08	lunch	Whitman	Chicken Noodle Soup
-arburton	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
-ra4	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
-gjerfel	Chicken	05-08	lunch	Whitman	Chicken & Dumplings
-arburton	Chicken	05-08	lunch	Whitman	Chicken Gyro
-ra4	Chicken	05-08	lunch	Whitman	Chicken Gyro
-gjerfel	Chicken	05-08	lunch	Whitman	Chicken Gyro
-arburton	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
-ra4	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
-gjerfel	Chicken	05-08	dinner	Whitman	Chicken Noodle Soup
-arburton	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
-ra4	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
-gjerfel	Chicken	05-08	dinner	the Graduate College	Cuban Roast Chicken
-thclark	Oatmeal Bar	05-08	breakfast	Butler/Wilson	Oatmeal Bar
-arburton	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
-ra4	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
-gjerfel	Chicken	05-08	lunch	Butler/Wilson	Chicken Corn Chowder
-arburton	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
-ra4	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
-gjerfel	Chicken	05-08	lunch	Butler/Wilson	Chicken Fingers
-thclark	Macaroni & Cheese	05-08	lunch	Butler/Wilson	Macaroni & Cheese with Tasso Ham & Shrimp
-arburton	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
-ra4	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
-gjerfel	Chicken	05-08	dinner	Butler/Wilson	Roasted Boneless Chicken Breast
-wnolan	french fries	05-08	lunch	Forbes	Fresh Hand Cut Idaho French Fries
-arburton	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
-ra4	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
-gjerfel	Chicken	05-08	dinner	Forbes	Southern Fried Chicken
-thclark	Macaroni & Cheese	05-08	dinner	Forbes	Baked Macaroni & Cheese
-kfarmer	Waffles	05-08	breakfast	the Center For Jewish Life	Eggo Waffles
-wnolan	french fries	05-08	lunch	the Center For Jewish Life	Spicy French Fries
-arburton	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
-wdap	Chicken tenders	05-08	dinner	the Center For Jewish Life	Chicken Tenders
-kfarmer	tenders	05-08	dinner	the Center For Jewish Life	Chicken Tenders
-ra4	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
-gjerfel	Chicken	05-08	dinner	the Center For Jewish Life	Chicken Tenders
-thclark	Buttermilk Pancakes	05-08	breakfast	Rocky/Mathey	Buttermilk Pancakes
-arburton	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
-ra4	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
-gjerfel	Chicken	05-08	lunch	Rocky/Mathey	Ginger Glazed Chicken
-arburton	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles
-ra4	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles
-gjerfel	Chicken	05-08	lunch	Rocky/Mathey	Ginger Chicken & Noodles
+arburton	Chicken	05-04	lunch	Whitman	Chicken Chipotle Tortilla Soup
+agpapa	Chicken Tortilla Soup	05-04	lunch	Whitman	Chicken Chipotle Tortilla Soup
+arburton	Chicken	05-04	lunch	Whitman	Chicken Pipian
+arburton	Chicken	05-04	lunch	Whitman	Chicken Taquito
+arburton	Chicken	05-04	dinner	Whitman	Chicken Chipotle Tortilla Soup
+agpapa	Chicken Tortilla Soup	05-04	dinner	Whitman	Chicken Chipotle Tortilla Soup
+arburton	Chicken	05-04	dinner	Whitman	BBQ Chicken
+arburton	Chicken	05-04	dinner	the Graduate College	Chicken Parmesan
+kkabaria	chicken parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
+wdap	Chicken parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
+wabeck	Chicken parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
+kfarmer	Chicken Parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
+tmurtha	Chicken Parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
+arburton	Chicken	05-04	lunch	Butler/Wilson	Basil & Red Curry Thai Chicken
+nsteidel	curry	05-04	lunch	Butler/Wilson	Basil & Red Curry Thai Chicken
+arburton	Chicken	05-04	lunch	Butler/Wilson	Enchilada Bowl Chicken
+arburton	Chicken	05-04	lunch	Forbes	Chicken Tortilla Soup
+agpapa	Chicken Tortilla Soup	05-04	lunch	Forbes	Chicken Tortilla Soup
+arburton	Chicken	05-04	lunch	Forbes	Tarragon Chicken Wrap
+wnolan	french fries	05-04	lunch	Forbes	Fresh Hand Cut Idaho French Fries
+arburton	Chicken	05-04	dinner	Forbes	Chicken Lemongrass Dumplings
+wnolan	french fries	05-04	lunch	the Center For Jewish Life	Spicy French Fries
+mhammel	Pork Roll, Egg & Cheese on English Muffin	05-04	breakfast	Rocky/Mathey	Pork Roll, Egg & Cheese on English Muffin
+arburton	Chicken	05-04	lunch	Rocky/Mathey	Roma Halal House Chicken Soup
+arburton	Chicken	05-04	lunch	Rocky/Mathey	Chicken Pot Pie
+wdap	chicken pot pie	05-04	lunch	Rocky/Mathey	Chicken Pot Pie
+arburton	Chicken	05-04	dinner	Rocky/Mathey	Roma Halal House Chicken Soup
+arburton	Chicken	05-04	dinner	Rocky/Mathey	Chicken Shawarma
+arburton	Chicken	05-10	lunch	Whitman	Lemon Thyme Chicken Orzo Soup
+arburton	Chicken	05-10	lunch	Whitman	Chicken Pot Pie
+wdap	chicken pot pie	05-10	lunch	Whitman	Chicken Pot Pie
+arburton	Chicken	05-10	dinner	Whitman	Lemon Thyme Chicken Orzo Soup
+arburton	Chicken	05-10	dinner	Whitman	Teriyaki Chicken & Rice
+arburton	Chicken	05-10	lunch	Butler/Wilson	Chicken with Mushroom Ragout
+arburton	Chicken	05-10	dinner	Butler/Wilson	Chicken Wing Bar
+arburton	Chicken	05-10	lunch	Forbes	Chicken Soup
+arburton	Chicken	05-10	lunch	Forbes	Chicken Panini with Havarti & Herb Mayo
+arburton	Chicken	05-10	dinner	Forbes	Hawaiian Chicken with Papaya Pineapple Relish
+arburton	Chicken	05-10	lunch	the Center For Jewish Life	Jamaican Jerked Chicken
+arburton	Chicken	05-10	lunch	the Center For Jewish Life	Asian Chicken & Noodle Station
+arburton	Chicken	05-10	lunch	Rocky/Mathey	Chicken Thighs with Swiss Cheese & Gravy
+arburton	Chicken	05-10	lunch	Rocky/Mathey	Japanese Noodles with Chicken & Vegetables

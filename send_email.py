@@ -14,8 +14,10 @@ def send(netid, body):
 	msg['To'] = netid + "@princeton.edu"
 	msg['Subject'] = "Your Food Alert"
 
-	msg.attach(MIMEText(body, 'plain'))
+	msg.attach(MIMEText(body, 'html'))
 
+	#sys.stderr.write(body)
+	
 	server = smtplib.SMTP('smtp.gmail.com', 587)
 	server.starttls()
 	server.login(fromaddr, pwd)
@@ -33,7 +35,6 @@ while True:
 	
 	if (get_netid):
 		netid = s[1:-2];
-	#	netid = "mhammel"
 		get_netid = False
 	elif (s == "<end of email>\n"):
 		body = "".join(lines)
