@@ -1,42 +1,178 @@
-agpapa	Chicken Tortilla Soup	05-04	dinner	Whitman	Chicken Chipotle Tortilla Soup
-agpapa	Chicken Tortilla Soup	05-04	lunch	Forbes	Chicken Tortilla Soup
-agpapa	Chicken Tortilla Soup	05-04	lunch	Whitman	Chicken Chipotle Tortilla Soup
-arburton	Chicken	05-04	dinner	Forbes	Chicken Lemongrass Dumplings
-arburton	Chicken	05-04	dinner	Rocky/Mathey	Chicken Shawarma
-arburton	Chicken	05-04	dinner	Rocky/Mathey	Roma Halal House Chicken Soup
-arburton	Chicken	05-04	dinner	the Graduate College	Chicken Parmesan
-arburton	Chicken	05-04	dinner	Whitman	BBQ Chicken
-arburton	Chicken	05-04	dinner	Whitman	Chicken Chipotle Tortilla Soup
-arburton	Chicken	05-04	lunch	Butler/Wilson	Basil & Red Curry Thai Chicken
-arburton	Chicken	05-04	lunch	Butler/Wilson	Enchilada Bowl Chicken
-arburton	Chicken	05-04	lunch	Forbes	Chicken Tortilla Soup
-arburton	Chicken	05-04	lunch	Forbes	Tarragon Chicken Wrap
-arburton	Chicken	05-04	lunch	Rocky/Mathey	Chicken Pot Pie
-arburton	Chicken	05-04	lunch	Rocky/Mathey	Roma Halal House Chicken Soup
-arburton	Chicken	05-04	lunch	Whitman	Chicken Chipotle Tortilla Soup
-arburton	Chicken	05-04	lunch	Whitman	Chicken Pipian
-arburton	Chicken	05-04	lunch	Whitman	Chicken Taquito
-arburton	Chicken	05-10	dinner	Butler/Wilson	Chicken Wing Bar
-arburton	Chicken	05-10	dinner	Forbes	Hawaiian Chicken with Papaya Pineapple Relish
-arburton	Chicken	05-10	dinner	Whitman	Lemon Thyme Chicken Orzo Soup
-arburton	Chicken	05-10	dinner	Whitman	Teriyaki Chicken & Rice
-arburton	Chicken	05-10	lunch	Butler/Wilson	Chicken with Mushroom Ragout
-arburton	Chicken	05-10	lunch	Forbes	Chicken Panini with Havarti & Herb Mayo
-arburton	Chicken	05-10	lunch	Forbes	Chicken Soup
-arburton	Chicken	05-10	lunch	Rocky/Mathey	Chicken Thighs with Swiss Cheese & Gravy
-arburton	Chicken	05-10	lunch	Rocky/Mathey	Japanese Noodles with Chicken & Vegetables
-arburton	Chicken	05-10	lunch	the Center For Jewish Life	Asian Chicken & Noodle Station
-arburton	Chicken	05-10	lunch	the Center For Jewish Life	Jamaican Jerked Chicken
-arburton	Chicken	05-10	lunch	Whitman	Chicken Pot Pie
-arburton	Chicken	05-10	lunch	Whitman	Lemon Thyme Chicken Orzo Soup
-kfarmer	Chicken Parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
-kkabaria	chicken parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
-mhammel	Pork Roll, Egg & Cheese on English Muffin	05-04	breakfast	Rocky/Mathey	Pork Roll, Egg & Cheese on English Muffin
-nsteidel	curry	05-04	lunch	Butler/Wilson	Basil & Red Curry Thai Chicken
-tmurtha	Chicken Parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
-wabeck	Chicken parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
-wdap	Chicken parmesan	05-04	dinner	the Graduate College	Chicken Parmesan
-wdap	chicken pot pie	05-04	lunch	Rocky/Mathey	Chicken Pot Pie
-wdap	chicken pot pie	05-10	lunch	Whitman	Chicken Pot Pie
-wnolan	french fries	05-04	lunch	Forbes	Fresh Hand Cut Idaho French Fries
-wnolan	french fries	05-04	lunch	the Center For Jewish Life	Spicy French Fries
+aag3	Avocado & Strawberry Salad with Oranges	05-16	Lunch	Forbes	Avocado & Strawberry Salad with Oranges
+aamirz	Halal Beef Bulgogi	05-16	Lunch	Whitman	Halal Beef Bulgogi
+acherr	Bulgogi Bowl	05-10	Lunch	Butler/Wilson	Bulgogi Bowl
+agpapa	chicken	05-10	Dinner	Butler/Wilson	Chicken Wing Bar
+agpapa	chicken	05-10	Dinner	Forbes	Hawaiian Chicken with Papaya Pineapple Relish
+agpapa	chicken	05-10	Dinner	the Graduate College	Chicken Coq Au Vin
+agpapa	chicken	05-10	Dinner	Whitman	Lemon Thyme Chicken Orzo Soup
+agpapa	chicken	05-10	Dinner	Whitman	Teriyaki Chicken & Rice
+agpapa	chicken	05-10	Lunch	Butler/Wilson	Chicken with Mushroom Ragout
+agpapa	chicken	05-10	Lunch	Forbes	Chicken Panini with Havarti & Herb Mayo
+agpapa	chicken	05-10	Lunch	Forbes	Chicken Soup
+agpapa	chicken	05-10	Lunch	Rocky/Mathey	Chicken Thighs with Swiss Cheese & Gravy
+agpapa	chicken	05-10	Lunch	Rocky/Mathey	Japanese Noodles with Chicken & Vegetables
+agpapa	chicken	05-10	Lunch	the Center For Jewish Life	Jamaican Jerked Chicken
+agpapa	chicken	05-10	Lunch	Whitman	Chicken Pot Pie
+agpapa	chicken	05-10	Lunch	Whitman	Lemon Thyme Chicken Orzo Soup
+agpapa	chicken	05-16	Dinner	Butler/Wilson	Enchilada Bowl Chicken
+agpapa	chicken	05-16	Dinner	Forbes	Southern Fried Chicken
+agpapa	chicken	05-16	Dinner	Rocky/Mathey	Chicken Romaine
+agpapa	chicken	05-16	Dinner	the Graduate College	Chicken with Mushroom Sauce (Contains Alcohol)
+agpapa	chicken	05-16	Dinner	Whitman	Chicken Fajitas
+agpapa	chicken	05-16	Dinner	Whitman	Chicken Rice Soup
+agpapa	chicken	05-16	Lunch	Butler/Wilson	Chicken Tikka Masala
+agpapa	chicken	05-16	Lunch	Rocky/Mathey	Chicken Tagine with Olives
+agpapa	chicken	05-16	Lunch	Whitman	Chicken Rice Soup
+akratzer	Lentil soup	05-10	Dinner	Butler/Wilson	Lentil Soup
+akratzer	Lentil soup	05-10	Lunch	Butler/Wilson	Lentil Soup
+akratzer	Lentil soup	05-10	Lunch	the Center For Jewish Life	Tomato, Lentil & Barley Soup
+akratzer	Lentil soup	05-16	Lunch	Forbes	Moroccan Lentil Soup
+al9	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+arburton	Chicken	05-10	Dinner	Butler/Wilson	Chicken Wing Bar
+arburton	Chicken	05-10	Dinner	Forbes	Hawaiian Chicken with Papaya Pineapple Relish
+arburton	Chicken	05-10	Dinner	the Graduate College	Chicken Coq Au Vin
+arburton	Chicken	05-10	Dinner	Whitman	Lemon Thyme Chicken Orzo Soup
+arburton	Chicken	05-10	Dinner	Whitman	Teriyaki Chicken & Rice
+arburton	Chicken	05-10	Lunch	Butler/Wilson	Chicken with Mushroom Ragout
+arburton	Chicken	05-10	Lunch	Forbes	Chicken Panini with Havarti & Herb Mayo
+arburton	Chicken	05-10	Lunch	Forbes	Chicken Soup
+arburton	Chicken	05-10	Lunch	Rocky/Mathey	Chicken Thighs with Swiss Cheese & Gravy
+arburton	Chicken	05-10	Lunch	Rocky/Mathey	Japanese Noodles with Chicken & Vegetables
+arburton	Chicken	05-10	Lunch	the Center For Jewish Life	Jamaican Jerked Chicken
+arburton	Chicken	05-10	Lunch	Whitman	Chicken Pot Pie
+arburton	Chicken	05-10	Lunch	Whitman	Lemon Thyme Chicken Orzo Soup
+arburton	Chicken	05-16	Dinner	Butler/Wilson	Enchilada Bowl Chicken
+arburton	Chicken	05-16	Dinner	Forbes	Southern Fried Chicken
+arburton	Chicken	05-16	Dinner	Rocky/Mathey	Chicken Romaine
+arburton	Chicken	05-16	Dinner	the Graduate College	Chicken with Mushroom Sauce (Contains Alcohol)
+arburton	Chicken	05-16	Dinner	Whitman	Chicken Fajitas
+arburton	Chicken	05-16	Dinner	Whitman	Chicken Rice Soup
+arburton	Chicken	05-16	Lunch	Butler/Wilson	Chicken Tikka Masala
+arburton	Chicken	05-16	Lunch	Rocky/Mathey	Chicken Tagine with Olives
+arburton	Chicken	05-16	Lunch	Whitman	Chicken Rice Soup
+bgs3	Baked Potato	05-10	Dinner	Forbes	Baked Sweet Potato
+btlei	Chicken Wing Bar	05-10	Dinner	Butler/Wilson	Chicken Wing Bar
+caseyli	pot pie	05-10	Lunch	Whitman	Chicken Pot Pie
+caseyli	pot pie	05-10	Lunch	Whitman	Vegetable Pot Pie
+cheidorn	Avocado & Strawberry Salad with Oranges	05-16	Lunch	Forbes	Avocado & Strawberry Salad with Oranges
+cheidorn	Baked Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+cheidorn	Macaroni & Cheese	05-10	Dinner	Butler/Wilson	Macaroni & Cheese
+cheidorn	Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+cheidorn	Sweet Potato Fries	05-10	Lunch	the Center For Jewish Life	Sweet Potato Fries
+cwalter	Chicken Tikka Masala	05-16	Lunch	Butler/Wilson	Chicken Tikka Masala
+dem4	Butternut squash	05-16	Breakfast	Forbes	Spiced Roasted Butternut Squash & Sweet Potatoes
+dem4	Butternut squash	05-16	Dinner	Butler/Wilson	Butternut Squash Soup
+dem4	Butternut squash	05-16	Dinner	the Center For Jewish Life	Butternut Squash & Garlic Lasagna
+dem4	Butternut squash	05-16	Lunch	Butler/Wilson	Butternut Squash Soup
+devonb	Sweet potatoes	05-16	Breakfast	Forbes	Spiced Roasted Butternut Squash & Sweet Potatoes
+dkerkhof	Baked Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+dkerkhof	Chicken Tikka Masala	05-16	Lunch	Butler/Wilson	Chicken Tikka Masala
+dkerkhof	Macaroni & Cheese	05-10	Dinner	Butler/Wilson	Macaroni & Cheese
+dkerkhof	Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+dmelvin	Chicken Panini with Havarti & Herb Mayo	05-10	Lunch	Forbes	Chicken Panini with Havarti & Herb Mayo
+dthull	Black bean soup	05-16	Dinner	the Graduate College	Chipotle Black Bean Soup
+dthull	White bean soup	05-10	Lunch	Forbes	White Bean & Swiss Chard Soup
+ejiang	salmon	05-16	Dinner	the Center For Jewish Life	Red Pepper Salmon Pasta
+eksteele	Assorted Pies	05-16	Dinner	the Center For Jewish Life	Assorted Pies
+eksteele	Baked Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+ermclean	Roasted Vegetables	05-16	Dinner	the Graduate College	Roasted Root Vegetables
+eschulz	Chicken pot pie	05-10	Lunch	Whitman	Chicken Pot Pie
+gforrest	Butternut Squash Soup	05-16	Dinner	Butler/Wilson	Butternut Squash Soup
+gforrest	Butternut Squash Soup	05-16	Lunch	Butler/Wilson	Butternut Squash Soup
+gforrest	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+gforrest	Falafel & Tahini Sauce	05-16	Dinner	Rocky/Mathey	Falafel & Tahini Sauce
+gforrest	Falafel & Tahini Sauce	05-16	Lunch	Rocky/Mathey	Falafel & Tahini Sauce
+ggrady	Baked Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+ggrady	Macaroni & Cheese	05-10	Dinner	Butler/Wilson	Macaroni & Cheese
+ggrady	Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+gjeon	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+gvogeley	coconut	05-16	Lunch	Butler/Wilson	Vegetable Curry with Coconut Milk
+harryf	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+hbaron	Beef	05-10	Dinner	the Graduate College	Beef Barley Soup
+hbaron	Beef	05-10	Lunch	Butler/Wilson	Beef Barley Soup
+hbaron	Beef	05-16	Dinner	Butler/Wilson	Beef Barley Soup
+hbaron	Beef	05-16	Dinner	Rocky/Mathey	Roma House Beef Vegetable Soup
+hbaron	Beef	05-16	Lunch	Butler/Wilson	Beef Barley Soup
+hbaron	Beef	05-16	Lunch	Forbes	Vegetable Beef Soup
+hbaron	Beef	05-16	Lunch	Rocky/Mathey	Roma House Beef Vegetable Soup
+hbaron	Beef	05-16	Lunch	Whitman	Halal Beef Bulgogi
+hbaron	Chicken	05-10	Dinner	Butler/Wilson	Chicken Wing Bar
+hbaron	Chicken	05-10	Dinner	Forbes	Hawaiian Chicken with Papaya Pineapple Relish
+hbaron	Chicken	05-10	Dinner	the Graduate College	Chicken Coq Au Vin
+hbaron	Chicken	05-10	Dinner	Whitman	Lemon Thyme Chicken Orzo Soup
+hbaron	Chicken	05-10	Dinner	Whitman	Teriyaki Chicken & Rice
+hbaron	Chicken	05-10	Lunch	Butler/Wilson	Chicken with Mushroom Ragout
+hbaron	Chicken	05-10	Lunch	Forbes	Chicken Panini with Havarti & Herb Mayo
+hbaron	Chicken	05-10	Lunch	Forbes	Chicken Soup
+hbaron	Chicken	05-10	Lunch	Rocky/Mathey	Chicken Thighs with Swiss Cheese & Gravy
+hbaron	Chicken	05-10	Lunch	Rocky/Mathey	Japanese Noodles with Chicken & Vegetables
+hbaron	Chicken	05-10	Lunch	the Center For Jewish Life	Jamaican Jerked Chicken
+hbaron	Chicken	05-10	Lunch	Whitman	Chicken Pot Pie
+hbaron	Chicken	05-10	Lunch	Whitman	Lemon Thyme Chicken Orzo Soup
+hbaron	Chicken	05-16	Dinner	Butler/Wilson	Enchilada Bowl Chicken
+hbaron	Chicken	05-16	Dinner	Forbes	Southern Fried Chicken
+hbaron	Chicken	05-16	Dinner	Rocky/Mathey	Chicken Romaine
+hbaron	Chicken	05-16	Dinner	the Graduate College	Chicken with Mushroom Sauce (Contains Alcohol)
+hbaron	Chicken	05-16	Dinner	Whitman	Chicken Fajitas
+hbaron	Chicken	05-16	Dinner	Whitman	Chicken Rice Soup
+hbaron	Chicken	05-16	Lunch	Butler/Wilson	Chicken Tikka Masala
+hbaron	Chicken	05-16	Lunch	Rocky/Mathey	Chicken Tagine with Olives
+hbaron	Chicken	05-16	Lunch	Whitman	Chicken Rice Soup
+ihsu	berries	05-10	Dinner	Forbes	Fresh Seasonal Fruit Salad with Melon & Berries
+ihsu	salmon	05-16	Dinner	the Center For Jewish Life	Red Pepper Salmon Pasta
+jasminel	Curry	05-16	Lunch	Butler/Wilson	Vegetable Curry with Coconut Milk
+karab	Macaroni & Cheese	05-10	Dinner	Butler/Wilson	Macaroni & Cheese
+karenz	Baked Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+karenz	Macaroni & Cheese	05-10	Dinner	Butler/Wilson	Macaroni & Cheese
+karenz	Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+khanss	Avocado	05-16	Lunch	Forbes	Avocado & Strawberry Salad with Oranges
+khanss	Sweet potato fries	05-10	Lunch	the Center For Jewish Life	Sweet Potato Fries
+kx2	Greek Bar	05-16	Dinner	Rocky/Mathey	Greek Bar
+leslier	Breakfast Sausage Patties	05-10	Breakfast	Butler/Wilson	Breakfast Sausage Patties
+linht	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+manasseh	zucchini	05-10	Lunch	Forbes	Sauteed Fresh Zucchini
+manasseh	zucchini	05-16	Dinner	the Center For Jewish Life	Zucchini & Vegetable Lasagna
+mcraver	Baked Potato	05-10	Dinner	Forbes	Baked Sweet Potato
+mcraver	chicken pot pie	05-10	Lunch	Whitman	Chicken Pot Pie
+mcraver	Smoothies	05-16	Breakfast	Rocky/Mathey	Vegan Fruit Smoothies
+msawyer	Idaho fries	05-16	Lunch	Forbes	Fresh Hand Cut Idaho French Fries
+nsteidel	curry	05-16	Lunch	Butler/Wilson	Vegetable Curry with Coconut Milk
+paoletta	Fried Chicken	05-16	Dinner	Forbes	Southern Fried Chicken
+paoletta	Macaroni & Cheese	05-10	Dinner	Butler/Wilson	Macaroni & Cheese
+paoletta	Macaroni & Cheese	05-16	Dinner	Butler/Wilson	Baked Macaroni & Cheese
+pz5	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+saraheg	Falafel & Tahini Sauce	05-16	Dinner	Rocky/Mathey	Falafel & Tahini Sauce
+saraheg	Falafel & Tahini Sauce	05-16	Lunch	Rocky/Mathey	Falafel & Tahini Sauce
+spalmedo	Avocado & Strawberry Salad with Oranges	05-16	Lunch	Forbes	Avocado & Strawberry Salad with Oranges
+spalmedo	Baked Sweet Potato	05-10	Dinner	Forbes	Baked Sweet Potato
+spalmedo	Chipotle Black Bean Soup	05-16	Dinner	the Graduate College	Chipotle Black Bean Soup
+spalmedo	Falafel & Tahini Sauce	05-16	Dinner	Rocky/Mathey	Falafel & Tahini Sauce
+spalmedo	Falafel & Tahini Sauce	05-16	Lunch	Rocky/Mathey	Falafel & Tahini Sauce
+spalmedo	Fresh Steamed Broccoli	05-16	Lunch	Forbes	Fresh Steamed Broccoli
+spalmedo	Kale Salad	05-10	Dinner	Rocky/Mathey	Kale Salad
+spalmedo	Kale Salad	05-10	Lunch	Rocky/Mathey	Kale Salad
+spalmedo	Lentil Soup	05-10	Dinner	Butler/Wilson	Lentil Soup
+spalmedo	Lentil Soup	05-10	Lunch	Butler/Wilson	Lentil Soup
+spalmedo	Lentil Soup	05-10	Lunch	the Center For Jewish Life	Tomato, Lentil & Barley Soup
+spalmedo	Lentil Soup	05-16	Lunch	Forbes	Moroccan Lentil Soup
+spalmedo	Moroccan Lentil Soup	05-16	Lunch	Forbes	Moroccan Lentil Soup
+spalmedo	Roasted Root Vegetables	05-16	Dinner	the Graduate College	Roasted Root Vegetables
+spalmedo	Roasted Sweet Potato	05-10	Dinner	Butler/Wilson	Roasted Corn & Sweet Potato Soup
+spalmedo	Roasted Sweet Potato	05-10	Dinner	the Graduate College	Roasted Sweet Potato
+spalmedo	Steamed Broccoli	05-10	Dinner	the Graduate College	Steamed Broccoli
+spalmedo	Steamed Broccoli	05-16	Lunch	Forbes	Fresh Steamed Broccoli
+spalmedo	Vegan Chickpea & Sweet Potato Stew	05-16	Lunch	the Center For Jewish Life	Vegan Chickpea & Sweet Potato Stew
+tcfair	Chicken Pot Pie	05-10	Lunch	Whitman	Chicken Pot Pie
+thclark	Chicken Thighs with Swiss Cheese & Gravy	05-10	Lunch	Rocky/Mathey	Chicken Thighs with Swiss Cheese & Gravy
+thclark	Parmesan Risotto	05-10	Lunch	Butler/Wilson	Boursin Herb & Parmesan Risotto
+thclark	Parmesan Risotto	05-10	Lunch	Rocky/Mathey	Parmesan Risotto
+vnavarro	Vegetable Lasagna	05-16	Dinner	the Center For Jewish Life	Zucchini & Vegetable Lasagna
+wdap	chicken pot pie	05-10	Lunch	Whitman	Chicken Pot Pie
+wilhoite	avocado	05-16	Lunch	Forbes	Avocado & Strawberry Salad with Oranges
+wnolan	french fries	05-16	Lunch	Forbes	Fresh Hand Cut Idaho French Fries
+yeesl	Tofu Bulgogi	05-16	Lunch	Whitman	Tofu Bulgogi
+yichengh	Caesar Salad	05-10	Dinner	Whitman	Mediterranean Spinach Caesar Salad
+yichengh	Caesar Salad	05-10	Lunch	Whitman	Mediterranean Spinach Caesar Salad
+ziegesar	Chickpea	05-16	Lunch	the Center For Jewish Life	Vegan Chickpea & Sweet Potato Stew
+ziegesar	Curry	05-16	Lunch	Butler/Wilson	Vegetable Curry with Coconut Milk
+zsims	Avocado & Strawberry Salad with Oranges	05-16	Lunch	Forbes	Avocado & Strawberry Salad with Oranges
