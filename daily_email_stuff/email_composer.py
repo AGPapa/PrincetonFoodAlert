@@ -12,7 +12,7 @@ def write_email(netid, foodprefs, dhalls, dates, meals, foods, netids):
 	except:
 		name = netid
 
-	now = datetime.datetime.now(
+	now = datetime.datetime.now()
 
 	sys.stdout.write("<" + netid + ">\n")
 	count = 0

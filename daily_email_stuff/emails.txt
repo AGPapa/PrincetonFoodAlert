@@ -878,7 +878,7 @@
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <gjerfel>
-<p>Hello gjerfel, you have 1 food(s) in the dining halls in the next week.</p>
+<p>Hello Ghassen, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
