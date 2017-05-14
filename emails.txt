@@ -1,5 +1,5 @@
 <aag3>
-<p>Hello aag3, you have 1 food(s) in the dining halls in the next week.</p>
+<p>Hello aag3, you have 2 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -15,41 +15,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Rocky/Mathey</td>
+		<td>Roasted Garlic Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Forbes</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<aamirz>
-<p>Hello aamirz, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Halal Beef Bulgogi</td>
-		<td>Halal Beef Bulgogi</td>
+		<td>Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <acherr>
-<p>Hello acherr, you have 1 food(s) in the dining halls in the next week.</p>
+<p>Hello acherr, you have 2 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -65,16 +46,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Bulgogi Bowl</td>
-		<td>Bulgogi Bowl</td>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Rocky/Mathey</td>
+		<td>Roasted Garlic Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <agpapa>
-<p>Hello agpapa, you have 22 food(s) in the dining halls in the next week.</p>
+<p>Hello agpapa, you have 18 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -90,142 +77,118 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken Wing Bar</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Forbes</td>
-		<td>Hawaiian Chicken with Papaya Pineapple Relish</td>
+		<td>Baked Chicken with Pomegranate Glaze</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>the Graduate College</td>
-		<td>Chicken Coq Au Vin</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Lemon Thyme Chicken Orzo Soup</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Teriyaki Chicken & Rice</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken with Mushroom Ragout</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Panini with Havarti & Herb Mayo</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Soup</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Rocky/Mathey</td>
-		<td>Chicken Thighs with Swiss Cheese & Gravy</td>
+		<td>Chicken Tortilla Soup</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Rocky/Mathey</td>
-		<td>Japanese Noodles with Chicken & Vegetables</td>
+		<td>Herb Roasted Chicken</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>the Center For Jewish Life</td>
-		<td>Jamaican Jerked Chicken</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
+		<td>Chicken & Broccoli</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Whitman</td>
-		<td>Lemon Thyme Chicken Orzo Soup</td>
+		<td>Chicken Coconut Curry Soup</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Butler/Wilson</td>
+		<td>Fried Chicken & Waffles with Sausage</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Rocky/Mathey</td>
+		<td>Chicken Tortilla Soup</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Coconut Curry Soup</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Marsala</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Butler/Wilson</td>
 		<td>Enchilada Bowl Chicken</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Southern Fried Chicken</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Rocky/Mathey</td>
-		<td>Chicken Romaine</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Chicken with Mushroom Sauce (Contains Alcohol)</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Fajitas</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Rice Soup</td>
-		<td>chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
 		<td>Chicken Tikka Masala</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Chicken Tagine with Olives</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
 		<td>chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Rice Soup</td>
+		<td>Chicken Nuggets</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken White Bean & Escarole Soup</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken White Bean & Escarole Soup</td>
+		<td>chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken Wing Bar</td>
 		<td>chicken</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <akratzer>
-<p>Hello akratzer, you have 4 food(s) in the dining halls in the next week.</p>
+<p>Hello akratzer, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -241,34 +204,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Lentil Soup</td>
-		<td>Lentil soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Lentil Soup</td>
-		<td>Lentil soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>the Center For Jewish Life</td>
 		<td>Tomato, Lentil & Barley Soup</td>
-		<td>Lentil soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Moroccan Lentil Soup</td>
 		<td>Lentil soup</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<al9>
-<p>Hello al9, you have 1 food(s) in the dining halls in the next week.</p>
+<allegram>
+<p>Hello allegram, you have 3 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -284,16 +229,109 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Lunch, Sunday, May 14</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
+		<td>Apple Crisp</td>
+		<td>Apple Crisp</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Rocky/Mathey</td>
+		<td>Roasted Garlic Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<amairone>
+<p>Hello amairone, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Rocky/Mathey</td>
+		<td>South Indian Vegetable Curry</td>
+		<td>Indian</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<anscombe>
+<p>Hello anscombe, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Baked Cheese Ziti</td>
+		<td>baked ziti</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<apiccato>
+<p>Hello apiccato, you have 2 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Butler/Wilson</td>
+		<td>Grapefruit Half</td>
+		<td>Grapefruit Half</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Grapefruit Half</td>
+		<td>Grapefruit Half</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <arburton>
-<p>Hello arburton, you have 22 food(s) in the dining halls in the next week.</p>
+<p>Hello arburton, you have 18 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -309,142 +347,118 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken Wing Bar</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Forbes</td>
-		<td>Hawaiian Chicken with Papaya Pineapple Relish</td>
+		<td>Baked Chicken with Pomegranate Glaze</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>the Graduate College</td>
-		<td>Chicken Coq Au Vin</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Lemon Thyme Chicken Orzo Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Teriyaki Chicken & Rice</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken with Mushroom Ragout</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Panini with Havarti & Herb Mayo</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Rocky/Mathey</td>
-		<td>Chicken Thighs with Swiss Cheese & Gravy</td>
+		<td>Chicken Tortilla Soup</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Rocky/Mathey</td>
-		<td>Japanese Noodles with Chicken & Vegetables</td>
+		<td>Herb Roasted Chicken</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>the Center For Jewish Life</td>
-		<td>Jamaican Jerked Chicken</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
+		<td>Chicken & Broccoli</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Whitman</td>
-		<td>Lemon Thyme Chicken Orzo Soup</td>
+		<td>Chicken Coconut Curry Soup</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Butler/Wilson</td>
+		<td>Fried Chicken & Waffles with Sausage</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Rocky/Mathey</td>
+		<td>Chicken Tortilla Soup</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Coconut Curry Soup</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Marsala</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Butler/Wilson</td>
 		<td>Enchilada Bowl Chicken</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Southern Fried Chicken</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Rocky/Mathey</td>
-		<td>Chicken Romaine</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Chicken with Mushroom Sauce (Contains Alcohol)</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Fajitas</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Rice Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
 		<td>Chicken Tikka Masala</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Chicken Tagine with Olives</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
 		<td>Chicken</td>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Rice Soup</td>
+		<td>Chicken Nuggets</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken White Bean & Escarole Soup</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken White Bean & Escarole Soup</td>
+		<td>Chicken</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken Wing Bar</td>
 		<td>Chicken</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<bgs3>
-<p>Hello bgs3, you have 1 food(s) in the dining halls in the next week.</p>
+<aw29>
+<p>Hello aw29, you have 2 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -460,16 +474,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Rocky/Mathey</td>
+		<td>Naan</td>
+		<td>Naan</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
 		<td>Forbes</td>
-		<td>Baked Sweet Potato</td>
-		<td>Baked Potato</td>
+		<td>Sliced Lox Display</td>
+		<td>Sliced Lox Display</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <btlei>
-<p>Hello btlei, you have 1 food(s) in the dining halls in the next week.</p>
+<p>Hello btlei, you have 3 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -485,8 +505,20 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Butler/Wilson</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Buffalo Chicken Wings</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Buffalo Chicken Wings</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
 		<td>Chicken Wing Bar</td>
 		<td>Chicken Wing Bar</td>
 	</tr>
@@ -494,7 +526,7 @@
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <caseyli>
-<p>Hello caseyli, you have 2 food(s) in the dining halls in the next week.</p>
+<p>Hello caseyli, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -510,16 +542,10 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>pot pie</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Vegetable Pot Pie</td>
-		<td>pot pie</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>breakfast burrito</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -541,34 +567,59 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Braised Beef Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Rocky/Mathey</td>
+		<td>Roasted Garlic Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Forbes</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
+		<td>Mashed Potatoes</td>
+		<td>Mashed Potatoes</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<clairerk>
+<p>Hello clairerk, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Baked Macaroni & Cheese</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Macaroni & Cheese</td>
-		<td>Macaroni & Cheese</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Macaroni & Cheese</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>the Center For Jewish Life</td>
-		<td>Sweet Potato Fries</td>
-		<td>Sweet Potato Fries</td>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Burrito</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -590,84 +641,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Rocky/Mathey</td>
 		<td>Chicken Tikka Masala</td>
 		<td>Chicken Tikka Masala</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<dem4>
-<p>Hello dem4, you have 4 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Breakfast, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Spiced Roasted Butternut Squash & Sweet Potatoes</td>
-		<td>Butternut squash</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Butternut Squash Soup</td>
-		<td>Butternut squash</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Center For Jewish Life</td>
-		<td>Butternut Squash & Garlic Lasagna</td>
-		<td>Butternut squash</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Butternut Squash Soup</td>
-		<td>Butternut squash</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<devonb>
-<p>Hello devonb, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Breakfast, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Spiced Roasted Butternut Squash & Sweet Potatoes</td>
-		<td>Sweet potatoes</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <dkerkhof>
-<p>Hello dkerkhof, you have 4 food(s) in the dining halls in the next week.</p>
+<p>Hello dkerkhof, you have 5 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -683,53 +666,34 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Baked Macaroni & Cheese</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Braised Beef Macaroni & Cheese</td>
+		<td>Braised Beef Macaroni & Cheese</td>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Rocky/Mathey</td>
 		<td>Chicken Tikka Masala</td>
 		<td>Chicken Tikka Masala</td>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Macaroni & Cheese</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Braised Beef Macaroni & Cheese</td>
 		<td>Macaroni & Cheese</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
 		<td>Macaroni & Cheese</td>
 	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<dmelvin>
-<p>Hello dmelvin, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
 	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Panini with Havarti & Herb Mayo</td>
-		<td>Chicken Panini with Havarti & Herb Mayo</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -751,47 +715,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Chipotle Black Bean Soup</td>
-		<td>Black bean soup</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken White Bean & Escarole Soup</td>
+		<td>White bean soup</td>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>White Bean & Swiss Chard Soup</td>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken White Bean & Escarole Soup</td>
 		<td>White bean soup</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<ejiang>
-<p>Hello ejiang, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Center For Jewish Life</td>
-		<td>Red Pepper Salmon Pasta</td>
-		<td>salmon</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
 <eksteele>
-<p>Hello eksteele, you have 2 food(s) in the dining halls in the next week.</p>
+<p>Hello eksteele, you have 3 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -807,41 +746,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Apple Crisp</td>
+		<td>Apple Crisp</td>
+	</tr>
+	<tr>
+		<td>Dinner, Sunday, May 14</td>
 		<td>the Center For Jewish Life</td>
 		<td>Assorted Pies</td>
 		<td>Assorted Pies</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Baked Macaroni & Cheese</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<ermclean>
-<p>Hello ermclean, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Roasted Root Vegetables</td>
-		<td>Roasted Vegetables</td>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -863,16 +783,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken pot pie</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Breakfast burrito</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<gforrest>
-<p>Hello gforrest, you have 5 food(s) in the dining halls in the next week.</p>
+<fsoetan>
+<p>Hello fsoetan, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -888,40 +808,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Butternut Squash Soup</td>
-		<td>Butternut Squash Soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Butternut Squash Soup</td>
-		<td>Butternut Squash Soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Rocky/Mathey</td>
-		<td>Falafel & Tahini Sauce</td>
-		<td>Falafel & Tahini Sauce</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Falafel & Tahini Sauce</td>
-		<td>Falafel & Tahini Sauce</td>
+		<td>Paneer Tikka Masala</td>
+		<td>paneer</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <ggrady>
-<p>Hello ggrady, you have 3 food(s) in the dining halls in the next week.</p>
+<p>Hello ggrady, you have 7 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -937,28 +833,52 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Baked Macaroni & Cheese</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Buffalo Chicken Wings</td>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Macaroni & Cheese</td>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Buffalo Chicken Wings</td>
+	</tr>
+	<tr>
+		<td>Dinner, Sunday, May 14</td>
+		<td>the Center For Jewish Life</td>
+		<td>Cheese Lasagna</td>
+		<td>Cheese Lasagna</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken Wing Bar</td>
+		<td>Chicken Wing Bar</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Braised Beef Macaroni & Cheese</td>
 		<td>Macaroni & Cheese</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Macaroni & Cheese</td>
 		<td>Macaroni & Cheese</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<gjeon>
-<p>Hello gjeon, you have 1 food(s) in the dining halls in the next week.</p>
+<gjerfel>
+<p>Hello gjerfel, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -974,16 +894,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
+		<td>Chicken & Broccoli</td>
+		<td>Chicken & Broccoli</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <gvogeley>
-<p>Hello gvogeley, you have 1 food(s) in the dining halls in the next week.</p>
+<p>Hello gvogeley, you have 2 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -999,240 +919,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Vegetable Curry with Coconut Milk</td>
+		<td>Dinner, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Coconut Curry Soup</td>
+		<td>coconut</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Coconut Curry Soup</td>
 		<td>coconut</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<harryf>
-<p>Hello harryf, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<hbaron>
-<p>Hello hbaron, you have 30 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>the Graduate College</td>
-		<td>Beef Barley Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Beef Barley Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Beef Barley Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Roma House Beef Vegetable Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Beef Barley Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Vegetable Beef Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Roma House Beef Vegetable Soup</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Halal Beef Bulgogi</td>
-		<td>Beef</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken Wing Bar</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Hawaiian Chicken with Papaya Pineapple Relish</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>the Graduate College</td>
-		<td>Chicken Coq Au Vin</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Lemon Thyme Chicken Orzo Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Teriyaki Chicken & Rice</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken with Mushroom Ragout</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Panini with Havarti & Herb Mayo</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Chicken Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Rocky/Mathey</td>
-		<td>Chicken Thighs with Swiss Cheese & Gravy</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Rocky/Mathey</td>
-		<td>Japanese Noodles with Chicken & Vegetables</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>the Center For Jewish Life</td>
-		<td>Jamaican Jerked Chicken</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Lemon Thyme Chicken Orzo Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Enchilada Bowl Chicken</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Southern Fried Chicken</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Chicken Romaine</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Chicken with Mushroom Sauce (Contains Alcohol)</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Fajitas</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Rice Soup</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Chicken Tikka Masala</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Chicken Tagine with Olives</td>
-		<td>Chicken</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Whitman</td>
-		<td>Chicken Rice Soup</td>
-		<td>Chicken</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
 <ihsu>
-<p>Hello ihsu, you have 2 food(s) in the dining halls in the next week.</p>
+<p>Hello ihsu, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1248,22 +950,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
+		<td>Lunch, Sunday, May 14</td>
 		<td>Forbes</td>
-		<td>Fresh Seasonal Fruit Salad with Melon & Berries</td>
-		<td>berries</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Center For Jewish Life</td>
-		<td>Red Pepper Salmon Pasta</td>
-		<td>salmon</td>
+		<td>Chocolate Fountain</td>
+		<td>Chocolate Fountain</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<jasminel>
-<p>Hello jasminel, you have 1 food(s) in the dining halls in the next week.</p>
+<jaredl>
+<p>Hello jaredl, you have 2 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1279,35 +975,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Butler/Wilson</td>
-		<td>Vegetable Curry with Coconut Milk</td>
-		<td>Curry</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<karab>
-<p>Hello karab, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
+		<td>Buffalo Chicken Wings</td>
+		<td>Chicken Wings</td>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Macaroni & Cheese</td>
-		<td>Macaroni & Cheese</td>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Chicken Wings</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -1329,28 +1006,28 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Baked Macaroni & Cheese</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Macaroni & Cheese</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Braised Beef Macaroni & Cheese</td>
 		<td>Macaroni & Cheese</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Macaroni & Cheese</td>
 		<td>Macaroni & Cheese</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<khanss>
-<p>Hello khanss, you have 2 food(s) in the dining halls in the next week.</p>
+<kbaalen>
+<p>Hello kbaalen, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1366,22 +1043,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-		<td>Avocado</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>the Center For Jewish Life</td>
-		<td>Sweet Potato Fries</td>
-		<td>Sweet potato fries</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Meatballs in Tomato Sauce</td>
+		<td>Meatballs</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<kx2>
-<p>Hello kx2, you have 1 food(s) in the dining halls in the next week.</p>
+<kkabaria>
+<p>Hello kkabaria, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1397,10 +1068,35 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Greek Bar</td>
-		<td>Greek Bar</td>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>breakfast burrito</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<kmiao>
+<p>Hello kmiao, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Dinner, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Seitan & Broccoli</td>
+		<td>Seitan & Broccoli</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -1422,72 +1118,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Breakfast, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Breakfast Sausage Patties</td>
-		<td>Breakfast Sausage Patties</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<linht>
-<p>Hello linht, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<manasseh>
-<p>Hello manasseh, you have 2 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Sauteed Fresh Zucchini</td>
-		<td>zucchini</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Center For Jewish Life</td>
-		<td>Zucchini & Vegetable Lasagna</td>
-		<td>zucchini</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <mcraver>
-<p>Hello mcraver, you have 3 food(s) in the dining halls in the next week.</p>
+<p>Hello mcraver, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1503,28 +1143,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Baked Sweet Potato</td>
-		<td>Baked Potato</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>chicken pot pie</td>
-	</tr>
-	<tr>
-		<td>Breakfast, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Vegan Fruit Smoothies</td>
-		<td>Smoothies</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Breakfast Burrito</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<msawyer>
-<p>Hello msawyer, you have 1 food(s) in the dining halls in the next week.</p>
+<mehaag>
+<p>Hello mehaag, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1540,16 +1168,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Fresh Hand Cut Idaho French Fries</td>
-		<td>Idaho fries</td>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Rocky/Mathey</td>
+		<td>Spiced Basmati Rice</td>
+		<td>Basmati Rice</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <nsteidel>
-<p>Hello nsteidel, you have 1 food(s) in the dining halls in the next week.</p>
+<p>Hello nsteidel, you have 3 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1565,16 +1193,28 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Vegetable Curry with Coconut Milk</td>
+		<td>Dinner, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Coconut Curry Soup</td>
+		<td>curry</td>
+	</tr>
+	<tr>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Chicken Coconut Curry Soup</td>
+		<td>curry</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Rocky/Mathey</td>
+		<td>South Indian Vegetable Curry</td>
 		<td>curry</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <paoletta>
-<p>Hello paoletta, you have 3 food(s) in the dining halls in the next week.</p>
+<p>Hello paoletta, you have 4 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1590,242 +1230,152 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Southern Fried Chicken</td>
+		<td>Lunch, Sunday, May 14</td>
+		<td>Butler/Wilson</td>
+		<td>Fried Chicken & Waffles with Sausage</td>
 		<td>Fried Chicken</td>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Macaroni & Cheese</td>
-		<td>Macaroni & Cheese</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Butler/Wilson</td>
-		<td>Baked Macaroni & Cheese</td>
-		<td>Macaroni & Cheese</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<pz5>
-<p>Hello pz5, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<saraheg>
-<p>Hello saraheg, you have 2 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
+		<td>Braised Beef Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
 	</tr>
 	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Falafel & Tahini Sauce</td>
-		<td>Falafel & Tahini Sauce</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Falafel & Tahini Sauce</td>
-		<td>Falafel & Tahini Sauce</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<spalmedo>
-<p>Hello spalmedo, you have 19 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Forbes</td>
-		<td>Baked Sweet Potato</td>
-		<td>Baked Sweet Potato</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Chipotle Black Bean Soup</td>
-		<td>Chipotle Black Bean Soup</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Falafel & Tahini Sauce</td>
-		<td>Falafel & Tahini Sauce</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Rocky/Mathey</td>
-		<td>Falafel & Tahini Sauce</td>
-		<td>Falafel & Tahini Sauce</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Fresh Steamed Broccoli</td>
-		<td>Fresh Steamed Broccoli</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Rocky/Mathey</td>
-		<td>Kale Salad</td>
-		<td>Kale Salad</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Rocky/Mathey</td>
-		<td>Kale Salad</td>
-		<td>Kale Salad</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Lentil Soup</td>
-		<td>Lentil Soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Lentil Soup</td>
-		<td>Lentil Soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>the Center For Jewish Life</td>
-		<td>Tomato, Lentil & Barley Soup</td>
-		<td>Lentil Soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Moroccan Lentil Soup</td>
-		<td>Lentil Soup</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Moroccan Lentil Soup</td>
-		<td>Moroccan Lentil Soup</td>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
-		<td>the Graduate College</td>
-		<td>Roasted Root Vegetables</td>
-		<td>Roasted Root Vegetables</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Roasted Corn & Sweet Potato Soup</td>
-		<td>Roasted Sweet Potato</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>the Graduate College</td>
-		<td>Roasted Sweet Potato</td>
-		<td>Roasted Sweet Potato</td>
-	</tr>
-	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>the Graduate College</td>
-		<td>Steamed Broccoli</td>
-		<td>Steamed Broccoli</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Fresh Steamed Broccoli</td>
-		<td>Steamed Broccoli</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>the Center For Jewish Life</td>
-		<td>Vegan Chickpea & Sweet Potato Stew</td>
-		<td>Vegan Chickpea & Sweet Potato Stew</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<tcfair>
-<p>Hello tcfair, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>Chicken Pot Pie</td>
+		<td>Buffalo Chicken Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Macaroni & Cheese</td>
+		<td>Macaroni & Cheese</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<rchacko>
+<p>Hello rchacko, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<schachne>
+<p>Hello schachne, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Mushroom Farro Risotto</td>
+		<td>Mushroom Farro Risotto</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<shruthir>
+<p>Hello shruthir, you have 1 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Dinner, Sunday, May 14</td>
+		<td>Whitman</td>
+		<td>Seitan & Broccoli</td>
+		<td>Seitan & Broccoli</td>
+	</tr>
+</table>
+<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
+<end of email>
+<sprieto>
+<p>Hello sprieto, you have 4 food(s) in the dining halls in the next week.</p>
+<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Dining Hall</th>
+		<th>Food in Dining Hall</th>
+		<th>Matched with</th>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Buffalo Chicken Wings</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Buffalo Chicken Wings</td>
+		<td>Buffalo Chicken Wings</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Whitman</td>
+		<td>Chicken Wing Bar</td>
+		<td>Chicken Wing Bar</td>
+	</tr>
+	<tr>
+		<td>Dinner, Saturday, May 20</td>
+		<td>Butler/Wilson</td>
+		<td>Meatballs in Tomato Sauce</td>
+		<td>Meatballs in Tomato Sauce</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
 <thclark>
-<p>Hello thclark, you have 3 food(s) in the dining halls in the next week.</p>
+<p>Hello thclark, you have 2 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1841,53 +1391,22 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Rocky/Mathey</td>
-		<td>Chicken Thighs with Swiss Cheese & Gravy</td>
-		<td>Chicken Thighs with Swiss Cheese & Gravy</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Butler/Wilson</td>
-		<td>Boursin Herb & Parmesan Risotto</td>
-		<td>Parmesan Risotto</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Rocky/Mathey</td>
-		<td>Parmesan Risotto</td>
-		<td>Parmesan Risotto</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<vnavarro>
-<p>Hello vnavarro, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Dinner, Tuesday, May 16</td>
+		<td>Dinner, Sunday, May 14</td>
 		<td>the Center For Jewish Life</td>
-		<td>Zucchini & Vegetable Lasagna</td>
-		<td>Vegetable Lasagna</td>
+		<td>Cheese Lasagna</td>
+		<td>Cheese Lasagna</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Penne Pasta</td>
+		<td>Penne Pasta</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
 <end of email>
-<wdap>
-<p>Hello wdap, you have 1 food(s) in the dining halls in the next week.</p>
+<wgansa>
+<p>Hello wgansa, you have 1 food(s) in the dining halls in the next week.</p>
 <head>
 	<style>
 		table, th, td {
@@ -1903,10 +1422,10 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Wednesday, May 10</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Chicken Pot Pie</td>
-		<td>chicken pot pie</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -1928,60 +1447,10 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Avocado & Strawberry Salad with Oranges</td>
-		<td>avocado</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<wnolan>
-<p>Hello wnolan, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>Forbes</td>
-		<td>Fresh Hand Cut Idaho French Fries</td>
-		<td>french fries</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<yeesl>
-<p>Hello yeesl, you have 1 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Lunch, Saturday, May 20</td>
 		<td>Whitman</td>
-		<td>Tofu Bulgogi</td>
-		<td>Tofu Bulgogi</td>
+		<td>Breakfast Burrito Bar with Chorizo</td>
+		<td>breakfast burrito</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
@@ -2003,47 +1472,16 @@
 		<th>Matched with</th>
 	</tr>
 	<tr>
-		<td>Dinner, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Mediterranean Spinach Caesar Salad</td>
-		<td>Caesar Salad</td>
-	</tr>
-	<tr>
-		<td>Lunch, Wednesday, May 10</td>
-		<td>Whitman</td>
-		<td>Mediterranean Spinach Caesar Salad</td>
-		<td>Caesar Salad</td>
-	</tr>
-</table>
-<p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
-<end of email>
-<ziegesar>
-<p>Hello ziegesar, you have 2 food(s) in the dining halls in the next week.</p>
-<head>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-		}
-	</style>
-</head>
-<table>
-	<tr>
-		<th>Date</th>
-		<th>Dining Hall</th>
-		<th>Food in Dining Hall</th>
-		<th>Matched with</th>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
-		<td>the Center For Jewish Life</td>
-		<td>Vegan Chickpea & Sweet Potato Stew</td>
-		<td>Chickpea</td>
-	</tr>
-	<tr>
-		<td>Lunch, Tuesday, May 16</td>
+		<td>Dinner, Saturday, May 20</td>
 		<td>Butler/Wilson</td>
-		<td>Vegetable Curry with Coconut Milk</td>
-		<td>Curry</td>
+		<td>Baked Cheese Ziti</td>
+		<td>Baked Ziti</td>
+	</tr>
+	<tr>
+		<td>Lunch, Saturday, May 20</td>
+		<td>Forbes</td>
+		<td>Vegetarian Caesar Salad</td>
+		<td>Caesar Salad</td>
 	</tr>
 </table>
 <p>Thank you for using Princeton Food Alert. Please visit ptonfoodalert.herokuapp.com if you wish to update your preferences.</p>
