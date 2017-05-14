@@ -1,16 +1,22 @@
 import sys
 import datetime
+import pymongo
 
 DayL = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 MonthL = [' ', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-def write_email(netid, foodprefs, dhalls, dates, meals, foods):
-	
+def write_email(netid, foodprefs, dhalls, dates, meals, foods, netids):
+
+	try:
+		name = netids[netid]
+	except:
+		name = netid
+
 	sys.stdout.write("<" + netid + ">\n")
 	count = 0
 	for food in foodprefs:
 		count = count + 1
-	sys.stdout.write("<p>Hello " + netid + ", you have " + str(count) + " food(s) in the dining halls in the next week.</p>")
+	sys.stdout.write("<p>Hello " + name + ", you have " + str(count) + " food(s) in the dining halls in the next week.</p>")
 	sys.stdout.write("""
 <head>
 	<style>
@@ -43,6 +49,13 @@ def write_email(netid, foodprefs, dhalls, dates, meals, foods):
 	sys.stdout.write("<end of email>\n")
 
 
+
+uri = 'mongodb://foodpref:hungry67@ds153730.mlab.com:53730/heroku_b3r535zh'
+client = pymongo.MongoClient(uri)
+db = client.get_default_database()
+all = db.get_collection("NetIDs").find()
+netids = all[0]
+
 foodprefs = []
 dhalls = []
 dates = []
@@ -69,7 +82,7 @@ while True:
 		dhalls.append(tokens[4])
 		foods.append(tokens[5])
 	else:
-		write_email(netid, foodprefs, dhalls, dates, meals, foods)
+		write_email(netid, foodprefs, dhalls, dates, meals, foods, netids)
 		
 		#clear old data
 		foodprefs = []
