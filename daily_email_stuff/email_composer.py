@@ -12,6 +12,8 @@ def write_email(netid, foodprefs, dhalls, dates, meals, foods, netids):
 	except:
 		name = netid
 
+	now = datetime.datetime.now(
+
 	sys.stdout.write("<" + netid + ">\n")
 	count = 0
 	for food in foodprefs:
@@ -35,8 +37,7 @@ def write_email(netid, foodprefs, dhalls, dates, meals, foods, netids):
 	for i in range(0, count):
 		month = int(dates[i][:2])
 		day = int(dates[i][3:])
-		day_of_week = DayL[datetime.date(2017,month,day).weekday()]
-#		sys.stdout.write("There will be " + foods[i][:-1] + " in " + dhalls[i] + " for " + meals[i] + " on " + day_of_week + ", " + MonthL[month] + " " + str(day) + ". You received this notification because you wanted emails for \"" + foodprefs[i] + "\".\n")
+		day_of_week = DayL[datetime.date(now.year,month,day).weekday()]
 		sys.stdout.write("""
 	<tr>
 		<td>""" + meals[i] + ", " + day_of_week + ", " + MonthL[month] + " " + str(day) + """</td>
