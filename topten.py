@@ -29,12 +29,17 @@ prefs = {}
 # Populates prefs dictionary based on current database
 all = users.find()
 for usr in all:
-	for food in usr["foodpref"]:
-		if food.lower() in prefs:
-			prefs[food.lower()] += 1
-		else:
-			prefs[food.lower()] = 1
 
+	try:
+
+		for food in usr["foodpref"]:
+			if food.lower() in prefs:
+				prefs[food.lower()] += 1
+			else:
+				prefs[food.lower()] = 1
+	except KeyError:
+		pass
+		
 # Sorts keys and obtains top ten most popular foods
 recent = sorted(prefs, key=prefs.get, reverse=True)[:10]
 # print recent
