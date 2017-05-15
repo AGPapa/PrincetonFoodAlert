@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Princeton Food Alert</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='full.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='awesomplete.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  {% block navbar %} {% endblock %}
+  {% block body %} {% endblock %}
+
+  <div id="feedback-form">
+  <a id="feedback-button">Tell us what you think.</a>
+  <div class="form">
+    <!-- iFrame needed for preventing a redirect -->
+    <iframe name="hidden_iframe" id="hidden_iframe"
+    style="display:none;" onload="if(submitted)
+    {feedbackFormSubmitted();}"></iframe>
+    <!-- End iFrame -->
+
+    <!-- Place your form here -->
+    <!-- Each entry is within a ss-form-question div -->
+    <!-- Make sure you replace corresponding URLs and class/id names that begin with "REPLACE:" -->
+    <form action="https://docs.google.com/a/princeton.edu/forms/d/e/1FAIpQLSdsZIrfgu2OfO8fUHdAVeh_uXhAuW1M0NyGsIDOi4zIozLcBQ/viewform" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+      <ol role="list" class="ss-question-list" style="padding-left: 0">
+        <div class="ss-form-question errorbox-good" role="listitem">
+          <div dir="ltr" class="ss-item  ss-paragraph-text">
+            <div class="ss-form-entry">
+              <label class="ss-q-item-label" for="entry_1107179300">
+                <div class="ss-q-title">Have you encountered any problems with the site?
+                </div>
+                <div class="ss-q-help ss-secondary-text" dir="ltr">
+                </div>
+              </label>
+              <textarea name="entry.1107179300" rows="8" cols="0" class="ss-q-long" id="entry.1107179300" dir="auto" aria-label="What is your favorite color?  "></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="ss-form-question errorbox-good" role="listitem">
+          <div dir="ltr" class="ss-item  ss-paragraph-text">
+            <div class="ss-form-entry">
+              <label class="ss-q-item-label" for="entry_1061654825">
+                <div class="ss-q-title">Are there any features you would like to see added?
+                </div>
+                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              </label>
+              <textarea name="entry.1061654825" rows="8" cols="0" class="ss-q-long" id="entry.1061654825" dir="auto" aria-label="What is your favorite food?  "></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="ss-form-question errorbox-good" role="listitem">
+          <div dir="ltr" class="ss-item  ss-paragraph-text">
+            <div class="ss-form-entry">
+              <label class="ss-q-item-label" for="entry_529123256">
+                <div class="ss-q-title">Any other comments or suggestions?
+                </div>
+                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              </label>
+              <textarea name="entry.529123256" rows="8" cols="0" class="ss-q-long" id="entry.529123256" dir="auto" aria-label="Do you have any additional comments?  "></textarea>
+            </div>
+          </div>
+        </div>
+        <input type="submit" name="submit" value="Submit" class="btn btn-default" id="ss-submit">
+        <button class="btn btn-default" disabled=true id="ss-submit-disabled">Submitting, please wait...</button>
+      </ol>
+    </form>
+    <!-- end Form -->
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="static/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</html>

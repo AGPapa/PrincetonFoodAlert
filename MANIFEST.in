@@ -1,0 +1,3 @@
+graft foodalert/templates
+graft foodalert/static
+include foodalert/schema.sql

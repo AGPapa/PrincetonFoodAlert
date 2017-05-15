@@ -1,0 +1,2206 @@
+{% extends "layout.html" %}
+{% block title %}Princeton Food Alert{% endblock %}
+
+{% block html_attribs %} class="full" {% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ url_for('show_entries') }}">Princeton Food Alert</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{ url_for('show_entries') }}">Add Food</a></li>
+        <li><a href="{{ url_for('show_topten') }}">Popular Foods</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ url_for('settings') }}">Settings</a>
+        </li>
+      <li>
+        <a>Welcome, {{ name }}</a>
+      </li> 
+      <li>
+        <a href="{{ url_for('cas.logout') }}">
+          <span class="glyphicon glyphicon-log-in">
+          </span> Logout
+        </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+{{super()}}
+
+<datalist id="foodlist">
+    <option>Alfredo Sauce </option>
+    <option>Ancient Grain &amp; Bean Burger</option>
+    <option>Apple Autumn Tossed Salad</option>
+    <option>Apple Cinnamon Crisp</option>
+    <option>Artichoke Freekeh Risotto</option>
+    <option>Asian Noodles Pappardelle</option>
+    <option>Asian Stuffed Pepper with Beef </option>
+    <option>Asparagus Soup Puree</option>
+    <option>Assorted Danish </option>
+    <option>Assorted Hot Breakfast Cereal</option>
+    <option>Assorted Muffins </option>
+    <option>Assorted Pastries</option>
+    <option>Assorted Pies </option>
+    <option>Autumn Roasted Vegetables </option>
+    <option>Avocado &amp; Strawberry Salad with Oranges</option>
+    <option>BBQ Baked Beans</option>
+    <option>BBQ Chesapeake Catfish</option>
+    <option>Bacon &amp; Corn Chowder</option>
+    <option>Bacon Slices</option>
+    <option>Bacon, Egg &amp; Cheese on English Muffin</option>
+    <option>Bacon</option>
+    <option>Baked  Ziti</option>
+    <option>Baked Cheese Ziti</option>
+    <option>Baked Macaroni &amp; Cheese</option>
+    <option>Baked Sweet Potato</option>
+    <option>Barley &amp; Wheatberry Pilaf</option>
+    <option>Barley Pilaf</option>
+    <option>Basmati &amp; Bulgar Pilaf</option>
+    <option>Basmati Rice</option>
+    <option>Batter Fried Fish</option>
+    <option>Bean &amp; Green Station with Dark Greens &amp; Seeds</option>
+    <option>Beef Barley Soup</option>
+    <option>Beef Paprikash</option>
+    <option>Beef Taco Filling</option>
+    <option>Beet &amp; Egg Salad</option>
+    <option>Beet Salad with Oranges </option>
+    <option>Black Bean &amp; Rice Casserole</option>
+    <option>Black Bean Salsa</option>
+    <option>Black Pearl  Grain &amp; Rice Blend</option>
+    <option>Boneless Pork Chop &amp; Apple Chutney</option>
+    <option>Bowties &amp; Asparagus</option>
+    <option>Braised Beef Short Ribs</option>
+    <option>Breaded Pork Chop</option>
+    <option>Breakfast Burrito Bar with Chorizo</option>
+    <option>Breakfast Potatoes</option>
+    <option>Breakfast Sausage Patties</option>
+    <option>Broccoli &amp; Carrots </option>
+    <option>Broccoli Flowerettes </option>
+    <option>Broccoli Flowerettes</option>
+    <option>Broccoli Rabe &amp; Tomatoes</option>
+    <option>Broiled Steelhead Trout with Lemon Butter</option>
+    <option>Brown Rice </option>
+    <option>Buffalo Chicken Drumsticks</option>
+    <option>Buffalo Chicken Wings</option>
+    <option>Buttermilk Pancakes</option>
+    <option>Butternut Squash Soup</option>
+    <option>Butternut Squash with Maple &amp; Cinnamon</option>
+    <option>Cannellini Beans with Spinach</option>
+    <option>Caribbean Style Curried Chicken</option>
+    <option>Carrot Ginger Soup</option>
+    <option>Cauliflower Coconut Curry</option>
+    <option>Challah Bread </option>
+    <option>Cheddar Beer Soup</option>
+    <option>Cheese Lasagna</option>
+    <option>Cheese Ravioli</option>
+    <option>Cheese Steak Bar</option>
+    <option>Cheese Steak Spring Roll</option>
+    <option>Cheesecake </option>
+    <option>Chef's Choice Pasta of the Day</option>
+    <option>Chicken &amp; Romaine Wrap </option>
+    <option>Chicken Alfredo with White Wine Pancetta</option>
+    <option>Chicken Cacciatore</option>
+    <option>Chicken Long Rice Soup</option>
+    <option>Chicken Murphy with Sausage</option>
+    <option>Chicken Noodle Soup</option>
+    <option>Chicken Parmesan</option>
+    <option>Chicken Pot Pie</option>
+    <option>Chicken Principessa</option>
+    <option>Chicken Soup</option>
+    <option>Chicken Tarragon</option>
+    <option>Chicken Tenders </option>
+    <option>Chicken Tikka Masala</option>
+    <option>Chicken Tortilla Soup</option>
+    <option>Chicken Udon Noodle Soup</option>
+    <option>Chicken Vegetable Soup</option>
+    <option>Chicken Wing Bar </option>
+    <option>Chicken Wing Bar</option>
+    <option>Chili Bar</option>
+    <option>Chipotle Black Bean &amp; Corn Soup</option>
+    <option>Chocolate Fountain</option>
+    <option>Cholent with Beef &amp; Barley </option>
+    <option>Citrus Green Salad with Roasted Corn &amp; Jicama</option>
+    <option>Collard Greens</option>
+    <option>Congee Bar</option>
+    <option>Corn &amp; Roasted Tomato Stuffed Mushroom</option>
+    <option>Corn, Black Bean &amp; Tomato Salad </option>
+    <option>Corn</option>
+    <option>Country Braised Beef Short Rib </option>
+    <option>Country Style Pork Ribs</option>
+    <option>Cranberry Sauce</option>
+    <option>Cream of Potato Soup</option>
+    <option>Cream of Tomato Soup</option>
+    <option>Cris Cut Fries</option>
+    <option>Crumb Cake </option>
+    <option>Cubano Salad</option>
+    <option>Curried Cauliflower &amp; Chickpea Salad</option>
+    <option>Curried Cauliflower Soup </option>
+    <option>Deli Bar</option>
+    <option>Dessert Bar </option>
+    <option>Dim Sum Bar</option>
+    <option>Dominican Black Bean Soup</option>
+    <option>Egg &amp; Cheese on a English Muffin</option>
+    <option>Egg Drop Soup</option>
+    <option>Egg Salad</option>
+    <option>Egg Whites to Order</option>
+    <option>Eggo Waffles </option>
+    <option>Eggplant Steak with Chickpeas &amp; Cheese &amp; Olives </option>
+    <option>Eggplant Tomato Tart </option>
+    <option>Eggs Benedict with Canadian Bacon</option>
+    <option>Eggs Made to Order</option>
+    <option>Eggs any Style &amp; Omelets Made to Order</option>
+    <option>Enchilada Bowl</option>
+    <option>European Breakfast</option>
+    <option>Farro Paella</option>
+    <option>Fish &amp; Vegetable Taco Station </option>
+    <option>Fish Taco</option>
+    <option>Florentine White Wine Sauce</option>
+    <option>Forbes Deli</option>
+    <option>Forbes Sunday Brunch Bar</option>
+    <option>French Dip Sandwich</option>
+    <option>French Texas Toast</option>
+    <option>French Toast </option>
+    <option>Fresh Asparagus Spears</option>
+    <option>Fresh Baked Muffin</option>
+    <option>Fresh Broccoli</option>
+    <option>Fresh Cauliflower &amp; Carrots</option>
+    <option>Fresh Cauliflower</option>
+    <option>Fresh Fish Catch of The Day</option>
+    <option>Fresh Fish Taco</option>
+    <option>Fresh Fruit Salad </option>
+    <option>Fresh Glazed Baby Carrots </option>
+    <option>Fresh Green Beans</option>
+    <option>Fresh Hand Cut Idaho French Fries</option>
+    <option>Fresh Mozzerella Bar</option>
+    <option>Fresh Sliced Fruit</option>
+    <option>Fresh Steamed Broccoli</option>
+    <option>Fried Chicken &amp; Waffles with Sausage</option>
+    <option>Fried Chicken Tenders</option>
+    <option>Garlic Mashed Potatoes</option>
+    <option>Gourmet Sausage Links</option>
+    <option>Grapefruit Half </option>
+    <option>Grapefruit Half</option>
+    <option>Grill Cheese Bar with Bacon</option>
+    <option>Grilled Breakfast Potato</option>
+    <option>Grilled Chicken Sandwich </option>
+    <option>Grilled Ginger Tofu &amp; Baby Bok Choy </option>
+    <option>Grilled Pork Chop</option>
+    <option>Grilled Salmon with Mango Salsa </option>
+    <option>Grilled Vegetable Lasagna</option>
+    <option>Grits </option>
+    <option>Halal Chicken Parmesan</option>
+    <option>Halal Manhattan Clam Chowder</option>
+    <option>Hash Brown Patty</option>
+    <option>Hearty Vegetable Cholent </option>
+    <option>Home Fried Potatoes </option>
+    <option>Home Fries</option>
+    <option>Home Style Vegetables Saute</option>
+    <option>Honey Orange Glazed Carrots</option>
+    <option>Hot &amp; Sour Soup</option>
+    <option>Hot Dog Bar </option>
+    <option>Hot Dog Bar</option>
+    <option>Huli huli Chicken</option>
+    <option>Hummus &amp; Grain Bar with Coconut Curry</option>
+    <option>Hummus &amp; Pitas </option>
+    <option>Israeli Couscous </option>
+    <option>Israeli Salad </option>
+    <option>Italian Bean Soup</option>
+    <option>Italian Wedding Soup</option>
+    <option>Japanese Noodle &amp; Sesame Salad</option>
+    <option>Japanese Short Grain Rice</option>
+    <option>Jerk Chicken</option>
+    <option>Kale &amp; Beet Hash</option>
+    <option>Kale Caesar Salad</option>
+    <option>Kale Salad with Tomatoes &amp; Quinoa </option>
+    <option>Kale Salad</option>
+    <option>Kalua Pork</option>
+    <option>Kamut &amp; Local Honey &amp; Lavender Roasted Chicken Breast</option>
+    <option>Kamut Grain &amp; Rice Blend</option>
+    <option>Kielbasa &amp; Kraut</option>
+    <option>Lamb Khorma</option>
+    <option>Lemon Mint Rice</option>
+    <option>Lemon Thyme Orzo</option>
+    <option>Lentil Soup with Swiss Chard</option>
+    <option>Lentil Soup</option>
+    <option>Lomi lomi salmon</option>
+    <option>London Broil</option>
+    <option>Lox &amp; Bagel Bar </option>
+    <option>Lox &amp; Bagel Bar</option>
+    <option>Mac &amp; Cheese Bar </option>
+    <option>Macaroni &amp; Cheese with Tasso Ham &amp; Shrimp</option>
+    <option>Macaroni &amp; Cheese</option>
+    <option>Make Your Own Sundae Bar </option>
+    <option>Mandarin Orange &amp; Spinach Salad</option>
+    <option>Mango Salsa</option>
+    <option>Manhattan Clam Chowder with Bacon</option>
+    <option>Marinara Sauce</option>
+    <option>Marinated Cucumber Salad</option>
+    <option>Meatballs in Tomato Sauce</option>
+    <option>Meatloaf &amp; Gravy</option>
+    <option>Mediterranean Chicken</option>
+    <option>Mediterranean Spinach Salad</option>
+    <option>Memphis Style Pork BBQ</option>
+    <option>Minestrone Soup </option>
+    <option>Minestrone Soup</option>
+    <option>Miso Soup &amp; Organic Tofu</option>
+    <option>Mixed Greens with Berries &amp; Dried Fruit</option>
+    <option>Moroccan Chicken &amp; Lentil Soup</option>
+    <option>Moroccan Lentil Soup </option>
+    <option>Mushroom Barley Soup</option>
+    <option>Mushroom Bisque</option>
+    <option>Mushroom Grits</option>
+    <option>Naan</option>
+    <option>Nachos Bar</option>
+    <option>New England Clam Chowder</option>
+    <option>Nicoise Salad </option>
+    <option>North African Couscous &amp; Chickpea Salad</option>
+    <option>O'Brien Potatoes</option>
+    <option>Oatmeal </option>
+    <option>Oatmeal Bar</option>
+    <option>Old Fashioned Beef Stew</option>
+    <option>Olive &amp; Pepper Salsa</option>
+    <option>Omelet Bar </option>
+    <option>Omelet Bar with Pork Options</option>
+    <option>Onion Rings</option>
+    <option>Oven Roasted Potatoes</option>
+    <option>Paella Valenciana with Chicken, Pork, &amp; Shrimp</option>
+    <option>Pancake Toppings</option>
+    <option>Pancakes </option>
+    <option>Panko Crusted Cod</option>
+    <option>Panko Crusted Lake Perch </option>
+    <option>Pappardelle with Pork Bolognese</option>
+    <option>Pasta Primavera</option>
+    <option>Pasta Selection of the Day</option>
+    <option>Pastitsio - Greek Lasagna</option>
+    <option>Pear &amp; Arugula Salad with Parmesan</option>
+    <option>Penne &amp; Wild Mushrooms</option>
+    <option>Penne Pasta</option>
+    <option>Penne with Boursin &amp; Tomato</option>
+    <option>Pesto Cream Sauce</option>
+    <option>Philly Style Vegan Sandwich </option>
+    <option>Pico De Gallo Shrimp Salad</option>
+    <option>Pigeon Peas &amp; Rice</option>
+    <option>Pizza Station </option>
+    <option>Pommery Roasted Potatoes</option>
+    <option>Pork Picadillo</option>
+    <option>Pork Roll, Egg &amp; Cheese on English Muffin</option>
+    <option>Pork Sausage Links</option>
+    <option>Pork Scallopini</option>
+    <option>Portobello Panini </option>
+    <option>Portobello Panini</option>
+    <option>Potato &amp; Cheese Pierogi Bar</option>
+    <option>Potato &amp; Cheese Pierogi</option>
+    <option>Potato &amp; Kale Soup</option>
+    <option>Potato Cheese Soup</option>
+    <option>Potato du Jour</option>
+    <option>Primavera Sauce</option>
+    <option>Pub Burger</option>
+    <option>Quinoa &amp; Black Beans</option>
+    <option>Quinoa Fried Rice </option>
+    <option>Radiatori Pasta</option>
+    <option>Ragout de Veal Marsala</option>
+    <option>Raisin French Toast</option>
+    <option>Ratatouille with Tofu</option>
+    <option>Red &amp; Green Tomato Salad with Corn</option>
+    <option>Red Beans &amp; Butternut Squash </option>
+    <option>Red Bliss Potato Salad</option>
+    <option>Rice &amp; Pigeon Peas</option>
+    <option>Rigatoni Alfredo</option>
+    <option>Rigatoni La Nonna</option>
+    <option>Rissole Potatoes </option>
+    <option>Roast Beef &amp; Horseradish Sandwich </option>
+    <option>Roast Beef with Red Wine Demi-Glace</option>
+    <option>Roast Beef</option>
+    <option>Roast Chicken Creole </option>
+    <option>Roast Cod with Veg &amp; Couscous</option>
+    <option>Roast Duck Pappardelle</option>
+    <option>Roast Tofu Tuscano</option>
+    <option>Roasted Balsamic Vegetables</option>
+    <option>Roasted Carrots &amp; Cauliflower </option>
+    <option>Roasted Carrots</option>
+    <option>Roasted Cauliflower</option>
+    <option>Roasted Corn on the Cob</option>
+    <option>Roasted Eggplant Caesar Salad</option>
+    <option>Roasted French Cut Chicken </option>
+    <option>Roasted Green Beans</option>
+    <option>Roasted Turkey Breast</option>
+    <option>Roasted Vegetable Medley </option>
+    <option>Roasted Yukon Gold Potatoes</option>
+    <option>Roasted Zucchini &amp; Mushrooms</option>
+    <option>Romaine, Apple &amp; Cheddar Salad</option>
+    <option>Ruby Rice &amp; Sprouts Blend</option>
+    <option>Rustic Green Beans</option>
+    <option>Saffron &amp; Cardamom Basmati Rice</option>
+    <option>Salad Bar Mixed Salads</option>
+    <option>Sauteed Chicken Marsala</option>
+    <option>Sauteed Fresh Yellow Squash</option>
+    <option>Sauteed Fresh Zucchini </option>
+    <option>Sauteed Fresh Zucchini</option>
+    <option>Sauteed Green Beans </option>
+    <option>Sauteed Green Kale</option>
+    <option>Sauteed Mixed Vegetables</option>
+    <option>Sauteed Organic Tofu &amp; Garden Veggies </option>
+    <option>Sauteed Seitan Marsala</option>
+    <option>Sauteed Spinach</option>
+    <option>Scrambled Eggs </option>
+    <option>Scrambled Eggs</option>
+    <option>Scrambled Tofu</option>
+    <option>Seafood Bisque</option>
+    <option>Seitan Picadillo</option>
+    <option>Sliced Bagels </option>
+    <option>Sliced Lox Display</option>
+    <option>Sliced Melons </option>
+    <option>Sliced Melons</option>
+    <option>Sliced Pork Roll</option>
+    <option>Soft Chicken Taco</option>
+    <option>Southern Fried Chicken</option>
+    <option>Southwest Barley Salad </option>
+    <option>Southwest Beans &amp; Rice</option>
+    <option>Soy Glazed Chicken Thighs with Asparagus</option>
+    <option>Spaghetti Marinara </option>
+    <option>Spaghetti Squash Pasta Marinara</option>
+    <option>Spam Musubi</option>
+    <option>Spanish Rice</option>
+    <option>Spiced Basmati Rice</option>
+    <option>Spiced Roasted Butternut Squash &amp; Sweet Potatoes</option>
+    <option>Spicy Chickpeas</option>
+    <option>Spicy Coconut Curry Pollack</option>
+    <option>Spicy Coconut Curry Tofu</option>
+    <option>Spicy French Fries </option>
+    <option>Spicy Whole Grain Pilaf </option>
+    <option>Spinach &amp; Vegetable Salad with Olive Tapenade</option>
+    <option>Spinach Lasagna </option>
+    <option>Spinach Salad with Raspberry Orange Vinaigrette</option>
+    <option>Spinach Salad with Strawberries</option>
+    <option>Split Pea Soup </option>
+    <option>Split Pea Soup</option>
+    <option>Steakhouse Fries</option>
+    <option>Steamed White Rice</option>
+    <option>Stewed Green Beans</option>
+    <option>Sunday Brunch Roast Vegetable Platter</option>
+    <option>Sweet &amp; Sour Butternut Squash </option>
+    <option>Sweet Pineapple Kugel </option>
+    <option>Sweet Potato &amp; Apple Salad</option>
+    <option>Sweet Potato &amp; Quinoa Salad</option>
+    <option>Sweet Potato Chili</option>
+    <option>Sweet Potato Fries </option>
+    <option>Sweet Potato Fries</option>
+    <option>Szechuan Dan Dan Noodle</option>
+    <option>Taco Bar Fixins</option>
+    <option>Taco Bar</option>
+    <option>Tandoori Tofu </option>
+    <option>Teriyaki Chicken &amp; Veg Salad</option>
+    <option>Teriyaki Tofu with Pineapple </option>
+    <option>Texas Beef Chili</option>
+    <option>Thai Chicken Coconut Soup</option>
+    <option>Three Bean Chili</option>
+    <option>Three Bean Creole Corn &amp; Peppers</option>
+    <option>Three Bean Taco</option>
+    <option>Tofu &amp; Mushroom &amp; Eggplant Tower</option>
+    <option>Tofu Curry</option>
+    <option>Tofu Scampi &amp; Broccoli with White Wine</option>
+    <option>Tofu Vegetable Wrap </option>
+    <option>Tomato Basil Bisque</option>
+    <option>Tomato Orzo Soup</option>
+    <option>Tomato Soup</option>
+    <option>Tomato, Lentil &amp; Barley Soup </option>
+    <option>Top Your Own Waffles </option>
+    <option>Tortilla-Crusted Chicken</option>
+    <option>Tossed House Salad</option>
+    <option>Tossed Salad &amp; Dressings </option>
+    <option>Tri-Color Salad &amp; Balsamic Vinaigrette</option>
+    <option>Tropical Fruit Salad</option>
+    <option>Tuna Salad</option>
+    <option>Turkey Bacon</option>
+    <option>Turkey Salad Wrap</option>
+    <option>Turkey Salad</option>
+    <option>Turkey Sausage</option>
+    <option>Tuscan White Bean &amp; Tomato Soup</option>
+    <option>Twister Fries</option>
+    <option>Udon Noodles with Five Spice Broth</option>
+    <option>Udon Noodles</option>
+    <option>Vegan Bar </option>
+    <option>Vegan Brown Rice Pilaf </option>
+    <option>Vegan Burgers </option>
+    <option>Vegan Fruit Smoothies</option>
+    <option>Vegan Nuggets </option>
+    <option>Vegan Sweet &amp; Sour Meatballs </option>
+    <option>Vegetable Barley Soup</option>
+    <option>Vegetable Curry with Coconut Milk</option>
+    <option>Vegetable Matzoh Ball Soup </option>
+    <option>Vegetable Pot Pie </option>
+    <option>Vegetable Pot Pie</option>
+    <option>Vegetable Stir Fry</option>
+    <option>Vegetable of the Day</option>
+    <option>Vegetarian Caesar Salad</option>
+    <option>Vegetarian Nacho &amp; Chili Bar </option>
+    <option>VegetarianTaco Filling</option>
+    <option>Veggie &amp; Deli Sandwich Station </option>
+    <option>Veggie Quesadilla </option>
+    <option>Veracruz Style Redfish</option>
+    <option>Vodka Rigatoni with Peas &amp; Mushrooms</option>
+    <option>Waffle Bar</option>
+    <option>Wheat Berries  with Zucchini &amp; Peppers</option>
+    <option>Wheat Berry &amp; Rice Salad with Cranberry</option>
+    <option>Wheatberries with Beans &amp; Mushrooms</option>
+    <option>White &amp; Wild Rice</option>
+    <option>White Bean &amp; Potato Soup</option>
+    <option>White Bean &amp; Spinach Salad</option>
+    <option>White Rice</option>
+    <option>Whole Baby Carrots</option>
+    <option>Whole Grain Five Rice Blend</option>
+    <option>Wild Mushroom Risotto &amp; Seitan</option>
+    <option>Yogurt &amp; Fruit Bar</option>
+    <option>Yogurt Bar </option>
+    <option>Zucchini &amp; Corn Saute </option>
+  <option> Acadian Red Fish a la meuniere </option>
+  <option> Acadian Redfish Provencal &amp; Barley </option>
+  <option> Acorn Squash &amp; Spinach </option>
+  <option> Acorn Squash </option>
+  <option> Aloo Gobi - Curried Cauliflower </option>
+  <option> Ancient Grain &amp; Bean Burger </option>
+  <option> Ancient Grain Bowl </option>
+  <option> Apple &amp; Lentil Salad </option>
+  <option> Apple Autumn Tossed Salad </option>
+  <option> Apple Crisp </option>
+  <option> Apple, Cranberry &amp; Arugula Salad </option>
+  <option> Arroz Con Pollo </option>
+  <option> Artichoke Freekeh Risotto </option>
+  <option> Artichoke Soup </option>
+  <option> Arugula Salad with Mozzarella </option>
+  <option> Arugula, Grapefruit &amp; Feta Salad </option>
+  <option> Asada Flank Steak </option>
+  <option> Asiago Chicken </option>
+  <option> Asian Chicken &amp; Noodle Station </option>
+  <option> Asian Ginger Cod </option>
+  <option> Asian Meatball Bar </option>
+  <option> Asian Noodles Pappardelle </option>
+  <option> Asian Pepper Steak </option>
+  <option> Asian Salmon Salad </option>
+  <option> Asian Stir Fried Vegetables </option>
+  <option> Asian Stuffed Pepper with Beef </option>
+  <option> Asian Vegetable Blend </option>
+  <option> Asparagus &amp; Potato Salad </option>
+  <option> Asparagus Soup Puree </option>
+  <option> Asparagus Spears with Baby Bok Choy </option>
+  <option> Asparagus Spears with Orange Butter </option>
+  <option> Assorted Danish </option>
+  <option> Assorted Hot Breakfast Cereal </option>
+  <option> Assorted Muffins </option>
+  <option> Assorted Pastries </option>
+  <option> Assorted Pies </option>
+  <option> Avocado &amp; Strawberry Salad with Oranges </option>
+  <option> Avocado Salad with Basil Mint Pesto </option>
+  <option> Aztec Rice &amp; Grain Blend </option>
+  <option> BBQ Baked Beans </option>
+  <option> BBQ Catfish </option>
+  <option> BBQ Chesapeake Catfish </option>
+  <option> BBQ Chicken </option>
+  <option> BBQ Organic Tofu </option>
+  <option> BBQ Pinto Beans </option>
+  <option> BBQ Pork Spareribs </option>
+  <option> BBQ Slow Roasted Beef Brisket </option>
+  <option> Baba Ghanoush &amp; Pita Bread </option>
+  <option> Baby Greens Soy Nuts &amp; Tomato Salad </option>
+  <option> Baby Lima Beans </option>
+  <option> Bacon &amp; Corn Chowder </option>
+  <option> Bacon </option>
+  <option> Bacon Slices </option>
+  <option> Bacon Wrapped Meatloaf &amp; Gravy </option>
+  <option> Bacon, Egg &amp; Cheese on English Muffin </option>
+  <option> Baked  Ziti </option>
+  <option> Baked Cheese Ziti </option>
+  <option> Baked Chicken </option>
+  <option> Baked Chicken with Pomegranate Glaze </option>
+  <option> Baked French Texas Toast </option>
+  <option> Baked Macaroni &amp; Cheese </option>
+  <option> Baked Potato &amp; Cheddar Soup </option>
+  <option> Baked Potato </option>
+  <option> Baked Sweet Potato </option>
+  <option> Baked Tofu &amp; Romesco Sauce </option>
+  <option> Balsamic Roasted Carrots &amp; Parsnips </option>
+  <option> Balsamic Roasted Vegetables </option>
+  <option> Barley &amp; Lentil Pilaf </option>
+  <option> Barley &amp; Wheatberry Pilaf </option>
+  <option> Barley Pilaf </option>
+  <option> Basil &amp; Red Curry Thai Chicken </option>
+  <option> Basil Chicken &amp; Roast Peppers </option>
+  <option> Basmati &amp; Bulgar Pilaf </option>
+  <option> Basmati Rice </option>
+  <option> Batter Fried Fish </option>
+  <option> Bean &amp; Green Station with Dark Greens &amp; Seeds </option>
+  <option> Bean &amp; Green Station with Kale, Spinach &amp; Escarole </option>
+  <option> Bean &amp; Green Station with Lettuces </option>
+  <option> Bean &amp; Vegetable Tostada </option>
+  <option> Beef  Fried Rice </option>
+  <option> Beef  Ribs &amp; Tzimmes </option>
+  <option> Beef &amp; Lemongrass Stir Fry </option>
+  <option> Beef &amp; Vegetable Stir Fry </option>
+  <option> Beef &amp; Wild Mushrooms </option>
+  <option> Beef Barley Soup </option>
+  <option> Beef Brisket with Red Wine Sauce </option>
+  <option> Beef Chow Fun </option>
+  <option> Beef Goulash </option>
+  <option> Beef Noodle Soup </option>
+  <option> Beef Orzo Soup </option>
+  <option> Beef Paprikash </option>
+  <option> Beef Shepherd's Pie </option>
+  <option> Beef Taco </option>
+  <option> Beef Taco Filling </option>
+  <option> Beef with Broccoli </option>
+  <option> Beer &amp; Onion Braised Kielbasa </option>
+  <option> Beer Battered Atlantic Dogfish </option>
+  <option> Beet &amp; Egg Salad </option>
+  <option> Beet Salad with Oranges </option>
+  <option> Beet, Goat Cheese &amp; Craisin Salad </option>
+  <option> Biryani Vegetable </option>
+  <option> Biscuits with Honey Butter </option>
+  <option> Black Bean &amp; Corn Quesadilla </option>
+  <option> Black Bean &amp; Corn Salad </option>
+  <option> Black Bean &amp; Rice Casserole </option>
+  <option> Black Bean Cakes </option>
+  <option> Black Bean Salsa </option>
+  <option> Black Bean Soup </option>
+  <option> Black Bean Veggie Couscous </option>
+  <option> Black Bean, Edamame &amp; Wheatberry Salad </option>
+  <option> Black Beans &amp; Corn </option>
+  <option> Black Beans &amp; Rice </option>
+  <option> Black Beans </option>
+  <option> Black Beans, Corn &amp; Rice </option>
+  <option> Black Eye Pea Soup with Ham </option>
+  <option> Black Eyed Peas &amp; Rice </option>
+  <option> Black Nerone Italian Rice </option>
+  <option> Black Pearl  Grain &amp; Rice Blend </option>
+  <option> Black Pearl Barley Sole Stuffed with Spinach </option>
+  <option> Black Rice Risotto </option>
+  <option> Blintz Bar </option>
+  <option> Bok Choy with Shiitake Mushrooms </option>
+  <option> Boneless Pork Chop &amp; Apple Chutney </option>
+  <option> Boursin Herb &amp; Parmesan Risotto </option>
+  <option> Bowties &amp; Asparagus </option>
+  <option> Braised Beef Macaroni &amp; Cheese </option>
+  <option> Braised Beef Short Ribs </option>
+  <option> Braised Red Cabbage </option>
+  <option> Braised Red Cabbage with Apples </option>
+  <option> Braised Swiss Chard </option>
+  <option> Braised Swiss Steak </option>
+  <option> Brazilian Roast Chicken </option>
+  <option> Brazilian Vegetable Stew </option>
+  <option> Breaded Pork Chop </option>
+  <option> Breakfast Burrito Bar with Chorizo </option>
+  <option> Breakfast Potatoes </option>
+  <option> Breakfast Sausage Patties </option>
+  <option> Broccoli &amp; Carrots </option>
+  <option> Broccoli &amp; Cauliflower Mix </option>
+  <option> Broccoli &amp; Cheddar Quiche </option>
+  <option> Broccoli Cheese Soup </option>
+  <option> Broccoli Flowerettes </option>
+  <option> Broccoli Rabe &amp; Tomatoes </option>
+  <option> Broccoli Stir Fry </option>
+  <option> Broccoli with Toasted Garlic &amp; Lemon </option>
+  <option> Broccoli, Potato, Egg &amp; Olive Salad </option>
+  <option> Broiled Pollack </option>
+  <option> Broiled Pollack with Lentils </option>
+  <option> Broiled Steelhead Trout with Lemon Butter </option>
+  <option> Brown Basmati Rice </option>
+  <option> Brown Rice </option>
+  <option> Brown Rice Pilaf </option>
+  <option> Bruschetta Chicken </option>
+  <option> Brussels Sprouts &amp; Chickpea Stirfry </option>
+  <option> Brussels Sprouts </option>
+  <option> Brussels Sprouts with Cranberries </option>
+  <option> Budin - Puerto Rican Bread Pudding </option>
+  <option> Buffalo Chicken Drumsticks </option>
+  <option> Buffalo Chicken Macaroni &amp; Cheese </option>
+  <option> Buffalo Chicken Wings </option>
+  <option> Bulgogi Bowl </option>
+  <option> Bulgur Wheat &amp; Spinach Salad </option>
+  <option> Buttered Egg Noodles </option>
+  <option> Buttered Parsley Potatoes </option>
+  <option> Buttermilk Biscuit with  Sausage Gravy </option>
+  <option> Buttermilk Pancakes </option>
+  <option> Butternut Squash &amp; Poblano Pepper Prozole </option>
+  <option> Butternut Squash Kugel </option>
+  <option> Butternut Squash Mac &amp; Cheese </option>
+  <option> Butternut Squash Soup </option>
+  <option> Butternut Squash with Maple &amp; Cinnamon </option>
+  <option> Cabbage Mixed Vegetables </option>
+  <option> Cabbage Stuffed with Beef &amp; Rice </option>
+  <option> Caesar Salad </option>
+  <option> Cajun Catfish </option>
+  <option> Cajun Kidney Bean Soup </option>
+  <option> Cannellini &amp; Roasted Tomato Salad </option>
+  <option> Caribbean Action Station </option>
+  <option> Caribbean Style Curried Chicken </option>
+  <option> Caribbean Vegetables </option>
+  <option> Carrot &amp; Ginger Soup </option>
+  <option> Carrot &amp; Lentil Stew </option>
+  <option> Carrot &amp; Sweet Potato Soup </option>
+  <option> Carrot Ginger Soup </option>
+  <option> Cauliflower Au Gratin </option>
+  <option> Cauliflower Carrot Medley </option>
+  <option> Cauliflower Couscous with Red Pepper </option>
+  <option> Cauliflower Mac &amp; Cheese </option>
+  <option> Cavatappi with Horseradish &amp; Pancetta </option>
+  <option> Challah Bread </option>
+  <option> Channa Dal - Curried Lentils &amp; Chickpeas </option>
+  <option> Cheddar Beer Soup </option>
+  <option> Cheddar Cheese Quiche </option>
+  <option> Cheddar Smashed Potato </option>
+  <option> Cheese &amp; Onion Mashed Potatoes </option>
+  <option> Cheese Lasagna </option>
+  <option> Cheese Ravioli &amp; Plum Tomatoes </option>
+  <option> Cheese Ravioli </option>
+  <option> Cheese Ravioli with Olive Oil &amp; Herbs </option>
+  <option> Cheese Sauce </option>
+  <option> Cheese Steak Bar </option>
+  <option> Cheese Steak Spring Roll </option>
+  <option> Cheesecake </option>
+  <option> Cheesy Grits </option>
+  <option> Chef's Choice Pasta of the Day </option>
+  <option> Chicken &amp; Andouille Sausage Corn Chowder </option>
+  <option> Chicken &amp; Broccoli </option>
+  <option> Chicken &amp; Dumplings </option>
+  <option> Chicken &amp; Romaine Wrap </option>
+  <option> Chicken &amp; Sausage Gumbo </option>
+  <option> Chicken &amp; White Bean Soup </option>
+  <option> Chicken Barley Soup </option>
+  <option> Chicken Biryani </option>
+  <option> Chicken Cacciatore </option>
+  <option> Chicken Caesar Piadine </option>
+  <option> Chicken Cantonese </option>
+  <option> Chicken Chili Rellano Casserole </option>
+  <option> Chicken Chipotle Tortilla Soup </option>
+  <option> Chicken Coconut Curry Soup </option>
+  <option> Chicken Coq Au Vin </option>
+  <option> Chicken Corn Chowder </option>
+  <option> Chicken Cutlet </option>
+  <option> Chicken Fajita Salad </option>
+  <option> Chicken Fajitas </option>
+  <option> Chicken Fingers </option>
+  <option> Chicken Fried Steak </option>
+  <option> Chicken Gravy </option>
+  <option> Chicken Gumbo Soup </option>
+  <option> Chicken Gyro </option>
+  <option> Chicken Lemongrass Dumplings </option>
+  <option> Chicken Long Rice Soup </option>
+  <option> Chicken Marsala </option>
+  <option> Chicken Noodle Salad </option>
+  <option> Chicken Noodle Soup </option>
+  <option> Chicken Nuggets </option>
+  <option> Chicken Nuggets Bar </option>
+  <option> Chicken Orzo Soup </option>
+  <option> Chicken Panini with Havarti &amp; Herb Mayo </option>
+  <option> Chicken Parmesan </option>
+  <option> Chicken Piccata </option>
+  <option> Chicken Pipian </option>
+  <option> Chicken Posole </option>
+  <option> Chicken Pot Pie </option>
+  <option> Chicken Rice Soup </option>
+  <option> Chicken Romaine </option>
+  <option> Chicken Salad Wrap </option>
+  <option> Chicken Salad Wrap with Ranch Dressing </option>
+  <option> Chicken Shawarma </option>
+  <option> Chicken Soup </option>
+  <option> Chicken Soup with Ancini di Pepe </option>
+  <option> Chicken Soup with Ditalini </option>
+  <option> Chicken Soup with Mini Farfalle </option>
+  <option> Chicken Tacos </option>
+  <option> Chicken Tagine with Olives </option>
+  <option> Chicken Taquito </option>
+  <option> Chicken Tarragon </option>
+  <option> Chicken Tenders </option>
+  <option> Chicken Thighs with Swiss Cheese &amp; Gravy </option>
+  <option> Chicken Tikka Masala </option>
+  <option> Chicken Tortilla Soup </option>
+  <option> Chicken Udon Noodle Soup </option>
+  <option> Chicken Vegetable Soup </option>
+  <option> Chicken White Bean &amp; Escarole Soup </option>
+  <option> Chicken Wing Bar </option>
+  <option> Chicken with Mushroom Ragout </option>
+  <option> Chicken with Mushroom Sauce (Contains Alcohol) </option>
+  <option> Chicken with Mushrooms, Leeks &amp; Vermouth Liquor </option>
+  <option> Chickpea Curry </option>
+  <option> Chickpea Salad with Roasted Red Peppers </option>
+  <option> Chickpeas &amp; Dumplings </option>
+  <option> Chickpeas Vegetables &amp; Curry </option>
+  <option> Chili Bar </option>
+  <option> Chili Bar Toppings </option>
+  <option> Chimichurri  Pork </option>
+  <option> Chimichurri Sauce </option>
+  <option> Chinese Broccoli &amp; Garlic </option>
+  <option> Chinese Cabbage Salad </option>
+  <option> Chinese Fried Noodles </option>
+  <option> Chipotle Black Bean &amp; Corn Soup </option>
+  <option> Chipotle Black Bean Soup </option>
+  <option> Chipotle Roasted Sweet Potatoes </option>
+  <option> Chipotle Steak Salad </option>
+  <option> Chocolate Chip Cookies </option>
+  <option> Chocolate Fountain </option>
+  <option> Cholent with Beef &amp; Barley </option>
+  <option> Chopped Mexican Salad </option>
+  <option> Cilantro Lime Grilled Tofu </option>
+  <option> Cilantro Rice </option>
+  <option> Citrus &amp; Fennel Salad </option>
+  <option> Citrus Green Salad with Roasted Corn &amp; Jicama </option>
+  <option> Citrus Grilled Chicken </option>
+  <option> Citrus Jasmine Rice </option>
+  <option> Classic Chipotle Steak </option>
+  <option> Coconut Basmati Rice </option>
+  <option> Cold Szechuan Noodles &amp; Vegetables </option>
+  <option> Cold Tropical Macaroni Salad </option>
+  <option> Cole Slaw </option>
+  <option> Collard Greens </option>
+  <option> Congee Bar </option>
+  <option> Corn </option>
+  <option> Corn Bisque Soup </option>
+  <option> Corn Bread </option>
+  <option> Corn, Black Bean &amp; Tomato Salad </option>
+  <option> Corned Beef &amp; Swiss Sandwich </option>
+  <option> Country Braised Beef Short Rib </option>
+  <option> Country Corn &amp; Buttermilk Pancakes </option>
+  <option> Country Hash Browns </option>
+  <option> Country Style Pork Ribs </option>
+  <option> Couscous &amp; Fruit Salad </option>
+  <option> Cranberry Orange Pancakes </option>
+  <option> Cranberry Sauce </option>
+  <option> Cream of Asparagus Soup </option>
+  <option> Cream of Broccoli Soup </option>
+  <option> Cream of Butternut Squash Soup </option>
+  <option> Cream of Carrot &amp; Curry Soup </option>
+  <option> Cream of Carrot </option>
+  <option> Cream of Chicken Soup </option>
+  <option> Cream of Ginger Carrot Soup </option>
+  <option> Cream of Mushroom Soup </option>
+  <option> Cream of Potato Soup </option>
+  <option> Cream of Roasted Tomato Soup </option>
+  <option> Cream of Shiitake Fennel Soup </option>
+  <option> Cream of Tomato Soup </option>
+  <option> Creamed Spinach </option>
+  <option> Creamy Cauliflower Mac &amp; Cheese </option>
+  <option> Creamy Polenta </option>
+  <option> Creole Macaroni &amp; Cheese </option>
+  <option> Creole Shrimp &amp; Cheesy Grits </option>
+  <option> Cris Cut Fries </option>
+  <option> Crispy BBQ Tofu </option>
+  <option> Crispy Pork Belly Salad with Frisee &amp; Ciabatta </option>
+  <option> Crispy Tofu Pipian </option>
+  <option> Crumb Cake </option>
+  <option> Crustless Vegetable Pie </option>
+  <option> Cuban Roast Chicken </option>
+  <option> Cuban Style Black Bean Soup </option>
+  <option> Cuban Tofu, Rice &amp; Plantain </option>
+  <option> Cubano Salad </option>
+  <option> Curried Cauliflower &amp; Chickpea Salad </option>
+  <option> Curried Cauliflower Soup </option>
+  <option> Curried Pumpkin Mushroom Soup </option>
+  <option> Curried Sweet Potato &amp; Lentil Stew </option>
+  <option> Daikon Radish &amp; Carrots </option>
+  <option> Deli Bar </option>
+  <option> Deli Combo Panini </option>
+  <option> Dessert Bar </option>
+  <option> Dim Sum Bar </option>
+  <option> Dominican Black Bean Soup </option>
+  <option> Double Berry Fruit Salad </option>
+  <option> Duck Confit over Sweet Potato Pancake &amp; Cranberry Chutney </option>
+  <option> Ecuadorian Vegetable Soup </option>
+  <option> Egg "Barley" Farfel </option>
+  <option> Egg &amp; Cheese on a English Muffin </option>
+  <option> Egg Drop Soup </option>
+  <option> Egg Salad </option>
+  <option> Egg Whites to Order </option>
+  <option> Eggo Waffles </option>
+  <option> Eggplant &amp; Crunchy Vegetables </option>
+  <option> Eggplant Caesar Piadine </option>
+  <option> Eggplant Caponata </option>
+  <option> Eggplant Parmesan </option>
+  <option> Eggplant Rollatini </option>
+  <option> Eggplant Steak with Chickpeas &amp; Cheese &amp; Olives </option>
+  <option> Eggplant Tomato Tart </option>
+  <option> Eggs Made to Order </option>
+  <option> Eggs any Style &amp; Omelets Made to Order </option>
+  <option> Enchilada Bowl </option>
+  <option> Ethiopian Inguday Tibs with White Wine </option>
+  <option> European Breakfast </option>
+  <option> Falafel &amp; Tahini Sauce </option>
+  <option> Farfalle Sundried Tomatoes &amp; Olives </option>
+  <option> Farfalle with Seasonal Greens </option>
+  <option> Farmers Market Vegetable Pasta Salad </option>
+  <option> Farro Paella </option>
+  <option> Farro and Roasted Vegetables </option>
+  <option> Farro with Spring Vegetables </option>
+  <option> Fattoush Salad </option>
+  <option> Fettucine Alfredo </option>
+  <option> Fish &amp; Vegetable Taco Station </option>
+  <option> Fish Taco </option>
+  <option> Florentine White Wine Sauce </option>
+  <option> Forbes Deli </option>
+  <option> Forbes Sunday Brunch Bar </option>
+  <option> French Dip Sandwich </option>
+  <option> French Onion Soup &amp; Croutons </option>
+  <option> French Onion Soup (contains alcohol) </option>
+  <option> French Onion Soup </option>
+  <option> French Onion Soup with Croutons </option>
+  <option> French Texas Toast </option>
+  <option> French Toast </option>
+  <option> French Toast Bar </option>
+  <option> French Toast Sticks </option>
+  <option> Fresh Asparagus Spears </option>
+  <option> Fresh Baked Muffin </option>
+  <option> Fresh Broccoli </option>
+  <option> Fresh Brussels Sprouts </option>
+  <option> Fresh Cauliflower &amp; Carrots </option>
+  <option> Fresh Cauliflower </option>
+  <option> Fresh Fish Catch of The Day </option>
+  <option> Fresh Fish Taco </option>
+  <option> Fresh Fruit Salad </option>
+  <option> Fresh Garden Vegetables </option>
+  <option> Fresh Glazed Baby Carrots </option>
+  <option> Fresh Green Beans </option>
+  <option> Fresh Hand Cut Idaho French Fries </option>
+  <option> Fresh Made Crepes </option>
+  <option> Fresh Mozzerella Bar </option>
+  <option> Fresh Sauteed Mix Vegetables </option>
+  <option> Fresh Sliced Fruit </option>
+  <option> Fresh Steamed Broccoli </option>
+  <option> Fresh Strawberries &amp; Sugar </option>
+  <option> Fresh Sweet Potato &amp; Apples </option>
+  <option> Fresh Three Bean Salad </option>
+  <option> Fried Catch of the Day </option>
+  <option> Fried Chicken &amp; Waffles with Sausage </option>
+  <option> Fried Chicken Tenders </option>
+  <option> Fried Clam Strips with Remoulade Sauce </option>
+  <option> Fried Plantains </option>
+  <option> Frittata De Jour </option>
+  <option> Fruit Blintzes </option>
+  <option> Fruit Crepes </option>
+  <option> Garden Vegetable Soup </option>
+  <option> Garlic Bread &amp; Green Bean Salad </option>
+  <option> Garlic Bread </option>
+  <option> Garlic Mashed Potatoes </option>
+  <option> Garlic Roasted Cauliflower </option>
+  <option> General Tso Chicken </option>
+  <option> General Tso Chickpeas </option>
+  <option> General Tso Crispy Cod </option>
+  <option> Ginger Chicken &amp; Noodles </option>
+  <option> Ginger Glazed Chicken </option>
+  <option> Ginger Orange Barbecued Beef </option>
+  <option> Ginger Vegetable Stir Fry </option>
+  <option> Glazed Baked Ham </option>
+  <option> Glazed Carrots &amp; Dill </option>
+  <option> Gnocchi Mushroom &amp; Leeks </option>
+  <option> Golden Beets Salad </option>
+  <option> Gorgonzola &amp; Tomato Cavatappi </option>
+  <option> Gourmet Sausage Links </option>
+  <option> Granola Crusted French Toast </option>
+  <option> Grapefruit Half </option>
+  <option> Grapes </option>
+  <option> Greek Bar </option>
+  <option> Greek Barley Salad </option>
+  <option> Greek Salad </option>
+  <option> Greek Seafood with Tomato &amp; Feta Cheese </option>
+  <option> Greek Style Quinoa </option>
+  <option> Green Beans &amp; Butternut Squash </option>
+  <option> Grill Cheese Bar with Bacon </option>
+  <option> Grilled Baby Vegetables </option>
+  <option> Grilled Breakfast Potato </option>
+  <option> Grilled Cheese Trio </option>
+  <option> Grilled Chicken Sandwich </option>
+  <option> Grilled Corn </option>
+  <option> Grilled Ginger Tofu &amp; Baby Bok Choy </option>
+  <option> Grilled Honey &amp; Ancho Corn on the Cob </option>
+  <option> Grilled Italian Chicken </option>
+  <option> Grilled Pollock </option>
+  <option> Grilled Pork Chop </option>
+  <option> Grilled Portobello Sandwich with Roasted Red Peppers </option>
+  <option> Grilled Steak Sandwich with Blackened Onions </option>
+  <option> Grilled Steak Wraps </option>
+  <option> Grilled Vegetable Lasagna </option>
+  <option> Grilled Vegetables </option>
+  <option> Grits </option>
+  <option> Halal Beef Bulgogi </option>
+  <option> Halal Beef Road House Chili </option>
+  <option> Halal Beef and Mushrooms </option>
+  <option> Halal Beef and Vegetable  Stir Fry </option>
+  <option> Halal Chicken Parmesan </option>
+  <option> Halal Manhattan Clam Chowder </option>
+  <option> Halal Roast Beef </option>
+  <option> Ham &amp; Brie Panini </option>
+  <option> Ham &amp; Cheddar Sandwich </option>
+  <option> Ham &amp; Cheese Quiche </option>
+  <option> Ham &amp; Jarlsberg with Apples on Brioche </option>
+  <option> Hand Crafted Lettuce &amp; Raw Veggie Wraps </option>
+  <option> Hash Brown Patty </option>
+  <option> Hash Browns </option>
+  <option> Hawaiian Chicken with Papaya Pineapple Relish </option>
+  <option> Healthy Grain Bowl </option>
+  <option> Hearty Vegetable Cholent </option>
+  <option> Herb Baked Chicken </option>
+  <option> Herb Grilled Eggplant </option>
+  <option> Herb Grilled Eggplant Parmesan </option>
+  <option> Herb Roasted Chicken </option>
+  <option> Herb Roasted Turkey </option>
+  <option> Herb Whipped Potatoes </option>
+  <option> Himalayan Red Rice </option>
+  <option> Home Fried Potatoes </option>
+  <option> Home Fries </option>
+  <option> Home Style Vegetables Saute </option>
+  <option> Honey &amp; Sage Roasted Chicken </option>
+  <option> Honey Brined Lemon Sage Turkey </option>
+  <option> Honey Glazed Chicken </option>
+  <option> Honey Orange Glazed Carrots </option>
+  <option> Honey Roasted Brussels Sprouts </option>
+  <option> Hot &amp; Sour Soup </option>
+  <option> Hot Artichoke &amp; Spinach Dip with Pita Chips </option>
+  <option> Hot Dog Bar </option>
+  <option> Hot Remoulade Sauce </option>
+  <option> Huli huli Chicken </option>
+  <option> Hummus &amp; Grain Bar with Assorted Bean Salads </option>
+  <option> Hummus &amp; Grain Bar with Coconut Curry </option>
+  <option> Hummus &amp; Pitas </option>
+  <option> Hummus &amp; Roasted Vegetable Wrap </option>
+  <option> Hummus Bar </option>
+  <option> Hummus Display </option>
+  <option> Indian Butter Chicken </option>
+  <option> Indian Butter Paneer </option>
+  <option> Indian Curry Lamb </option>
+  <option> Indian Lentil Stew </option>
+  <option> Israeli Couscous </option>
+  <option> Israeli Couscous Salad </option>
+  <option> Israeli Couscous with Spring Vegetables </option>
+  <option> Israeli Salad </option>
+  <option> Italian Bean Soup </option>
+  <option> Italian Panini with Ham &amp; Genoa Salami </option>
+  <option> Italian Tortellini Vegetable Soup </option>
+  <option> Italian Vegetable Soup </option>
+  <option> Italian Wedding Soup </option>
+  <option> JackFruit Taco </option>
+  <option> Jamaican Beans &amp; Rice </option>
+  <option> Jamaican Chicken Curry </option>
+  <option> Japanese Blend Vegetables </option>
+  <option> Japanese Noodle &amp; Sesame Salad </option>
+  <option> Japanese Noodles with Chicken &amp; Vegetables </option>
+  <option> Japanese Noodles with Vegetables </option>
+  <option> Japanese Short Grain Rice </option>
+  <option> Jasmine Blend Rice </option>
+  <option> Jasmine Rice &amp; Grain Blend </option>
+  <option> Jasmine Rice &amp; Orange Seitan </option>
+  <option> Jerk Chicken </option>
+  <option> Jersey Fresh Beet &amp; Apple Salad </option>
+  <option> Jersey Fresh Butternut Squash &amp; Peaches </option>
+  <option> Jersey Fresh Cucumber &amp; French Lentil Salad </option>
+  <option> Julienne Vegetable Medley </option>
+  <option> Kachumber Salad </option>
+  <option> Kale &amp; Avocado Salad </option>
+  <option> Kale &amp; Beet Hash </option>
+  <option> Kale &amp; Brown Rice Stuffed Peppers </option>
+  <option> Kale &amp; Roasted Beets Salad </option>
+  <option> Kale Caesar Salad </option>
+  <option> Kale Salad </option>
+  <option> Kale Salad with Charred Corn &amp; Feta </option>
+  <option> Kale Salad with Tomatoes &amp; Quinoa </option>
+  <option> Kale, Wild Mushroom &amp; White Bean Stew </option>
+  <option> Kalua Pork </option>
+  <option> Kamut &amp; Local Honey &amp; Lavender Roasted Chicken Breast </option>
+  <option> Kamut Blend Rice with Beans </option>
+  <option> Kamut Grain &amp; Rice Blend </option>
+  <option> Kielbasa &amp; Kraut </option>
+  <option> Kimchi </option>
+  <option> Krinkle Cut Fries </option>
+  <option> Lamb Khorma </option>
+  <option> Lamb Pot Roast with Red Wine &amp; Oranges </option>
+  <option> Lamb Shoulder with White Beans </option>
+  <option> Lamb Stew </option>
+  <option> Lamb Vindaloo </option>
+  <option> Latin Citrus Mojo Braised Pork Shoulder </option>
+  <option> Latin Vegetables </option>
+  <option> Leg of Lamb with Rainbow Chard </option>
+  <option> Lemon &amp; Herb Orzo Pasta </option>
+  <option> Lemon Mint Rice </option>
+  <option> Lemon Pepper Pasta &amp; Broccoli </option>
+  <option> Lemon Pepper Pasta &amp; Fresh Broccoli </option>
+  <option> Lemon Ricotta Pancakes </option>
+  <option> Lemon Thyme Chicken Orzo Soup </option>
+  <option> Lemon Thyme Chicken Soup </option>
+  <option> Lemon Thyme Orzo </option>
+  <option> Lemongrass Water </option>
+  <option> Lentil &amp; Ham Soup </option>
+  <option> Lentil &amp; Kale Salad </option>
+  <option> Lentil &amp; Vegetable Curry </option>
+  <option> Lentil &amp; Vegetable Shepherd's Pie </option>
+  <option> Lentil Salad with Salsa Verde </option>
+  <option> Lentil Soup </option>
+  <option> Lentil Soup with Swiss Chard </option>
+  <option> Lentils &amp; Kale </option>
+  <option> Lettuce Wedge with Endive &amp; Blue Cheese </option>
+  <option> Linguini </option>
+  <option> Lo Mein Bar </option>
+  <option> Lomi lomi salmon </option>
+  <option> Lox &amp; Bagel Bar </option>
+  <option> Mac &amp; Cheese Bar </option>
+  <option> Macaroni &amp; Cheese </option>
+  <option> Macaroni &amp; Cheese Bar with Pork Options </option>
+  <option> Macaroni &amp; Cheese with Tasso Ham &amp; Shrimp </option>
+  <option> Madras Beef Curry with Coconut </option>
+  <option> Mahogony Eggplant &amp; White Beans </option>
+  <option> Mandarin Orange &amp; Spinach Salad </option>
+  <option> Mango Salsa </option>
+  <option> Manhattan Clam Chowder with Bacon </option>
+  <option> Manicotti </option>
+  <option> Marinara Sauce </option>
+  <option> Marinated Cucumber Salad </option>
+  <option> Marinated Mushrooms &amp; Spring Vegetables </option>
+  <option> Mashed Potatoes &amp; Caramelized Onion </option>
+  <option> Mashed Potatoes </option>
+  <option> Mashed Red Bliss Potatoes </option>
+  <option> Mashed Rutabega </option>
+  <option> Mashed Sweet Potato </option>
+  <option> Matzoh &amp; Lox Bar </option>
+  <option> Matzoh Ball Soup </option>
+  <option> Matzoh Brei Station </option>
+  <option> Meat Lasagna </option>
+  <option> Meatballs in Tomato Sauce </option>
+  <option> Meatloaf &amp; Gravy </option>
+  <option> Meatloaf </option>
+  <option> Mediterranean Chicken </option>
+  <option> Mediterranean Pasta with Greens </option>
+  <option> Mediterranean Spinach Caesar Salad </option>
+  <option> Mediterranean Spinach Salad </option>
+  <option> Mediterranean Style Baked Eggplant </option>
+  <option> Melon, Cucumber &amp; Radish Salad </option>
+  <option> Memphis BBQ Beef Brisket </option>
+  <option> Memphis Style Pork BBQ </option>
+  <option> Mexican Organic Tofu &amp; Bean Soup </option>
+  <option> Mexican Slaw </option>
+  <option> Mexican Style Quinoa Salad </option>
+  <option> Minestrone Soup </option>
+  <option> Miso Glazed Redfish </option>
+  <option> Miso Ramen Bowl </option>
+  <option> Miso Soup &amp; Organic Tofu </option>
+  <option> Miso Soup </option>
+  <option> Mixed Greens with Berries &amp; Dried Fruit </option>
+  <option> Mixed Greens with Grapes, Figs &amp; Cranberries </option>
+  <option> Mongolian Sauce </option>
+  <option> Mongolian Seafood with Vegetables </option>
+  <option> Mongolian Tofu &amp; Veg Stirfry </option>
+  <option> Moroccan Artichoke, Orange &amp; Radish Salad </option>
+  <option> Moroccan Chicken &amp; Lentil Soup </option>
+  <option> Moroccan Couscous Salad </option>
+  <option> Moroccan Lentil Soup </option>
+  <option> Moroccan Meatball Stew </option>
+  <option> Moroccan Roasted Chicken &amp;Couscous </option>
+  <option> Moroccan Roasted Potatoes </option>
+  <option> Moroccan Vegetable &amp; Tofu Stew </option>
+  <option> Moroccan Vegetable Tagine </option>
+  <option> Muffuletta Sandwich </option>
+  <option> Mushroom Barley Soup </option>
+  <option> Mushroom Bisque </option>
+  <option> Mushroom Farro Risotto </option>
+  <option> Mushroom Grits </option>
+  <option> Mussels with White Wine, Fennel &amp; Lemon </option>
+  <option> Mustard Seed Green Beans </option>
+  <option> Naan </option>
+  <option> Nacho &amp; Beef Chili Bar </option>
+  <option> Nachos Bar </option>
+  <option> Native American Mashed Squash </option>
+  <option> Navy Bean &amp; Ham Soup </option>
+  <option> New England Clam Chowder </option>
+  <option> Nicoise Salad </option>
+  <option> Noodles with Mushrooms </option>
+  <option> North African Braised Beef Ragu </option>
+  <option> North African Couscous &amp; Chickpea Salad </option>
+  <option> North African-Style Chickpea Salad </option>
+  <option> O'Brien Potatoes </option>
+  <option> Oatmeal </option>
+  <option> Oatmeal Bar </option>
+  <option> Old Fashioned Beef Stew </option>
+  <option> Old World Vegetable Soup </option>
+  <option> Olive &amp; Pepper Salsa </option>
+  <option> Omelet Bar </option>
+  <option> Omelet Bar with Pork Options </option>
+  <option> One Pan Chicken with Sweet Potato </option>
+  <option> Onion Ring &amp; Twister Fries Bar </option>
+  <option> Onion Rings </option>
+  <option> Orange Salad with Jicama &amp; Red Onion </option>
+  <option> Orange, Onion &amp; Rosemary Salad </option>
+  <option> Orecchiette with Asparagus &amp; Roasted Peppers </option>
+  <option> Oriental Pasta Salad </option>
+  <option> Orzo &amp; Sundried Tomato Salad </option>
+  <option> Orzo Pilaf </option>
+  <option> Orzo Salad </option>
+  <option> Oven Roasted Potatoes </option>
+  <option> Paella Valenciana with Chicken </option>
+  <option> Paella Valenciana with Chicken, Pork, &amp; Shrimp </option>
+  <option> Palak Chole - Spinach &amp; Chickpeas </option>
+  <option> Palak Paneer </option>
+  <option> Pan Asian Shrimp &amp; Noodles </option>
+  <option> Pan-Asian Orange Tofu </option>
+  <option> Pancake Toppings </option>
+  <option> Pancakes </option>
+  <option> Paneer Tikka Masala </option>
+  <option> Panko Crusted Cod </option>
+  <option> Panko Crusted Lake Perch </option>
+  <option> Pappardelle with Pork Bolognese </option>
+  <option> Parmesan Crusted Chicken </option>
+  <option> Parmesan Risotto </option>
+  <option> Parsnip &amp; Leek Latkes </option>
+  <option> Pasta &amp; Broccoli Rabe </option>
+  <option> Pasta &amp; Ratatouille Salad </option>
+  <option> Pasta Bar </option>
+  <option> Pasta Fagioli Soup </option>
+  <option> Pasta Primavera </option>
+  <option> Pasta Salad with Mozzarella &amp; Pesto </option>
+  <option> Pasta Selection of the Day </option>
+  <option> Pasta Station </option>
+  <option> Pasta with Clam Sauce </option>
+  <option> Pastitsio - Greek Lasagna </option>
+  <option> Peach Cobbler </option>
+  <option> Peach, Tomato &amp; Red Onion Salad </option>
+  <option> Pear &amp; Arugula Salad with Parmesan </option>
+  <option> Peas &amp; Carrots </option>
+  <option> Penne &amp; Broccoli Rabe </option>
+  <option> Penne &amp; Wild Mushrooms </option>
+  <option> Penne Pasta </option>
+  <option> Penne W/ Leeks,Brussels Sprouts,Lemon,Garlic </option>
+  <option> Penne with Boursin &amp; Tomato </option>
+  <option> Penne with Pesto &amp; Plum Tomatoes </option>
+  <option> Penne with Shrimp Tomatoes &amp; Spinach </option>
+  <option> Peruvian Beef Lomo Saltado </option>
+  <option> Pesto Cream Sauce </option>
+  <option> Pesto Pasta Salad </option>
+  <option> Philly Chicken Steak Sandwich </option>
+  <option> Philly Style Vegan Sandwich </option>
+  <option> Pico De Gallo Shrimp Salad </option>
+  <option> Pigeon Peas &amp; Rice </option>
+  <option> Pineapple Salsa </option>
+  <option> Pinto Bean &amp; Veggie Casserole </option>
+  <option> Pinto Bean Eggplant Casserole </option>
+  <option> Pizza Station </option>
+  <option> Poblano &amp; Mushroom Taco Filling </option>
+  <option> Polenta Mediterranean </option>
+  <option> Polenta with Spicy Tomato Basil Sauce </option>
+  <option> Pommery Roasted Potatoes </option>
+  <option> Pork Hunan </option>
+  <option> Pork Picadillo </option>
+  <option> Pork Pozole </option>
+  <option> Pork Roll, Egg &amp; Cheese on English Muffin </option>
+  <option> Pork Sausage Links </option>
+  <option> Pork Scallopini </option>
+  <option> Pork Shoulder al Diablo </option>
+  <option> Portobello Panini </option>
+  <option> Portobello Salad </option>
+  <option> Portuguese Beef Stew </option>
+  <option> Potato &amp; Cheese Pierogi </option>
+  <option> Potato &amp; Cheese Pierogi Bar </option>
+  <option> Potato &amp; Kale Soup </option>
+  <option> Potato &amp; Mushroom Taquito </option>
+  <option> Potato Bacon &amp; Corn Chowder </option>
+  <option> Potato Cheese Soup </option>
+  <option> Potato Crusted Tilapia &amp; Mushroom Sauce </option>
+  <option> Potato Latkes </option>
+  <option> Potato Leek &amp; Parsley Soup </option>
+  <option> Potato Leek Soup </option>
+  <option> Potato Samosa </option>
+  <option> Potatoes with Roasted Garlic &amp; Oregano </option>
+  <option> Primavera Sauce </option>
+  <option> Pub Burger </option>
+  <option> Pulled Pork </option>
+  <option> Pulled Pork Sandwich </option>
+  <option> Quinoa &amp; Black Beans </option>
+  <option> Quinoa &amp; Butternut Squash Salad </option>
+  <option> Quinoa &amp; Kale Salad with Lemon </option>
+  <option> Quinoa Fried Rice </option>
+  <option> Quinoa Stuffed Acorn Squash </option>
+  <option> Quinoa Stuffed Cabbage </option>
+  <option> Quinoa Stuffed Squash </option>
+  <option> Quinoa Vegetable Paella </option>
+  <option> Quinoa with Black Beans </option>
+  <option> Quinoa with Latin Flavors </option>
+  <option> Quinoa, Lentil &amp; Chard Pilaf </option>
+  <option> Radiatori Pasta </option>
+  <option> Ragout de Veal Marsala </option>
+  <option> Raisin French Toast </option>
+  <option> Ranch Chicken Salad with Bacon </option>
+  <option> Ratatouille with Tofu </option>
+  <option> Red &amp; Green Tomato Salad with Corn </option>
+  <option> Red Bean &amp; Rice Soup </option>
+  <option> Red Beans &amp; Butternut Squash </option>
+  <option> Red Beans &amp; Rice </option>
+  <option> Red Cabbage with Garlic </option>
+  <option> Red Curry Thai Tofu </option>
+  <option> Rice &amp; Pigeon Peas </option>
+  <option> Rice Noodles with Pork &amp; Tumeric </option>
+  <option> Rice Pilaf </option>
+  <option> Rigatoni Alfredo </option>
+  <option> Rigatoni La Nonna </option>
+  <option> Rigatoni ala Norma </option>
+  <option> Rigatoni with Asparagus &amp; Aioli </option>
+  <option> Risotto &amp; Mozzarella Cheese Ball </option>
+  <option> Risotto Cakes with Lemon Aioli </option>
+  <option> Rissole Potatoes </option>
+  <option> Roast Beef &amp; Horseradish Sandwich </option>
+  <option> Roast Beef </option>
+  <option> Roast Beef Pan Gravy </option>
+  <option> Roast Beef with Red Wine Demi-Glace </option>
+  <option> Roast Brazilian Tofu </option>
+  <option> Roast Button Mushrooms &amp; Asparagus </option>
+  <option> Roast Chicken Creole </option>
+  <option> Roast Cod with Veg &amp; Couscous </option>
+  <option> Roast Cornish Hen </option>
+  <option> Roast Duck Pappardelle </option>
+  <option> Roast Garlic &amp; Oregano Potatoes </option>
+  <option> Roast Pork Loin </option>
+  <option> Roast Pork with Marsala Sauce </option>
+  <option> Roast Potato &amp; Greens </option>
+  <option> Roast Tofu Tuscano </option>
+  <option> Roast Vegetable Hoagie </option>
+  <option> Roast Vegetable Strudel </option>
+  <option> Roast Vegetables &amp; Navy Beans </option>
+  <option> Roast Zucchini &amp; Squash Salad </option>
+  <option> Roasted  Vegetables </option>
+  <option> Roasted Balsamic Vegetables </option>
+  <option> Roasted Beet Salad with Orange &amp; Feta </option>
+  <option> Roasted Beet, Potato &amp; Goat Cheese Salad </option>
+  <option> Roasted Boneless Chicken Breast </option>
+  <option> Roasted Carrot &amp; Sweet Potato </option>
+  <option> Roasted Carrots &amp; Cauliflower </option>
+  <option> Roasted Carrots </option>
+  <option> Roasted Cauliflower </option>
+  <option> Roasted Cauliflower Harissa Chickpea Curry </option>
+  <option> Roasted Chicken Afrique </option>
+  <option> Roasted Chicken Primavera </option>
+  <option> Roasted Corn &amp; Sweet Potato Soup </option>
+  <option> Roasted Corn on the Cob </option>
+  <option> Roasted Eggplant Caesar Salad </option>
+  <option> Roasted French Cut Chicken </option>
+  <option> Roasted Garlic Mashed Potatoes </option>
+  <option> Roasted Green Beans </option>
+  <option> Roasted Pork Loin </option>
+  <option> Roasted Red Bliss Potatoes </option>
+  <option> Roasted Red Pepper Mashed Red Bliss Potatoes </option>
+  <option> Roasted Root Vegetables </option>
+  <option> Roasted Southern Indian Potatoes </option>
+  <option> Roasted Spaghetti Squash </option>
+  <option> Roasted Sweet Potato </option>
+  <option> Roasted Tofu in Lemon Garlic Sauce </option>
+  <option> Roasted Turkey </option>
+  <option> Roasted Turkey Breast </option>
+  <option> Roasted Vegetable Medley </option>
+  <option> Roasted Vegetable Wrap </option>
+  <option> Roasted Vegetables </option>
+  <option> Roasted Veggie Pasta </option>
+  <option> Roasted Yukon Gold Potatoes </option>
+  <option> Roasted Zucchini &amp; Mushrooms </option>
+  <option> Roasted Zucchini </option>
+  <option> Roma Halal House Chicken Soup </option>
+  <option> Roma House Beef Vegetable Soup </option>
+  <option> Romaine &amp; Radicchio Vegetable Salad </option>
+  <option> Romaine, Apple &amp; Cheddar Salad </option>
+  <option> Ruby Wild Rice Blend </option>
+  <option> Rustic Green Beans </option>
+  <option> Rustic Tomato Salsa Gazpacho </option>
+  <option> Saffron &amp; Cardamom Basmati Rice </option>
+  <option> Salad Bar Mixed Salads </option>
+  <option> Salad of Roasted Beets &amp; Lime </option>
+  <option> Salade de Betteraves (Haitian Beet Salad) </option>
+  <option> Salisbury Steak </option>
+  <option> Salisbury Steak with Burgundy Wine Mushroom Gravy </option>
+  <option> Sancocho - Chicken &amp; Root Vegetable Soup </option>
+  <option> Sara's Apple Kugel </option>
+  <option> Sara's Potato Kugel </option>
+  <option> Sausage &amp; Broccoli Rabe </option>
+  <option> Sausage Egg &amp; Cheese on English Muffin </option>
+  <option> Sausage Ragu </option>
+  <option> Sausage, Egg &amp; Gravy on English Muffin </option>
+  <option> Sauteed Broccoli Rabe </option>
+  <option> Sauteed Chicken Marsala </option>
+  <option> Sauteed Chickpea Spinach &amp; Tomato </option>
+  <option> Sauteed Edamame &amp; Tomato </option>
+  <option> Sauteed Fresh Yellow Squash </option>
+  <option> Sauteed Fresh Zucchini &amp; Tomato </option>
+  <option> Sauteed Fresh Zucchini </option>
+  <option> Sauteed Green Beans </option>
+  <option> Sauteed Green Kale </option>
+  <option> Sauteed Mixed Vegetables </option>
+  <option> Sauteed Mushrooms &amp; Grape Tomatoes </option>
+  <option> Sauteed Seitan Marsala </option>
+  <option> Sauteed Spinach &amp; Mushrooms </option>
+  <option> Sauteed Spinach </option>
+  <option> Sauteed Tofu With Marsala Wine Sauce </option>
+  <option> Sauteed Zucchini with Squash &amp; Mushrooms </option>
+  <option> Saut√©ed Chicken Marsala </option>
+  <option> Saut√©ed Fresh Zucchini &amp; Tomato </option>
+  <option> Saut√©ed Fresh Zucchini </option>
+  <option> Saut√©ed Green Beans </option>
+  <option> Saut√©ed Green Kale </option>
+  <option> Saut√©ed Zucchini with Squash &amp; Mushrooms </option>
+  <option> Scallion Mashed Potatoes &amp; Parsnips </option>
+  <option> Scrambled Eggs </option>
+  <option> Scrambled Tofu </option>
+  <option> Seafood &amp; Grain Burger </option>
+  <option> Seafood Bisque </option>
+  <option> Seafood Catch of The Day </option>
+  <option> Seafood Cioppino </option>
+  <option> Seafood Freekah Paella </option>
+  <option> Seafood Gumbo </option>
+  <option> Seafood Paella </option>
+  <option> Seasonal Greens in a Honey &amp; Herb Vinaigrette </option>
+  <option> Seitan &amp; Broccoli </option>
+  <option> Seitan Picadillo </option>
+  <option> Seitan Stroganoff </option>
+  <option> Seitan Vindaloo </option>
+  <option> Seitan with Balsamic Onions &amp; Potatoes </option>
+  <option> Sesame Chicken </option>
+  <option> Sesame Ginger Quinoa Salad </option>
+  <option> Sesame Noodle Salad </option>
+  <option> Sesame Tofu </option>
+  <option> Sesame Tofu Salad </option>
+  <option> Shanghai Fried Farro </option>
+  <option> Shawarma Grilled Seitan </option>
+  <option> Shells with Prosciutto &amp; Peas </option>
+  <option> Shoyu Pork Ramen Bowl </option>
+  <option> Shredded Beef with Salsa Verde </option>
+  <option> Shrimp &amp; Sausage Jambalaya </option>
+  <option> Shrimp Fried Rice </option>
+  <option> Shrimp Pad Thai </option>
+  <option> Sizzling Blackened Catfish </option>
+  <option> Sliced Bagels </option>
+  <option> Sliced Carrots </option>
+  <option> Sliced Lox Display </option>
+  <option> Sliced Melons </option>
+  <option> Sliced Pork Roll </option>
+  <option> Smoked Cheddar Mashed Potatoes &amp; Cauliflower </option>
+  <option> Smokey Cauliflower </option>
+  <option> Smokey Slow Roasted Tex Mex Shredded Chicken </option>
+  <option> Soft Chicken Taco </option>
+  <option> Sole Dijon with Herbs &amp; Panko </option>
+  <option> South Indian Vegetable Curry </option>
+  <option> Southern Fried Chicken </option>
+  <option> Southwest Barley Salad </option>
+  <option> Southwest Beans &amp; Rice </option>
+  <option> Southwest Beef Lasagna </option>
+  <option> Southwest Chicken Salad </option>
+  <option> Southwest Chipotle Chopped  Salad </option>
+  <option> Southwest Dip with Chips </option>
+  <option> Southwest Shrimp Salad </option>
+  <option> Southwest Tortilla Soup </option>
+  <option> Southwestern Roast Turkey </option>
+  <option> Soy Glazed Chicken Thighs with Asparagus </option>
+  <option> Spaghetti &amp; Pancetta </option>
+  <option> Spaghetti Marinara </option>
+  <option> Spaghetti Squash </option>
+  <option> Spaghetti Squash Pasta Marinara </option>
+  <option> Spam Musubi </option>
+  <option> Spanish Rice </option>
+  <option> Spiced Basmati Rice </option>
+  <option> Spiced Roasted Butternut Squash &amp; Sweet Potatoes </option>
+  <option> Spicy Asian Medley </option>
+  <option> Spicy Chickpeas </option>
+  <option> Spicy Chili Beans with Tofu &amp; Rice </option>
+  <option> Spicy Coconut Curry Pollack </option>
+  <option> Spicy Coconut Curry Tofu </option>
+  <option> Spicy French Fries </option>
+  <option> Spicy Orange Beef with Broccoli </option>
+  <option> Spicy Swiss Chard with Ginger </option>
+  <option> Spicy Whole Grain Pilaf </option>
+  <option> Spinach &amp; Barley Salad </option>
+  <option> Spinach &amp; Garbonzo Beans </option>
+  <option> Spinach &amp; Vegetable Salad with Olive Tapenade </option>
+  <option> Spinach &amp; Vegetable Square </option>
+  <option> Spinach Bread Pudding with Lemon &amp; Feta </option>
+  <option> Spinach Lasagna </option>
+  <option> Spinach Salad with Mushrooms &amp; Oranges </option>
+  <option> Spinach Salad with Raspberry Orange Vinaigrette </option>
+  <option> Spinach Salad with Strawberries </option>
+  <option> Spinach Salad, Orange, Potato, Cauliflower &amp; Capers </option>
+  <option> Spinach Souffle </option>
+  <option> Split Pea &amp; Ham Soup </option>
+  <option> Split Pea Soup </option>
+  <option> Spring Mix with Apple, Beet, Onion, Orange &amp; Goat Cheese </option>
+  <option> Spring Mix with Jicama, Pepper, Carrot &amp; Sunflower Seed </option>
+  <option> Spring Vegetable Soup </option>
+  <option> Squash "Pasta",Pesto, Olive oil &amp; Herbs </option>
+  <option> Steamed Broccoli </option>
+  <option> Steamed Cauliflower </option>
+  <option> Steamed Jasmine Rice </option>
+  <option> Steamed Long Grain Rice </option>
+  <option> Steamed Pork Buns </option>
+  <option> Steamed Vegetables </option>
+  <option> Steamed White Rice </option>
+  <option> Steelhead Trout </option>
+  <option> Stewed Green Beans </option>
+  <option> Sticky Rice </option>
+  <option> Stir Fry Station </option>
+  <option> Stir-Fried Shanghai Bok Choy </option>
+  <option> Strawberry French Toast </option>
+  <option> String Bean Salad </option>
+  <option> Stuffed Red Bell Peppers with Kale &amp; Rice </option>
+  <option> Stuffed Rigatoni </option>
+  <option> Stuffed Shells </option>
+  <option> Sugar Snap Peas </option>
+  <option> Sunday Brunch Roast Vegetable Platter </option>
+  <option> Swedish Meatballs </option>
+  <option> Sweet &amp; Sour Butternut Squash </option>
+  <option> Sweet &amp; Sour Chicken </option>
+  <option> Sweet &amp; Sour Chickpeas </option>
+  <option> Sweet Corn &amp; Barley Chowder </option>
+  <option> Sweet Corn &amp; Black Bean Salad </option>
+  <option> Sweet Corn Chowder </option>
+  <option> Sweet Pineapple Kugel </option>
+  <option> Sweet Potato &amp; Apple Salad </option>
+  <option> Sweet Potato &amp; Quinoa Salad </option>
+  <option> Sweet Potato Au Gratin </option>
+  <option> Sweet Potato Chili </option>
+  <option> Sweet Potato Fries </option>
+  <option> Sweet Potato Mac &amp; Cheese </option>
+  <option> Sweet Tea Brined Fried Chicken </option>
+  <option> Swiss Cheese &amp; Mushroom Quiche </option>
+  <option> Szechuan Dan Dan Noodle </option>
+  <option> Tabouli Salad </option>
+  <option> Taco Bar </option>
+  <option> Taco Bar Fillings with Pork Options </option>
+  <option> Taco Bar Fixins </option>
+  <option> Taco Salad  Bar </option>
+  <option> Taco Salad with Grilled  Steak </option>
+  <option> Taco Station </option>
+  <option> Tandoori Chicken </option>
+  <option> Tandoori Pollock </option>
+  <option> Tandoori Tofu </option>
+  <option> Tarragon Chicken Wrap </option>
+  <option> Teriyaki Chicken &amp; Rice </option>
+  <option> Teriyaki Chicken &amp; Veg Salad </option>
+  <option> Teriyaki Chicken </option>
+  <option> Teriyaki Tofu with Pineapple </option>
+  <option> Texas Beef Chili </option>
+  <option> Texas Brisket Sandwich </option>
+  <option> Texas Style Chili </option>
+  <option> Texas Style Roast Beef &amp; White Beans </option>
+  <option> Thai Coconut Soup </option>
+  <option> Thai Cucumber Salad </option>
+  <option> Thai Grilled Zucchini </option>
+  <option> Thai Quinoa Coconut Salad </option>
+  <option> Thai Roasted Vegetables </option>
+  <option> Thai Vegetable Salad </option>
+  <option> Three Bean Chili </option>
+  <option> Three Bean Creole Corn &amp; Peppers </option>
+  <option> Three Bean Patty, Chipotle Mayo on the Sids </option>
+  <option> Three Bean Salad </option>
+  <option> Three Bean Taco </option>
+  <option> Toasted Rice with Saffron &amp; Fennel </option>
+  <option> Tofu &amp; Bean Stir fry </option>
+  <option> Tofu &amp; Mushroom &amp; Eggplant Tower </option>
+  <option> Tofu &amp; Vegetable Stir Fry </option>
+  <option> Tofu Bulgogi </option>
+  <option> Tofu Creole Etouffee &amp; Creole Rice </option>
+  <option> Tofu Curry </option>
+  <option> Tofu Cutlet with Wild Rice </option>
+  <option> Tofu Freekah Paella </option>
+  <option> Tofu Provencal </option>
+  <option> Tofu Puttanesca </option>
+  <option> Tofu Rice &amp; Vegetable Stir Fry </option>
+  <option> Tofu Scampi &amp; Broccoli with White Wine </option>
+  <option> Tofu Vegetable Wrap </option>
+  <option> Tomato &amp; Carrot Chowder </option>
+  <option> Tomato &amp; Cucumber Salad </option>
+  <option> Tomato &amp; Mozzarella Salad </option>
+  <option> Tomato Basil Bisque </option>
+  <option> Tomato Basil Sauce </option>
+  <option> Tomato Basil Soup </option>
+  <option> Tomato Bisque </option>
+  <option> Tomato Bruschetta </option>
+  <option> Tomato Chowder </option>
+  <option> Tomato Eggplant Soup &amp; Roasted Peppers </option>
+  <option> Tomato Orzo Soup </option>
+  <option> Tomato Rice Soup </option>
+  <option> Tomato Soup </option>
+  <option> Tomato Spinach &amp; Basil Soup </option>
+  <option> Tomato Zucchini Soup </option>
+  <option> Tomato, Lentil &amp; Barley Soup </option>
+  <option> Top Your Own Waffles </option>
+  <option> Tortellini Brodo </option>
+  <option> Tortellini Primavera </option>
+  <option> Tortellini with Fresh Herbs &amp; Olive Oil </option>
+  <option> Tortilla-Crusted Chicken </option>
+  <option> Tossed House Salad </option>
+  <option> Tossed Salad &amp; Dressings </option>
+  <option> Tri Color Penne a la Vodka </option>
+  <option> Tri Color Penne √† la Vodka </option>
+  <option> Tri Color Salad </option>
+  <option> Tri-Color Salad &amp; Balsamic Vinaigrette </option>
+  <option> Tropical Fruit Salad </option>
+  <option> Tuna Salad </option>
+  <option> Turkey &amp; Black Bean Chili </option>
+  <option> Turkey Bacon </option>
+  <option> Turkey Cacciatore </option>
+  <option> Turkey Gravy </option>
+  <option> Turkey Hoagie </option>
+  <option> Turkey Noodle Soup </option>
+  <option> Turkey Salad </option>
+  <option> Turkey Salad Wrap </option>
+  <option> Turkey Sausage </option>
+  <option> Turkish Dip </option>
+  <option> Tuscan White Bean &amp; Tomato Soup </option>
+  <option> Twice Baked Potatoes </option>
+  <option> Twister Fries </option>
+  <option> Udon Noodles </option>
+  <option> Udon Noodles with Five Spice Broth </option>
+  <option> Veg Bread Stuffing </option>
+  <option> Vegan Baked Beans </option>
+  <option> Vegan Bar #1 </option>
+  <option> Vegan Bar #2 </option>
+  <option> Vegan Bar </option>
+  <option> Vegan Brown Rice Pilaf </option>
+  <option> Vegan Burgers </option>
+  <option> Vegan Chickpea &amp; Sweet Potato Stew </option>
+  <option> Vegan Chickpea Curry </option>
+  <option> Vegan Dirty Rice </option>
+  <option> Vegan Fruit Smoothies </option>
+  <option> Vegan Herbed Stuffing </option>
+  <option> Vegan Nuggets </option>
+  <option> Vegan Paella with Organic Tofu </option>
+  <option> Vegan Ravioli </option>
+  <option> Vegan Spinach &amp; Quinoa Enchilada </option>
+  <option> Vegan Spring Rolls </option>
+  <option> Vegan Sweet &amp; Sour Meatballs </option>
+  <option> Vegan White Bean &amp; Escarole Soup </option>
+  <option> Vegan Wild Mushroom Cassoulet </option>
+  <option> Vegetable Barley Casserole </option>
+  <option> Vegetable Barley Soup </option>
+  <option> Vegetable Beef Soup </option>
+  <option> Vegetable Bibimbap </option>
+  <option> Vegetable Chili </option>
+  <option> Vegetable Curry with Coconut Milk </option>
+  <option> Vegetable Fried Farro </option>
+  <option> Vegetable Fried Rice &amp; Tofu </option>
+  <option> Vegetable Fried Rice </option>
+  <option> Vegetable Fried Rice with Egg </option>
+  <option> Vegetable Lasagna </option>
+  <option> Vegetable Lo Mein </option>
+  <option> Vegetable Matzoh Ball Soup </option>
+  <option> Vegetable Mushroom &amp; Barley Stew </option>
+  <option> Vegetable Pad Thai </option>
+  <option> Vegetable Pot Pie </option>
+  <option> Vegetable Quinoa Paella </option>
+  <option> Vegetable Quinoa Saute </option>
+  <option> Vegetable Quinoa Stir Fry </option>
+  <option> Vegetable Ranch Salad </option>
+  <option> Vegetable Samosa with Mint Chutney </option>
+  <option> Vegetable Saute </option>
+  <option> Vegetable Stew </option>
+  <option> Vegetable Stir Fry </option>
+  <option> Vegetable of the Day </option>
+  <option> Vegetables &amp; Couscous </option>
+  <option> Vegetarian Caesar Salad </option>
+  <option> Vegetarian Korma </option>
+  <option> Vegetarian Nacho &amp; Chili Bar </option>
+  <option> Vegetarian Southwest Lasagna </option>
+  <option> Vegetarian Straciatella </option>
+  <option> Vegetarian Style Chef Salad </option>
+  <option> Vegetarian Taco Filling </option>
+  <option> Vegetarian Vegetable Soup </option>
+  <option> VegetarianTaco Filling </option>
+  <option> Veggie &amp; Deli Sandwich Station </option>
+  <option> Veggie Burger </option>
+  <option> Veggie Quesadilla </option>
+  <option> Veracruz Style Redfish </option>
+  <option> Vietnamese Pork </option>
+  <option> Vodka Rigatoni with Peas &amp; Mushrooms </option>
+  <option> Waffle Bar </option>
+  <option> Waldorf Salad </option>
+  <option> Waldorf Salad Platter </option>
+  <option> Wheat Berry &amp; Rice Salad with Cranberry </option>
+  <option> Wheatberries with Beans &amp; Mushrooms </option>
+  <option> White &amp; Wild Rice </option>
+  <option> White Bean &amp; Escarole Soup </option>
+  <option> White Bean &amp; Potato Soup </option>
+  <option> White Bean &amp; Sausage Soup </option>
+  <option> White Bean &amp; Spinach Salad </option>
+  <option> White Bean &amp; Swiss Chard Soup </option>
+  <option> White Bean &amp; Tomato Soup </option>
+  <option> White Bean Sausage &amp; Ham Soup </option>
+  <option> White Rice </option>
+  <option> White Wine Lamb Ragout with Spring Vegetables </option>
+  <option> Whitefish Salad </option>
+  <option> Whole Baby Carrots </option>
+  <option> Whole Grain Brown Basmati Rice </option>
+  <option> Whole Grain Five Rice Blend </option>
+  <option> Whole Roasted Turkey </option>
+  <option> Whole Wheat Penne &amp; Artichokes </option>
+  <option> Wild Mushroom &amp; Goat Cheese Strudel </option>
+  <option> Wild Mushroom Risotto &amp; Seitan </option>
+  <option> Wild Mushroom Risotto with Seitan </option>
+  <option> Wild Mushroom Tofu Stroganoff </option>
+  <option> Winter Beef Stew </option>
+  <option> Winter Lentil Vegetable Soup </option>
+  <option> Yankee Pot Roast </option>
+  <option> Yellow Rice </option>
+  <option> Yogurt &amp; Fruit Bar </option>
+  <option> Yogurt Bar </option>
+  <option> Yucca Fries </option>
+  <option> Yukon Gold Mashed Potatoes </option>
+  <option> Yukon Gold Potato Wedge </option>
+  <option> Zesty Zucchini &amp; Onions </option>
+  <option> Zucchina e Funghi </option>
+  <option> Zucchini &amp; Corn Saute </option>
+  <option> Zucchini Noodles </option>
+  <option> Zucchini Provencal </option>
+  <option>Aloo Gobi - Curried Cauliflower</option>
+  <option>Ancient Grain Bowl</option>
+  <option>Apple Autumn Tossed Salad</option>
+  <option>Apple Crisp</option>
+  <option>Arroz Con Pollo</option>
+  <option>Artichoke Freekeh Risotto</option>
+  <option>Asparagus &amp; Potato Salad</option>
+  <option>Assorted Danish</option>
+  <option>Assorted Hot Breakfast Cereal</option>
+  <option>Assorted Muffins</option>
+  <option>Assorted Pastries</option>
+  <option>Assorted Pies</option>
+  <option>Avocado &amp; Strawberry Salad with Oranges</option>
+  <option>BBQ Slow Roasted Beef Brisket</option>
+  <option>Baby Greens Soy Nuts &amp; Tomato Salad</option>
+  <option>Baby Lima Beans</option>
+  <option>Bacon Slices</option>
+  <option>Bacon</option>
+  <option>Baked Cheese Ziti</option>
+  <option>Baked Chicken with Pomegranate Glaze</option>
+  <option>Baked Chicken</option>
+  <option>Baked French Texas Toast</option>
+  <option>Baked Macaroni &amp; Cheese</option>
+  <option>Baked Potato</option>
+  <option>Balsamic Roasted Chicken Breast</option>
+  <option>Barley Pilaf</option>
+  <option>Basmati Rice</option>
+  <option>Bean &amp; Green Station with Dark Greens &amp; Seeds</option>
+  <option>Beef Barley Soup</option>
+  <option>Beef Noodle Soup</option>
+  <option>Beef Orzo Soup</option>
+  <option>Beef Taco</option>
+  <option>Beer &amp; Onion Braised Kielbasa</option>
+  <option>Beet Salad with Oranges</option>
+  <option>Beet, Goat Cheese &amp; Craisin Salad</option>
+  <option>Black Bean &amp; Corn Salad</option>
+  <option>Black Bean Veggie Couscous</option>
+  <option>Black Beans &amp; Corn</option>
+  <option>Black Beans</option>
+  <option>Black Eyed Peas &amp; Rice</option>
+  <option>Black Pearl Barley Sole Stuffed with Spinach</option>
+  <option>Blintz Bar</option>
+  <option>Bowties &amp; Asparagus</option>
+  <option>Braised Beef Macaroni &amp; Cheese</option>
+  <option>Braised Red Cabbage with Apples</option>
+  <option>Braised Swiss Chard</option>
+  <option>Breaded Pork Chop</option>
+  <option>Breakfast Burrito Bar with Chorizo</option>
+  <option>Breakfast Potatoes</option>
+  <option>Breakfast Sausage Patties</option>
+  <option>Broccoli &amp; Carrots</option>
+  <option>Broccoli Flowerettes</option>
+  <option>Broccoli Rabe &amp; Tomatoes</option>
+  <option>Brown Basmati Rice</option>
+  <option>Brown Rice</option>
+  <option>Brussels Sprouts &amp; Chickpea Stirfry</option>
+  <option>Brussels Sprouts</option>
+  <option>Buffalo Chicken Drumsticks</option>
+  <option>Buffalo Chicken Macaroni &amp; Cheese</option>
+  <option>Buffalo Chicken Wings</option>
+  <option>Buttered Egg Noodles</option>
+  <option>Buttermilk Biscuit with  Sausage Gravy</option>
+  <option>Buttermilk Pancakes</option>
+  <option>Butternut Squash &amp; Garlic Lasagna</option>
+  <option>Butternut Squash &amp; Poblano Pepper Prozole</option>
+  <option>Butternut Squash Soup</option>
+  <option>Butternut Squash with Maple &amp; Cinnamon</option>
+  <option>Cabbage Mixed Vegetables</option>
+  <option>Caesar Salad</option>
+  <option>Cajun Catfish</option>
+  <option>Cajun Kidney Bean Soup</option>
+  <option>California Black Bean Burger</option>
+  <option>Cantonese Roast Pork</option>
+  <option>Caribbean Action Station</option>
+  <option>Caribbean Style Curried Chicken</option>
+  <option>Caribbean Vegetables</option>
+  <option>Carrot Ginger Soup</option>
+  <option>Cauliflower Au Gratin</option>
+  <option>Cauliflower Carrot Medley</option>
+  <option>Cauliflower Couscous with Red Pepper</option>
+  <option>Cavatappi with Horseradish &amp; Pancetta</option>
+  <option>Challah Bread</option>
+  <option>Channa Dal - Curried Lentils &amp; Chickpeas</option>
+  <option>Cheddar Cheese Quiche</option>
+  <option>Cheese Lasagna</option>
+  <option>Cheese Steak Bar</option>
+  <option>Cheesecake</option>
+  <option>Chef's Choice Pasta of the Day</option>
+  <option>Chicken &amp; Broccoli</option>
+  <option>Chicken &amp; Sausage Gumbo</option>
+  <option>Chicken Cacciatore</option>
+  <option>Chicken Chili Rellano Casserole</option>
+  <option>Chicken Coconut Curry Soup</option>
+  <option>Chicken Fajitas</option>
+  <option>Chicken Fingers</option>
+  <option>Chicken Gumbo Soup</option>
+  <option>Chicken Marsala</option>
+  <option>Chicken Noodle Soup</option>
+  <option>Chicken Nuggets Bar</option>
+  <option>Chicken Nuggets</option>
+  <option>Chicken Parmesan</option>
+  <option>Chicken Rice Soup</option>
+  <option>Chicken Romaine</option>
+  <option>Chicken Salad Wrap</option>
+  <option>Chicken Soup with Ancini di Pepe</option>
+  <option>Chicken Soup with Ditalini</option>
+  <option>Chicken Soup</option>
+  <option>Chicken Tacos</option>
+  <option>Chicken Tagine with Olives</option>
+  <option>Chicken Tikka Masala</option>
+  <option>Chicken Tortilla Soup</option>
+  <option>Chicken Vegetable Soup</option>
+  <option>Chicken White Bean &amp; Escarole Soup</option>
+  <option>Chicken Wing Bar</option>
+  <option>Chicken with Mushroom Sauce (Contains Alcohol)</option>
+  <option>Chickpea Curry</option>
+  <option>Chimichurri  Pork</option>
+  <option>Chimichurri Sauce</option>
+  <option>Chipotle Black Bean Soup</option>
+  <option>Chipotle Roasted Sweet Potatoes</option>
+  <option>Chipotle Steak Salad</option>
+  <option>Chocolate Fountain</option>
+  <option>Cilantro Rice</option>
+  <option>Citrus &amp; Fennel Salad</option>
+  <option>Cole Slaw</option>
+  <option>Collard Greens</option>
+  <option>Congee Bar</option>
+  <option>Corn Bread</option>
+  <option>Corn, Black Bean &amp; Tomato Salad</option>
+  <option>Corn</option>
+  <option>Country Hash Browns</option>
+  <option>Cranberry Orange Pancakes</option>
+  <option>Cream of Broccoli Soup</option>
+  <option>Cream of Butternut Squash Soup</option>
+  <option>Cream of Carrot &amp; Curry Soup</option>
+  <option>Cream of Carrot</option>
+  <option>Cream of Potato Soup</option>
+  <option>Creamy Polenta</option>
+  <option>Creole Shrimp &amp; Cheesy Grits</option>
+  <option>Cris Cut Fries</option>
+  <option>Crispy BBQ Tofu</option>
+  <option>Cuban Tofu, Rice &amp; Plantain</option>
+  <option>Curried Cauliflower Soup</option>
+  <option>Curried Pumpkin Mushroom Soup</option>
+  <option>Curried Sweet Potato &amp; Lentil Stew</option>
+  <option>Deli Bar</option>
+  <option>Deli Combo Panini</option>
+  <option>Dessert Bar</option>
+  <option>Dim Sum Bar</option>
+  <option>Egg &amp; Cheese on a English Muffin</option>
+  <option>Egg Salad</option>
+  <option>Egg Whites to Order</option>
+  <option>Eggo Waffles</option>
+  <option>Eggplant Parmesan</option>
+  <option>Eggplant Rollatini</option>
+  <option>Eggs Made to Order</option>
+  <option>Eggs any Style &amp; Omelets Made to Order</option>
+  <option>Enchilada Bowl Chicken</option>
+  <option>Ethiopian Inguday Tibs with White Wine</option>
+  <option>European Breakfast</option>
+  <option>Falafel &amp; Tahini Sauce</option>
+  <option>Farfalle Sundried Tomatoes &amp; Olives</option>
+  <option>Farro and Roasted Vegetables</option>
+  <option>Farro with Spring Vegetables</option>
+  <option>Fattoush Salad</option>
+  <option>Florentine White Wine Sauce</option>
+  <option>Forbes Deli</option>
+  <option>Forbes Sunday Brunch Bar</option>
+  <option>French Onion Soup</option>
+  <option>French Texas Toast</option>
+  <option>French Toast Sticks</option>
+  <option>French Toast</option>
+  <option>Fresh Asparagus Spears</option>
+  <option>Fresh Baked Muffin</option>
+  <option>Fresh Cauliflower</option>
+  <option>Fresh Fish Catch of The Day</option>
+  <option>Fresh Fruit Salad</option>
+  <option>Fresh Green Beans</option>
+  <option>Fresh Hand Cut Idaho French Fries</option>
+  <option>Fresh Seasonal Fruit Salad with Melon &amp; Berries</option>
+  <option>Fresh Sliced Fruit</option>
+  <option>Fresh Steamed Broccoli</option>
+  <option>Fried Chicken &amp; Waffles with Sausage</option>
+  <option>Fried Plantains</option>
+  <option>Frittata De Jour</option>
+  <option>Garlic Bread &amp; Green Bean Salad</option>
+  <option>Garlic Mashed Potatoes</option>
+  <option>General Tso Crispy Cod</option>
+  <option>Ginger Orange Barbecued Beef</option>
+  <option>Ginger Vegetable Stir Fry</option>
+  <option>Glazed Baked Ham</option>
+  <option>Gourmet Sausage Links</option>
+  <option>Grapefruit Half</option>
+  <option>Grass Fed Cheese Burger</option>
+  <option>Greek Bar</option>
+  <option>Greek Barley Salad</option>
+  <option>Green Beans &amp; Butternut Squash</option>
+  <option>Grill Cheese Bar with Bacon</option>
+  <option>Grilled Baby Vegetables</option>
+  <option>Grilled Breakfast Potato</option>
+  <option>Grilled Ginger Tofu &amp; Baby Bok Choy</option>
+  <option>Grilled Honey &amp; Ancho Corn on the Cob</option>
+  <option>Grilled Pork Chop</option>
+  <option>Grilled Steak Wraps</option>
+  <option>Grilles Chicken Breast</option>
+  <option>Grits</option>
+  <option>Halal Beef Bulgogi</option>
+  <option>Halal Roast Beef</option>
+  <option>Ham &amp; Cheddar Sandwich</option>
+  <option>Hash Browns</option>
+  <option>Hawaiian Chicken with Papaya Pineapple Relish</option>
+  <option>Healthy Mixed Salad</option>
+  <option>Herb Grilled Eggplant</option>
+  <option>Herb Roasted Chicken</option>
+  <option>Herb Roasted Turkey</option>
+  <option>Himalayan Red Rice</option>
+  <option>Home Fried Potatoes</option>
+  <option>Home Fries</option>
+  <option>Home Style Vegetables Saute</option>
+  <option>Honey &amp; Sage Roasted Chicken</option>
+  <option>Honey Orange Glazed Carrots</option>
+  <option>Honey Roasted Brussels Sprouts</option>
+  <option>Hot Dog Bar</option>
+  <option>Israeli Couscous Salad</option>
+  <option>Israeli Couscous with Spring Vegetables</option>
+  <option>Italian Tortellini Vegetable Soup</option>
+  <option>Italian Wedding Soup</option>
+  <option>Jamaican Beans &amp; Rice</option>
+  <option>Jamaican Chicken Curry</option>
+  <option>Jamaican Jerked Chicken</option>
+  <option>Jasmine Rice &amp; Orange Seitan</option>
+  <option>Kale &amp; Beet Hash</option>
+  <option>Kale Salad with Tomatoes &amp; Quinoa</option>
+  <option>Kale Salad</option>
+  <option>Kale, Wild Mushroom &amp; White Bean Stew</option>
+  <option>Kamut Grain &amp; Rice Blend</option>
+  <option>Kielbasa &amp; Kraut</option>
+  <option>Kimchi</option>
+  <option>Lamb Pot Roast with Red Wine &amp; Oranges</option>
+  <option>Lamb Shoulder with White Beans</option>
+  <option>Lamb Vindaloo</option>
+  <option>Lemon Mint Rice</option>
+  <option>Lemon Pepper Pasta &amp; Fresh Broccoli</option>
+  <option>Lemon Ricotta Pancakes</option>
+  <option>Lentil &amp; Vegetable Curry</option>
+  <option>Lentil Salad with Salsa Verde</option>
+  <option>Lentil Soup</option>
+  <option>Lentils &amp; Kale</option>
+  <option>Lettuce Wedge with Endive &amp; Blue Cheese</option>
+  <option>Linguini</option>
+  <option>Lo Mein Bar</option>
+  <option>Look for menu offerings</option>
+  <option>Lox &amp; Bagel Bar</option>
+  <option>Mac &amp; Cheese Bar</option>
+  <option>Macaroni &amp; Cheese with Tasso Ham &amp; Shrimp</option>
+  <option>Macaroni &amp; Cheese</option>
+  <option>Macaroni Salad</option>
+  <option>Mango Salsa</option>
+  <option>Marinara Sauce</option>
+  <option>Mashed Potatoes</option>
+  <option>Mashed Red Bliss Potatoes</option>
+  <option>Matzoh Ball Soup</option>
+  <option>Meatballs in Tomato Sauce</option>
+  <option>Mediterranean Chickpeas &amp; Artichokes</option>
+  <option>Mediterranean Spinach Caesar Salad</option>
+  <option>Mediterranean Spinach Salad</option>
+  <option>Memphis BBQ Beef Brisket</option>
+  <option>Miso Soup &amp; Organic Tofu</option>
+  <option>Mixed Vegetables</option>
+  <option>Moroccan Lentil Soup</option>
+  <option>Moroccan Meatball Stew</option>
+  <option>Moroccan Vegetable &amp; Tofu Stew</option>
+  <option>Moroccan Vegetable Tagine</option>
+  <option>Mushroom Barley Soup</option>
+  <option>Mushroom Bisque</option>
+  <option>Mushroom Farro Risotto</option>
+  <option>Mussels with White Wine, Fennel &amp; Lemon</option>
+  <option>Naan</option>
+  <option>Nacho &amp; Beef Chili Bar</option>
+  <option>Navy Bean &amp; Ham Soup</option>
+  <option>New England Clam Chowder</option>
+  <option>Nicoise Salad</option>
+  <option>North African-Style Chickpea Salad</option>
+  <option>O'Brien Potatoes</option>
+  <option>Oatmeal Bar</option>
+  <option>Oatmeal</option>
+  <option>Old Fashioned Beef Stew</option>
+  <option>Omelet Bar with Pork Options</option>
+  <option>Omelet Bar</option>
+  <option>Onion Rings</option>
+  <option>Orzo Salad</option>
+  <option>Oven Roasted Potatoes</option>
+  <option>Paella Valenciana with Chicken</option>
+  <option>Pan-Asian Orange Tofu</option>
+  <option>Pancake Toppings</option>
+  <option>Pancakes</option>
+  <option>Paneer Tikka Masala</option>
+  <option>Pasta &amp; Broccoli Rabe</option>
+  <option>Pasta Bar</option>
+  <option>Pasta Primavera</option>
+  <option>Pasta Selection of the Day</option>
+  <option>Peach Cobbler</option>
+  <option>Penne Pasta</option>
+  <option>Penne with Boursin &amp; Tomato</option>
+  <option>Penne with Shrimp Tomatoes &amp; Spinach</option>
+  <option>Peruvian Beef Lomo Saltado</option>
+  <option>Pinto Bean Eggplant Casserole</option>
+  <option>Pizza Station</option>
+  <option>Polenta with Spicy Tomato Basil Sauce</option>
+  <option>Pork Hunan</option>
+  <option>Pork Pozole</option>
+  <option>Pork Sausage Links</option>
+  <option>Portobello Panini</option>
+  <option>Potato &amp; Cheese Pierogi</option>
+  <option>Potato Bacon &amp; Corn Chowder</option>
+  <option>Potato Cheese Soup</option>
+  <option>Potato Latkes</option>
+  <option>Potato Samosa</option>
+  <option>Potatoes with Roasted Garlic &amp; Oregano</option>
+  <option>Primavera Sauce</option>
+  <option>Pub Burger</option>
+  <option>Pulled Pork Sandwich</option>
+  <option>Quinoa &amp; Black Beans</option>
+  <option>Quinoa &amp; Kale Salad with Lemon</option>
+  <option>Quinoa Vegetable Paella</option>
+  <option>Quinoa with Latin Flavors</option>
+  <option>Ragout de Veal Marsala</option>
+  <option>Raisin French Toast</option>
+  <option>Red Beans &amp; Butternut Squash</option>
+  <option>Red Beans &amp; Rice</option>
+  <option>Red Pepper Salmon Pasta</option>
+  <option>Rice &amp; Pigeon Peas</option>
+  <option>Rice Noodles with Chicken &amp; Tumeric</option>
+  <option>Rice Pilaf</option>
+  <option>Rigatoni La Nonna</option>
+  <option>Risotto &amp; Mozzarella Cheese Ball</option>
+  <option>Roast Beef &amp; Horseradish Sandwich</option>
+  <option>Roast Beef with Red Wine Demi-Glace</option>
+  <option>Roast Cod with Veg &amp; Couscous</option>
+  <option>Roast Pork Loin</option>
+  <option>Roast Potato &amp; Greens</option>
+  <option>Roast Tofu Tuscano</option>
+  <option>Roast Vegetable Hoagie</option>
+  <option>Roasted Balsamic Vegetables</option>
+  <option>Roasted Broccoli Rice Pasta</option>
+  <option>Roasted Carrot &amp; Sweet Potato</option>
+  <option>Roasted Cauliflower</option>
+  <option>Roasted Garlic Mashed Potatoes</option>
+  <option>Roasted Red Bliss Potatoes</option>
+  <option>Roasted Red Pepper Eggplant Confit</option>
+  <option>Roasted Root Vegetables</option>
+  <option>Roasted Turkey</option>
+  <option>Roasted Vegetable Platter</option>
+  <option>Roasted Yukon Gold Potatoes</option>
+  <option>Roma House Beef Vegetable Soup</option>
+  <option>Rustic Green Beans</option>
+  <option>Rustic Tomato Salsa Gazpacho</option>
+  <option>Salad Bar Mixed Salads</option>
+  <option>Salad Bar</option>
+  <option>Salad of Roasted Beets &amp; Lime</option>
+  <option>Salade de Betteraves (Haitian Beet Salad)</option>
+  <option>Salisbury Steak</option>
+  <option>Sausage &amp; Peppers</option>
+  <option>Sausage Egg &amp; Cheese on English Muffin</option>
+  <option>Sausage, Egg &amp; Gravy on English Muffin</option>
+  <option>Sauteed Edamame &amp; Tomato</option>
+  <option>Sauteed Fresh Yellow Squash</option>
+  <option>Sauteed Fresh Zucchini</option>
+  <option>Sauteed Green Beans</option>
+  <option>Sauteed Green Kale</option>
+  <option>Sauteed Mixed Vegetables</option>
+  <option>Scrambled Eggs</option>
+  <option>Scrambled Tofu</option>
+  <option>Seafood Catch of The Day</option>
+  <option>Seitan &amp; Broccoli</option>
+  <option>Seitan with Balsamic Onions &amp; Potatoes</option>
+  <option>Sesame Noodle Salad</option>
+  <option>Shanghai Fried Farro</option>
+  <option>Sizzling Blackened Catfish</option>
+  <option>Sliced Bagels</option>
+  <option>Sliced Lox Display</option>
+  <option>Sliced Melons</option>
+  <option>Sliced Pork Roll</option>
+  <option>Sole Dijon with Herbs &amp; Panko</option>
+  <option>South Indian Vegetable Curry</option>
+  <option>Southern Fried Chicken</option>
+  <option>Southwest Barley Salad</option>
+  <option>Southwest Chicken Salad</option>
+  <option>Spaghetti Squash</option>
+  <option>Spanish Rice</option>
+  <option>Spiced Basmati Rice</option>
+  <option>Spiced Roasted Butternut Squash &amp; Sweet Potatoes</option>
+  <option>Spicy French Fries</option>
+  <option>Spicy Swiss Chard with Ginger</option>
+  <option>Spinach &amp; Barley Salad</option>
+  <option>Spinach Salad with Mushrooms &amp; Oranges</option>
+  <option>Spinach Salad, Orange, Potato, Cauliflower &amp; Capers</option>
+  <option>Split Pea &amp; Ham Soup</option>
+  <option>Split Pea Soup</option>
+  <option>Spring Mix with Jicama, Pepper, Carrot &amp; Sunflower Seed</option>
+  <option>Steamed Cauliflower</option>
+  <option>Steamed Jasmine Rice</option>
+  <option>Steamed Long Grain Rice</option>
+  <option>Steamed Vegetables</option>
+  <option>Steamed White Rice</option>
+  <option>Stewed Green Beans</option>
+  <option>Sticky Rice</option>
+  <option>Strawberry French Toast</option>
+  <option>String Bean Salad</option>
+  <option>Stuffed Rigatoni</option>
+  <option>Stuffed Shells</option>
+  <option>Sunday Brunch Roast Vegetable Platter</option>
+  <option>Swedish Meatballs</option>
+  <option>Sweet Corn &amp; Barley Chowder</option>
+  <option>Sweet Potato Au Gratin</option>
+  <option>Sweet Potato Fries</option>
+  <option>Swiss Cheese &amp; Mushroom Quiche</option>
+  <option>Szechuan Dan Dan Noodle</option>
+  <option>Tabouli Salad</option>
+  <option>Taco Bar Fillings with Pork Options</option>
+  <option>Tandoori Chicken</option>
+  <option>Texas Brisket Sandwich</option>
+  <option>Texas Style Roast Beef &amp; White Beans</option>
+  <option>Thai Cucumber Salad</option>
+  <option>Three Bean Creole Corn &amp; Peppers</option>
+  <option>Three Bean Patty, Chipotle Mayo on the Sids</option>
+  <option>Tofu Bulgogi</option>
+  <option>Tofu Provencal</option>
+  <option>Tofu Rice &amp; Vegetable Stir Fry</option>
+  <option>Tomato &amp; Cucumber Salad</option>
+  <option>Tomato &amp; Mozzarella Salad</option>
+  <option>Tomato Basil Bisque</option>
+  <option>Tomato Chowder</option>
+  <option>Tomato Eggplant Soup &amp; Roasted Peppers</option>
+  <option>Tomato Soup</option>
+  <option>Tomato Zucchini Soup</option>
+  <option>Tomato, Lentil &amp; Barley Soup</option>
+  <option>Tomato,Red Onion,Lettuce,Pickle Chips</option>
+  <option>Top Your Own Waffles</option>
+  <option>Tortellini Primavera</option>
+  <option>Tossed House Salad</option>
+  <option>Tuna Salad</option>
+  <option>Turkey Bacon</option>
+  <option>Turkey Hoagie</option>
+  <option>Turkey Salad</option>
+  <option>Turkey Sausage</option>
+  <option>Tuscan White Bean &amp; Tomato Soup</option>
+  <option>Udon Noodles</option>
+  <option>Veg Bread Stuffing</option>
+  <option>Vegan Bar #1</option>
+  <option>Vegan Bar #2</option>
+  <option>Vegan Brown Rice Pilaf</option>
+  <option>Vegan Burgers</option>
+  <option>Vegan Chickpea &amp; Sweet Potato Stew</option>
+  <option>Vegan Chickpea Curry</option>
+  <option>Vegan Fruit Smoothies</option>
+  <option>Vegan Herbed Stuffing</option>
+  <option>Vegan Marinated Tofu Steak</option>
+  <option>Vegan Paella with Organic Tofu</option>
+  <option>Vegan Shepard's Pie</option>
+  <option>Vegan Spinach &amp; Quinoa Enchilada</option>
+  <option>Vegan Spring Rolls</option>
+  <option>Vegetable Barley Casserole</option>
+  <option>Vegetable Beef Soup</option>
+  <option>Vegetable Curry with Coconut Milk</option>
+  <option>Vegetable Ranch Salad</option>
+  <option>Vegetable Stir Fry</option>
+  <option>Vegetable of the Day</option>
+  <option>Vegetarian Caesar Salad</option>
+  <option>Vegetarian Straciatella</option>
+  <option>Vegetarian Taco Filling</option>
+  <option>Veggie Quesadilla</option>
+  <option>Vodka Rigatoni with Peas &amp; Mushrooms</option>
+  <option>White Bean &amp; Escarole Soup</option>
+  <option>White Bean &amp; Tomato Soup</option>
+  <option>White Rice</option>
+  <option>Whole Baby Carrots</option>
+  <option>Whole Grain Brown Basmati Rice</option>
+  <option>Wild Mushroom Risotto with Seitan</option>
+  <option>Yogurt &amp; Fruit Bar</option>
+  <option>Yogurt Bar</option>
+  <option>Yucca Fries</option>
+  <option>Yukon Gold Potato Wedge</option>
+  <option>Zucchini &amp; Vegetable Lasagna</option>
+  <option>Zucchini Noodles Marinara</option>
+</datalist>
+
+<div class="container">
+  <div class="row row-centered">
+    <div class="col-xs-8 col-xs-offset-2">
+      <div class="cover panel panel-default">
+        <h1 align="center"><strong>Princeton Food Alert</strong></h1>
+        <h3 align="center"><strong> Add a food. Get an email when it's in a dining hall. Enjoy. </strong></h3>
+        <form class="add-entry" method="post" action="{{ url_for('add_entry') }}" autocomplete="off">  
+          <div class="form-group">
+            <div class="input-group">
+              <span> 
+              <input id="pref_form" type="text" name="title" align="center" data-maxitems="15" size=90 class="awesomplete cover-form-input form-control typeahead" list="foodlist" data-minchars="2" placeholder="Enchiladas, Chicken Parmesan, Breakfast Burrito..." value=""/>
+              </span>
+              <!-- <script type="text/javascript" src="autoc.js"></script> -->
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit button">Add</button>
+              </span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container">
+{% with messages = get_flashed_messages(with_categories=true) %}
+<!-- Categories: success (green), info (blue), warning (yellow), danger (red) -->
+{% if messages %}
+  {% for category, message in messages %}
+      <div class="row row-centered">
+        <div class="alert alert-{{ category }} alert-dismissible text-center col-xs-8 col-xs-offset-2" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+          <h3><strong> {{ message }} </strong></h3>
+        </div>
+      </div>
+  {% endfor %}
+{% endif %}
+{% endwith %}
+    <div class="entries">
+	  <div class="list-group">
+	    {% for entry in entries %}
+	    <a class="list-group-item text-center col-xs-8 col-xs-offset-2">
+        <form action="{{ url_for('rem_entry') }}" method='POST'>
+          <p hidden><input type="text" name="item" value="{{entry}}" /></p>
+          <button class="close" type="submit button" > &times;</button>
+        </form> <h3>{{entry}}</h3> 
+      </a>
+	    {% else %}
+	    <a href="#" class="list-group-item text-center col-xs-8 col-xs-offset-2">No food preferences have been submitted</a>
+	    {% endfor %}
+	    </div>
+	  </div>
+</div>
+<script src="static/awesomplete.js" async> </script>
+{% endblock %}

@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+{% block title %}PrincetonFoodAlert{% endblock %}
+
+{% block html_attribs %} class="full_about" {% endblock %}
+
+{% block styles %}
+{% endblock %}
+
+{% block navbar %}
+<link rel="stylesheet" href="{{url_for('static', filename='full_about.css')}}">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ url_for('show_entries') }}">Princeton Food Alert</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ url_for('show_entries') }}">Add Food</a></li>
+        <li><a href="{{ url_for('show_topten') }}">Popular Foods</a></li>
+        <li class="active"><a href="{{ url_for('about') }}">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ url_for('settings') }}">Settings</a>
+        </li>
+      <li>
+        <a>Welcome, {{ name }}</a>
+      </li> 
+      <li>
+        <a href="{{ url_for('cas.logout') }}">
+          <span class="glyphicon glyphicon-log-in">
+          </span> Logout
+        </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+{{super()}}
+<div class="container">
+	<div class="row row-centered">
+    	<div class="col-xs-8 col-xs-offset-2">
+        	<div class="cover panel panel-default">
+            	<h1 align="center"><strong>Our Mission:</strong></h1>
+            	<p align="center">Help you get your favorite foods</p>
+        	</div>
+    	</div>
+	</div>
+</div>
+<div class="container text-center" style="background: white;">
+	<h1><font color="black">Meet the team</font></h1>
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-2">
+				<img src="/static/mhammel.png" class="img-circle img-responsive center-block" alt="mhammel.png">
+				<h4><font color="black">Melana Hammel</font></h4>
+				<p><font color="black">Melana is a Junior in the COS department from Barnegat, NJ. Melana can be reached at <a href="mailto:mhammel@princeton.edu">mhammel@princeton.edu</a></font></p>
+			</div>
+			<div class="col-lg-2">
+				<img src="/static/thclark.png" class="img-circle img-responsive center-block" alt="thclark.png">
+				<h4><font color="black">Thomas Clark</font></h4>
+				<p><font color="black">Thomas is a Junior in the COS department from London, UK. Thomas can be reached at <a href="mailto:thclark@princeton.edu">thclark@princeton.edu</a></font></p>
+			</div>
+			<div class="col-lg-2">
+				<img src="/static/Ramon.png" class="img-circle img-responsive center-block" alt="Ramon.png">
+				<h4><font color="black">Ramon Ayala</font></h4>
+				<p><font color="black">Ramon is a Junior in the COS department from Cantua Creek, CA. Ramon can be reached at <a href="mailto:ra4@princeton.edu">ra4@princeton.edu</a></font></p>
+			</div>
+			<div class="col-lg-2">
+				<img src="/static/agpapa.png" class="img-circle img-responsive center-block" alt="agpapa.png">
+				<h4><font color="black">Antonio Papa</font></h4>
+				<p><font color="black">Antonio is a Junior in the COS department from Robbinsville, NJ. Antonio can be reached at <a href="mailto:agpapa@princeton.edu">agpapa@princeton.edu</a></font></p>
+			</div>
+		</div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,131 @@
+{% extends "layout.html" %}
+{% block title %}Princeton Food Alert{% endblock %}
+
+{% block html_attribs %} class="full" {% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ url_for('show_entries') }}">Princeton Food Alert</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ url_for('show_entries') }}">Add Food</a></li>
+        <li><a href="{{ url_for('show_topten') }}">Popular Foods</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a>Settings</a>
+        </li>
+        <li>
+          <a>Welcome, {{ name }}</a>
+        </li> 
+        <li>
+          <a href="{{ url_for('cas.logout') }}">
+            <span class="glyphicon glyphicon-log-in">
+            </span> Logout
+          </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+{{super()}}
+<div class="container">
+  <div class="row row-centered">
+    <div class="col-xs-8 col-xs-offset-2">
+      <div class="cover panel panel-default">
+        <h1 align="center"><strong>Princeton Food Alert</strong></h1>
+        <h2 align="center"><strong>Settings</strong></h2>
+        <script>
+            function del_account(){
+              var r = confirm('Are you sure you want to delete your account?'); 
+              if (r == true) { 
+                window.location.href = "{{url_for('delete_account')}}"; 
+              }
+            }
+        </script>
+        <h3 align="center">Notify me:</h3>
+        <form method="post" action="{{url_for('apply_pref')}}">
+          <div>
+            <h3 align="center">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="day_before" {%if daily %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">A day before</span>
+              </label>
+            </h3>
+          </div>
+          <div>
+            <h3 align="center">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="week_before" {% if weekly %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">A week before</span>
+              </label>
+            </h3>
+          </div>
+          <div>
+            <h3 align="center">Dining Hall Preferences:</h3>
+          </div>
+          <div>
+            <h5 align="center">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="butler_wilson" {% if butler_wilson %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Butler-Wilson</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="forbes" {% if forbes %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Forbes</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="rocky_mathey" {% if rocky_mathey %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Rocky-Mathey</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="whitman" {% if whitman %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Whitman</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="cjl" {% if cjl %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Center for Jewish Life</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" name="grad" {% if grad %} checked {% endif %} class="custom-control-input"/>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Grad College</span>
+              </label>
+            </h5>
+          </div>
+          <div>
+            <h3 align="center">
+              <input type="submit" value="Apply"/>
+            </h3>
+          </div>
+        </form>
+        <span role="separator" class="divider"></span>
+        <a align="center" onclick="del_account()">Delete Account</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

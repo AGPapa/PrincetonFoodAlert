@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block title %}Princeton Food Alert{% endblock %}
+
+{% block html_attribs %} class="full" {% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ url_for('show_entries') }}">Princeton Food Alert</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ url_for('show_entries') }}">Add Food</a></li>
+        <li class="active"><a href="{{ url_for('show_topten') }}">Popular Foods</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="{{ url_for('settings') }}">Settings</a>
+        </li>
+        <li>
+          <a>Welcome, {{ name }}</a>
+        </li> 
+        <li>
+          <a href="{{ url_for('cas.logout') }}">
+            <span class="glyphicon glyphicon-log-in">
+            </span> Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+{{super()}}
+<div class="container">
+  <div class="row row-centered">
+    <div class="col-xs-8 col-xs-offset-2">
+      <div class="cover panel panel-default">
+        <h1 align="center"><strong>Princeton Food Alert</strong></h1>
+        <h3 align="center"><strong>Top Ten Foods</strong></h3>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container">
+  <div class="entries">
+	 <div class="list-group">
+	    {% for entry in entries %}
+	     <!-- <li class="list-group-item text-center col-xs-6 col-xs-offset-3"> 
+        <h3>{{entry}}</h3> 
+       </li> -->
+       <a class="list-group-item text-center col-xs-8 col-xs-offset-2">
+        <form action="{{ url_for('add_entry') }}" method='POST'>
+          <p hidden><input type="text" name="title" value="{{entry}}" /></p>
+          <button class="close" type="submit button" > &#43; </button>
+        </form> <h3>{{entry}}</h3> 
+      </a>
+	    {% else %}
+	    <li href="#" class="list-group-item text-center col-xs-8 col-xs-offset-2"> <h3> No top ten today </h3> </li>
+	    {% endfor %}
+	 </div>
+	</div>
+</div>
+{% endblock %}
