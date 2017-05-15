@@ -2,10 +2,12 @@
 Get notified when your favorite food is in a dining hall. 
 
 ## Created By:
+```
 Antonio Papa
 Melana Hammel
 Ramon Ayala
 Thomas Clark
+```
 
 ## Main Program Logic
 ```
