@@ -24,21 +24,23 @@ For more information about this project, check out our [design document.](https:
 
 ### Tutorials and Screenshots
 
-When first coming to our website, the user will see a page like this.
+When first coming to our website, the user will see a page like this:
 <img src="Screenshot_1.PNG">
 
 By typing in a food into the box, autocomplete suggestions appear. 
 <img src="Screenshot_2.PNG">
 
-Once a food is added, the webpage looks like this.
+Once a food is added, the webpage looks like this:
 <img src="Screenshot_3.PNG">
 
 When the food is in the dining hall, the user will receive an email like this:
 <img src="Email.PNG">
 Note that an exact match is not required, as long as every word is in the dining hall food item an email will be sent.
 
-Users can also adjust their settings to chose when the get emails and for which dining halls.
+Users can also adjust their settings to choose when to get emails and for which dining halls.
 <img src="Settings.PNG">
 
-There is also a Popular Foods page with the foods most input by other users.
+There is also a Popular Foods page with the foods most preferred by other users.
 <img src="Topten.PNG">
+
+Happy eating!

@@ -1,5 +1,5 @@
 # Princeton Food Alert
-Get notified when your favorite food is in a dining hall. 
+Add a food. Get an email when it's in a dining hall. Enjoy.
 
 ## Created By:
 ```
